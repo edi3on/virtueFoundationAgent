@@ -91,7 +91,7 @@ _Add screenshots of the map with facility markers, desert zones, and the AI anal
 ```bash
 cd globe
 python3 -m http.server 8000
-# Open http://localhost:8000
+# Open http://localhost:8000/frontend/
 ```
 
 The pre-generated `analysis.json` is included — the map works immediately.
