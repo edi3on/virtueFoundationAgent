@@ -1,0 +1,2103 @@
+{
+  "facilities": [
+    {
+      "id": "facility_368",
+      "type": "facility",
+      "lat": 5.556,
+      "lng": -0.1969,
+      "name": "Greater Accra Regional Hospital",
+      "city": "Accra",
+      "region": "",
+      "facilityType": "hospital",
+      "specialties": [
+        "internalMedicine",
+        "neurosurgery",
+        "spineNeurosurgery",
+        "nephrology",
+        "pediatrics",
+        "ophthalmology",
+        "radiology",
+        "anesthesia",
+        "oralAndMaxillofacialSurgery",
+        "dentistry",
+        "emergencyMedicine",
+        "psychiatry",
+        "pathology"
+      ],
+      "equipment": [],
+      "capabilities": [
+        "GARH provides 24-hour emergency and in-patient services",
+        "GARH serves as a practical attachment site for educational institutions including Accra College of Medicine",
+        "The hospital's services range from secondary to tertiary level care",
+        "GARH is described as one of the leading hospitals in Ghana providing tertiary services",
+        "Senior Management Team includes Gifty Aryee (Head of Nursing), Dr. Ralph Armah (Medical Director), Dr. Henrietta Fiscian (Head of Clinical Services), Adam Mohammed Hardi (Head of Administration & Support Services), Justice Yaovi M. Ahorlu (Head of Finance), Joseph Adjei Tsiase (Head of Pharmacy), Samuel Djanitey (Head of Human Resource)",
+        "Location is Castle Road, Accra",
+        "Postal address is P. O. Box GP 473 Accra Ghana",
+        "Phone numbers are 0302428460 and 0551727552"
+      ],
+      "numDoctors": null,
+      "bedCapacity": null,
+      "analysis": {
+        "basicLookups": [
+          {
+            "question": "Q1.1: What specialties does this facility offer?",
+            "answer": "This facility reports 13 specialties: Internal Medicine, Neurosurgery, Spine Neurosurgery, Nephrology, Pediatrics, Ophthalmology, Radiology, Anesthesia, Oral & Maxillofacial Surgery, Dentistry and 3 more.",
+            "confidence": "high"
+          },
+          {
+            "question": "Q1.5: How does Accra compare?",
+            "answer": "Accra has 309 facilities in the dataset (102 hospitals). This is one of the most served regions.",
+            "confidence": "high"
+          }
+        ],
+        "validation": [
+          {
+            "question": "Q3.1: Does this facility have equipment for Neurosurgery?",
+            "answer": "Claims Neurosurgery but no mention of: operating microscope, CT scan, MRI, ICU, ventilator. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Nephrology?",
+            "answer": "Claims Nephrology but no mention of: dialysis machine, ultrasound. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Pediatrics?",
+            "answer": "Claims Pediatrics but no mention of: neonatal unit, incubator, pediatric ward. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Ophthalmology?",
+            "answer": "Claims Ophthalmology but no mention of: slit lamp, operating microscope, tonometer, fundoscope. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Radiology?",
+            "answer": "Claims Radiology but no mention of: X-ray, ultrasound, CT scan. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Dentistry?",
+            "answer": "Claims Dentistry but no mention of: dental chair, dental X-ray, autoclave. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Emergency Medicine?",
+            "answer": "Claims Emergency Medicine but no mention of: emergency department, defibrillator, ventilator, trauma kit. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Psychiatry?",
+            "answer": "Claims Psychiatry but no mention of: counselling room, inpatient ward. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.4: Is equipment data available to verify procedure claims?",
+            "answer": "Facility claims 13 specialties but has NO structured equipment data. Verification relies entirely on unstructured capability text.",
+            "confidence": "low",
+            "flag": "warning"
+          }
+        ],
+        "anomalyDetection": [
+          {
+            "question": "Q4.8: Is the breadth of procedures supported by infrastructure?",
+            "answer": "Claims advanced specialties (Neurosurgery, Spine Neurosurgery) but lists NO equipment. These specialties require significant infrastructure (operating theatres, ICU, specialized imaging). Absence of equipment data is a major red flag.",
+            "confidence": "high",
+            "flag": "alert"
+          }
+        ],
+        "serviceClassification": [],
+        "workforceDistribution": [
+          {
+            "question": "Q6.1: What is the known workforce at this facility?",
+            "answer": "No doctor count reported. Workforce data gap \u2014 cannot assess staffing adequacy.",
+            "confidence": "low",
+            "flag": "warning"
+          }
+        ],
+        "resourceGaps": [],
+        "ngoAnalysis": []
+      },
+      "aiSummary": "The Greater Accra Regional Hospital (GARH) plays a pivotal role in the healthcare landscape of Accra, serving as a provider of both secondary and tertiary level care. It is positioned as a critical attachment site for educational institutions, including the Accra College of Medicine, which underscores its importance in training the next generation of healthcare professionals. The hospital claims to offer a wide range of services across 13 specialties, indicating a comprehensive approach to healthcare delivery in the region.\n\nHowever, significant red flags arise from the facility's reported capabilities. Notably, GARH claims to provide advanced specialties such as neurosurgery, nephrology, and pediatrics, yet there is no documented evidence of the essential equipment required for these services. For instance, the absence of critical tools such as operating microscopes for neurosurgery, dialysis machines for nephrology, and neonatal units for pediatrics raises serious concerns about the facility's ability to deliver on its claims. The lack of structured equipment data further complicates the verification of these specialties, making it difficult to ascertain the hospital's true capabilities.\n\nIn terms of workforce, the absence of reported doctor counts and other staffing details presents a significant data gap. Without this information, it is impossible to assess whether GARH has adequate staffing levels to meet the demands of its claimed specialties. This lack of transparency could indicate potential issues in service delivery, particularly in a facility that positions itself as a leading provider of tertiary services.\n\nGiven the current data, GARH's claims of offering advanced medical specialties appear unrealistic in light of its reported infrastructure limitations. The absence of necessary equipment and workforce data suggests that the hospital may struggle to fulfill its mandate effectively. As a result, while GARH is positioned as a critical healthcare provider in Accra, its operational capabilities and service delivery may be compromised, potentially impacting patient care in the region.",
+      "alertCount": 1,
+      "warningCount": 10,
+      "citation": {
+        "csvRow": 370,
+        "source": "https://garh.gov.gh/",
+        "fields_used": [
+          "specialties",
+          "procedure",
+          "equipment",
+          "capability",
+          "description",
+          "organizationDescription",
+          "numberDoctors",
+          "capacity"
+        ]
+      }
+    },
+    {
+      "id": "facility_388",
+      "type": "facility",
+      "lat": 5.578,
+      "lng": -0.211,
+      "name": "HealthLink Hospital",
+      "city": "Accra",
+      "region": "",
+      "facilityType": "hospital",
+      "specialties": [
+        "dentistry",
+        "ophthalmology",
+        "gynecologyAndObstetrics",
+        "neurology",
+        "neurosurgery",
+        "otolaryngology",
+        "interventionalRadiology",
+        "pulmonology",
+        "nephrology",
+        "pediatrics",
+        "endocrinologyAndDiabetesAndMetabolism",
+        "cardiology",
+        "urology",
+        "generalSurgery",
+        "internalMedicine"
+      ],
+      "equipment": [
+        "High-end ultrasound and vascular Doppler diagnostic equipment",
+        "Ultrasound scanner capable of abdomino-pelvic, obstetric, musculoskeletal, gynecological, scrotal, urological, cardiac, transcranial and vascular Doppler examinations",
+        "Dialysis machines used in the dialysis clinic",
+        "Cochlear implants and hearing aids provided at the facility",
+        "Laser eye intervention equipment for eye care",
+        "Well-equipped laboratory operated by qualified biomedical scientists",
+        "Centralised medical gas system",
+        "HEPA-filtered central air conditioning system"
+      ],
+      "capabilities": [
+        "24/7 services",
+        "International standards for infection prevention and control",
+        "Centralised medical gas system (infrastructure)",
+        "Same-day surgery capability in gynecology, urology, orthopaedics and general surgery",
+        "Specialist departments including cardiology, surgery, urology, gynecology and obstetrics, endocrinology, neurology, neurosurgery, ENT and ophthalmology, interventional radiology, psychology, psychiatry, dietetics and physiotherapy",
+        "Medevac, hospitalisation and repatriation planning",
+        "Vaccination unit with cold-chain management",
+        "Dental care and pediatric services"
+      ],
+      "numDoctors": null,
+      "bedCapacity": null,
+      "analysis": {
+        "basicLookups": [
+          {
+            "question": "Q1.1: What specialties does this facility offer?",
+            "answer": "This facility reports 15 specialties: Dentistry, Ophthalmology, Gynecology & Obstetrics, Neurology, Neurosurgery, Otolaryngology, Interventional Radiology, Pulmonology, Nephrology, Pediatrics and 5 more.",
+            "confidence": "high"
+          },
+          {
+            "question": "Q1.5: How does Accra compare?",
+            "answer": "Accra has 309 facilities in the dataset (102 hospitals). This is one of the most served regions.",
+            "confidence": "high"
+          }
+        ],
+        "validation": [
+          {
+            "question": "Q3.1: Does this facility have equipment for Dentistry?",
+            "answer": "Claims Dentistry but no mention of: dental chair, dental X-ray, autoclave. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Ophthalmology?",
+            "answer": "Claims Ophthalmology but no mention of: slit lamp, operating microscope, tonometer, fundoscope. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Gynecology & Obstetrics?",
+            "answer": "Claims Gynecology & Obstetrics but no mention of: fetal monitor, delivery suite, operating theatre. Only evidence of: ultrasound.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Neurosurgery?",
+            "answer": "Claims Neurosurgery but no mention of: operating microscope, CT scan, MRI, ICU, ventilator. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Pediatrics?",
+            "answer": "Claims Pediatrics but no mention of: neonatal unit, incubator, pediatric ward. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Cardiology?",
+            "answer": "Claims Cardiology but no mention of: ECG, echocardiograph, defibrillator, cardiac monitor. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for General Surgery?",
+            "answer": "Claims General Surgery but no mention of: operating theatre, anaesthesia machine, sterilizer, blood bank. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          }
+        ],
+        "anomalyDetection": [
+          {
+            "question": "Q4: Anomaly Detection Summary",
+            "answer": "No significant anomalies detected. Specialty claims appear proportionate to reported infrastructure, though independent verification is recommended.",
+            "confidence": "medium",
+            "flag": "ok"
+          }
+        ],
+        "serviceClassification": [
+          {
+            "question": "Q5.1: Are services permanent or itinerant?",
+            "answer": "Services appear to be permanently staffed. Indicators: '24/7'.",
+            "confidence": "medium",
+            "flag": "ok"
+          }
+        ],
+        "workforceDistribution": [
+          {
+            "question": "Q6.1: What is the known workforce at this facility?",
+            "answer": "No doctor count reported. Workforce data gap \u2014 cannot assess staffing adequacy.",
+            "confidence": "low",
+            "flag": "warning"
+          }
+        ],
+        "resourceGaps": [
+          {
+            "question": "Q7.5: Are any procedures dependent on very few facilities?",
+            "answer": "This facility is one of very few in its region providing: Interventional Radiology. Loss of this facility would create critical coverage gaps.",
+            "confidence": "high",
+            "flag": "alert"
+          }
+        ],
+        "ngoAnalysis": [
+          {
+            "question": "Q8.1: Is this an NGO-operated facility?",
+            "answer": "NGO/mission signals detected: 'international'. Sustainability should be assessed \u2014 NGO-operated facilities may depend on external funding cycles.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "aiSummary": "HealthLink Hospital, located in Accra, serves as a critical healthcare facility within a region that boasts a high density of medical services, with 309 facilities including 102 hospitals. The hospital claims to offer a comprehensive range of 15 specialties, including high-demand areas such as cardiology, neurosurgery, and interventional radiology. Its infrastructure supports 24/7 services and adheres to international standards for infection prevention and control, indicating a commitment to quality healthcare delivery.\n\nHowever, there are significant red flags regarding the facility's claimed specialties and the corresponding equipment. Despite listing specialties such as dentistry, ophthalmology, gynecology and obstetrics, and neurosurgery, there is a conspicuous absence of essential equipment typically required for these fields. For instance, there is no mention of dental chairs or X-ray machines for dentistry, slit lamps or operating microscopes for ophthalmology, and critical surgical equipment for gynecology and general surgery. This raises concerns about the facility's actual capability to provide these services as claimed, suggesting a potential mismatch between reported specialties and available resources.\n\nThe workforce data presents another area of concern, as there is no reported count of doctors or permanent staff, making it difficult to assess staffing adequacy. While the facility claims to have permanent staffing due to its 24/7 operations, the lack of specific workforce data creates uncertainty about the hospital's ability to meet the demands of its claimed specialties. This gap in information could hinder effective operational planning and patient care.\n\nHealthLink Hospital plays a vital role in its region, particularly as one of the few facilities providing interventional radiology services. The loss of this facility would create significant gaps in healthcare coverage, particularly for patients requiring specialized interventions. Additionally, the hospital's reliance on international standards and potential NGO support raises questions about its long-term sustainability and funding stability, which are crucial for maintaining its operational capabilities and service delivery. Overall, while HealthLink Hospital is positioned as a key healthcare provider, the discrepancies in specialty claims and workforce data necessitate further investigation to ensure it can effectively serve the community's needs.",
+      "alertCount": 1,
+      "warningCount": 8,
+      "citation": {
+        "csvRow": 390,
+        "source": "http://www.healthlinkhospital.com/",
+        "fields_used": [
+          "specialties",
+          "procedure",
+          "equipment",
+          "capability",
+          "description",
+          "organizationDescription",
+          "numberDoctors",
+          "capacity"
+        ]
+      }
+    },
+    {
+      "id": "facility_189",
+      "type": "facility",
+      "lat": 5.638,
+      "lng": -0.235,
+      "name": "Chrispod Hospital & Diagnostic Center",
+      "city": "Dome",
+      "region": "Ga East Municipality, Greater Accra Region",
+      "facilityType": "hospital",
+      "specialties": [
+        "internalMedicine",
+        "otolaryngology",
+        "ophthalmology",
+        "gynecologyAndObstetrics",
+        "emergencyMedicine",
+        "radiology",
+        "pathology",
+        "breastImaging",
+        "pediatrics"
+      ],
+      "equipment": [
+        "Two fully equipped operating theatres",
+        "Recovery rooms",
+        "Labour rooms",
+        "Newborn ward",
+        "Mortuary with autopsy room",
+        "Mortuary cold room with capacity for thirty bodies",
+        "MRI system powered by BASDA software platform",
+        "CT scanner with Interleaved Volume Reconstruction (IVR) technology",
+        "Digital Mammography System with high-resolution detector",
+        "Digital Radiography system",
+        "On-site state-of-the-art laboratories",
+        "Separate wards for men, women and children",
+        "Site area of 1,300 square meters"
+      ],
+      "capabilities": [
+        "24/7 emergency department",
+        "NHIS accreditation",
+        "Has 120-bed capacity general hospital",
+        "Offers on-site Diagnostic Unit and Radiography Unit",
+        "On-site Laboratories and CHDC Pharmaceutical Care",
+        "Core staff strength includes ten nurses, three doctors and four radiographers",
+        "ENT specialist Dr Kamal Walid Amer on staff",
+        "ENT specialist Dr Daniel Clottey available Thursdays 2-4 PM"
+      ],
+      "numDoctors": 3,
+      "bedCapacity": 120,
+      "analysis": {
+        "basicLookups": [
+          {
+            "question": "Q1.1: What specialties does this facility offer?",
+            "answer": "This facility reports 9 specialties: Internal Medicine, Otolaryngology, Ophthalmology, Gynecology & Obstetrics, Emergency Medicine, Radiology, Pathology, Breast Imaging, Pediatrics.",
+            "confidence": "high"
+          },
+          {
+            "question": "Q1.5: How does Ga East Municipality, Greater Accra Region compare?",
+            "answer": "Ga East Municipality, Greater Accra Region has 1 facilities in the dataset (1 hospitals). This has limited healthcare infrastructure.",
+            "confidence": "high"
+          }
+        ],
+        "validation": [
+          {
+            "question": "Q3.1: Does this facility have equipment for Ophthalmology?",
+            "answer": "Claims Ophthalmology but no mention of: slit lamp, operating microscope, tonometer, fundoscope. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Gynecology & Obstetrics?",
+            "answer": "Claims Gynecology & Obstetrics but no mention of: ultrasound, fetal monitor, delivery suite. Only evidence of: operating theatre.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Emergency Medicine?",
+            "answer": "Claims Emergency Medicine but no mention of: defibrillator, ventilator, trauma kit. Only evidence of: emergency department.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Pediatrics?",
+            "answer": "Claims Pediatrics but no mention of: neonatal unit, incubator, pediatric ward. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          }
+        ],
+        "anomalyDetection": [
+          {
+            "question": "Q4: Anomaly Detection Summary",
+            "answer": "No significant anomalies detected. Specialty claims appear proportionate to reported infrastructure, though independent verification is recommended.",
+            "confidence": "medium",
+            "flag": "ok"
+          }
+        ],
+        "serviceClassification": [
+          {
+            "question": "Q5.1: Are services permanent or itinerant?",
+            "answer": "Services appear to be permanently staffed. Indicators: '24/7'.",
+            "confidence": "medium",
+            "flag": "ok"
+          }
+        ],
+        "workforceDistribution": [
+          {
+            "question": "Q6.1: What is the known workforce at this facility?",
+            "answer": "Facility reports 3 doctors. For 120 beds, this is a doctor-to-bed ratio of 1:40.",
+            "confidence": "high"
+          }
+        ],
+        "resourceGaps": [
+          {
+            "question": "Q7.5: Are any procedures dependent on very few facilities?",
+            "answer": "This facility is one of very few in its region providing: Internal Medicine, Otolaryngology, Ophthalmology, Gynecology & Obstetrics, Emergency Medicine. Loss of this facility would create critical coverage gaps.",
+            "confidence": "high",
+            "flag": "alert"
+          }
+        ],
+        "ngoAnalysis": []
+      },
+      "aiSummary": "Chrispod Hospital & Diagnostic Center serves as a pivotal healthcare facility in the Ga East Municipality of the Greater Accra Region, operating as a private 120-bed hospital. The facility is equipped with two fully operational operating theatres, a 30-body capacity mortuary, and a range of diagnostic and laboratory services, including an MRI system and a CT scanner. With a 24/7 emergency department and National Health Insurance Scheme (NHIS) accreditation, Chrispod Hospital plays a crucial role in providing essential medical services to a region characterized by limited healthcare infrastructure, as it is the only hospital listed in the dataset for this area.\n\nHowever, there are significant concerns regarding the facility's claimed specialties. While Chrispod Hospital lists nine specialties, there is a notable lack of supporting equipment for several of these areas. For instance, the facility claims to provide ophthalmology services but does not have essential equipment such as a slit lamp or operating microscope. Similarly, there is no evidence of necessary gynecological equipment like ultrasound machines or fetal monitors, nor are there critical pediatric resources such as incubators or a dedicated pediatric ward. These discrepancies raise red flags about the facility's ability to deliver on its specialty claims effectively.\n\nThe workforce at Chrispod Hospital consists of three doctors, ten nurses, and four radiographers, resulting in a doctor-to-bed ratio of 1:40, which is considerably below the recommended standards for adequate patient care. Although the facility appears to have a permanently staffed workforce, the low number of doctors raises concerns about the adequacy of staffing to meet the demands of its claimed specialties, particularly in a hospital with such a substantial bed capacity.\n\nChrispod Hospital is critical for the region, as it is one of the very few facilities providing essential services such as internal medicine, otolaryngology, and emergency medicine. The absence of this facility would create significant healthcare coverage gaps, underscoring its importance in the local healthcare landscape. Despite its capabilities, the facility must address the discrepancies in equipment and staffing to ensure it can fulfill its role effectively and safely. Independent verification of its claims and an assessment of its infrastructure are strongly recommended to safeguard the health of the community it serves.",
+      "alertCount": 1,
+      "warningCount": 4,
+      "citation": {
+        "csvRow": 191,
+        "source": "http://www.chrispodhospital.com/",
+        "fields_used": [
+          "specialties",
+          "procedure",
+          "equipment",
+          "capability",
+          "description",
+          "organizationDescription",
+          "numberDoctors",
+          "capacity"
+        ]
+      }
+    },
+    {
+      "id": "facility_515",
+      "type": "facility",
+      "lat": 5.581,
+      "lng": -0.104,
+      "name": "Lekma Hospital \u2013 Teshie",
+      "city": "Accra",
+      "region": "Greater Accra",
+      "facilityType": "hospital",
+      "specialties": [
+        "internalMedicine"
+      ],
+      "equipment": [
+        "Laboratory facilities",
+        "Radiological facilities"
+      ],
+      "capabilities": [
+        "Has a 100-bed capacity general hospital serving the Ledzokuku-Krowor area (Teshie and Nungua) and beyond",
+        "Eye center opened in 2013",
+        "Malaria Research Centre is part of Lekma Hospital",
+        "Herbal Medicine Unit is part of Lekma Hospital",
+        "22 doctors including 9 specialists",
+        "Over 200 nurses",
+        "Governmental facility funded by the Government of the People's Republic of China",
+        "Construction completed in 16 months and the hospital was inaugurated on 21 December 2010"
+      ],
+      "numDoctors": 22,
+      "bedCapacity": 100,
+      "analysis": {
+        "basicLookups": [
+          {
+            "question": "Q1.1: What specialties does this facility offer?",
+            "answer": "This facility reports 1 specialties: Internal Medicine.",
+            "confidence": "high"
+          },
+          {
+            "question": "Q1.5: How does Greater Accra compare?",
+            "answer": "Greater Accra has 43 facilities in the dataset (16 hospitals). This is one of the most served regions.",
+            "confidence": "high"
+          }
+        ],
+        "validation": [],
+        "anomalyDetection": [
+          {
+            "question": "Q4: Anomaly Detection Summary",
+            "answer": "No significant anomalies detected. Specialty claims appear proportionate to reported infrastructure, though independent verification is recommended.",
+            "confidence": "medium",
+            "flag": "ok"
+          }
+        ],
+        "serviceClassification": [
+          {
+            "question": "Q5.2: Does the facility perform procedures or refer them?",
+            "answer": "Referral language detected: 'collaborate'. Some claimed capabilities may involve referring patients to other facilities rather than in-house delivery.",
+            "confidence": "medium",
+            "flag": "warning"
+          }
+        ],
+        "workforceDistribution": [
+          {
+            "question": "Q6.1: What is the known workforce at this facility?",
+            "answer": "Facility reports 22 doctors. For 100 beds, this is a doctor-to-bed ratio of 1:4.",
+            "confidence": "high"
+          }
+        ],
+        "resourceGaps": [],
+        "ngoAnalysis": []
+      },
+      "aiSummary": "Lekma Hospital, located in Teshie, Accra, serves as a critical healthcare provider in the Ledzokuku-Krowor area, with a 100-bed capacity and a diverse range of services. The facility is equipped with laboratory and radiological facilities, and it also houses specialized units such as an Eye Center, a Malaria Research Centre, and a Herbal Medicine Unit. With a workforce comprising 22 doctors, including 9 specialists, and over 200 nurses, Lekma Hospital plays a pivotal role in addressing the healthcare needs of its community, particularly in the realm of internal medicine.\n\nDespite its capabilities, there are some notable concerns regarding the facility's operational claims. While the hospital reports only one specialty\u2014internal medicine\u2014its extensive infrastructure and additional units suggest a broader range of services may be offered. However, the analysis indicates that some procedures may be referred to other facilities, as evidenced by the use of \"collaborate\" in their operational language. This raises questions about the hospital's ability to deliver comprehensive care in-house, particularly for specialties that may require more advanced resources.\n\nThe doctor-to-bed ratio at Lekma Hospital stands at 1:4, which is relatively adequate for a facility of its size. However, the reliance on visiting versus permanent staff is not detailed in the data provided, which could impact the continuity of care. The presence of a significant number of nurses suggests a strong support system for patient care, but the effectiveness of this workforce is contingent on adequate permanent staffing levels among the medical team.\n\nIn summary, Lekma Hospital is a vital healthcare institution in its region, particularly for internal medicine and related services. However, the facility's claims regarding its specialties and capabilities warrant further verification to ensure that it meets the healthcare demands of the community effectively. The potential for referral-based care rather than in-house procedures could limit its role as a sole provider for certain specialties, which is a critical consideration for healthcare planning in the Greater Accra region.",
+      "alertCount": 0,
+      "warningCount": 1,
+      "citation": {
+        "csvRow": 517,
+        "source": "https://vagabundler.com/ghana/lekma-hospital/",
+        "fields_used": [
+          "specialties",
+          "procedure",
+          "equipment",
+          "capability",
+          "description",
+          "organizationDescription",
+          "numberDoctors",
+          "capacity"
+        ]
+      }
+    },
+    {
+      "id": "facility_461",
+      "type": "facility",
+      "lat": 6.295,
+      "lng": 0.05,
+      "name": "Kings and Queens Medical University Teaching Hospital",
+      "city": "Akosombo",
+      "region": "Eastern Region",
+      "facilityType": "hospital",
+      "specialties": [
+        "internalMedicine",
+        "generalSurgery",
+        "anesthesia",
+        "cardiology",
+        "cardiacSurgery",
+        "neurology",
+        "neurosurgery",
+        "orthopedicSurgery",
+        "plasticSurgery",
+        "pediatrics",
+        "hepatobiliarySurgery",
+        "dentistry",
+        "ophthalmology",
+        "otolaryngology",
+        "infectiousDiseases",
+        "gynecologyAndObstetrics",
+        "radiology",
+        "criticalCareMedicine",
+        "geriatricsInternalMedicine",
+        "gastroenterology",
+        "dermatology",
+        "pathology",
+        "psychiatry",
+        "urology",
+        "emergencyMedicine",
+        "publicHealth",
+        "hematology",
+        "nephrology"
+      ],
+      "equipment": [],
+      "capabilities": [
+        "Licensed by the Ministry of Health, Ghana and the Health Facilities Regulatory Agency (HeFRA) as a medical facility",
+        "Accredited by the National Health Insurance Authority (NHIA), Ghana to accept all NHIS health insurance policies",
+        "Has a Memorandum of Understanding with GAB Health Insurance, Ghana to allow private insurance policy holders to access healthcare at Kings and Queens Teaching Hospital",
+        "Has Memorandum of Understanding with Eastern Regional Hospital, Koforidua and Tetteh Quarshie Memorial Hospital, Mampong for clinical rotation of medical students",
+        "Affiliated with Kings and Queens Medical University College",
+        "Signed an affiliation with University for Development Studies, Tamale for training of medical doctors",
+        "Signed a Memorandum of Understanding with NCPC China for training of pharmacists, pharmaceutical research and manufacturing of medicines (signed February 15, 2017)",
+        "Address: P.M.B AK59, Akosombo, Eastern Region, Ghana"
+      ],
+      "numDoctors": null,
+      "bedCapacity": null,
+      "analysis": {
+        "basicLookups": [
+          {
+            "question": "Q1.1: What specialties does this facility offer?",
+            "answer": "This facility reports 28 specialties: Internal Medicine, General Surgery, Anesthesia, Cardiology, Cardiac Surgery, Neurology, Neurosurgery, Orthopedic Surgery, Plastic Surgery, Pediatrics and 18 more.",
+            "confidence": "high"
+          },
+          {
+            "question": "Q1.5: How does Eastern Region compare?",
+            "answer": "Eastern Region has 2 facilities in the dataset (2 hospitals). This has limited healthcare infrastructure.",
+            "confidence": "high"
+          }
+        ],
+        "validation": [
+          {
+            "question": "Q3.1: Does this facility have equipment for General Surgery?",
+            "answer": "Claims General Surgery but no mention of: operating theatre, anaesthesia machine, sterilizer, blood bank. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Cardiology?",
+            "answer": "Claims Cardiology but no mention of: ECG, echocardiograph, defibrillator, cardiac monitor. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Cardiac Surgery?",
+            "answer": "Claims Cardiac Surgery but no mention of: heart-lung machine, operating theatre, ICU, ventilator, blood bank. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Neurosurgery?",
+            "answer": "Claims Neurosurgery but no mention of: operating microscope, CT scan, MRI, ICU, ventilator. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Orthopedic Surgery?",
+            "answer": "Claims Orthopedic Surgery but no mention of: X-ray, operating theatre, C-arm. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Pediatrics?",
+            "answer": "Claims Pediatrics but no mention of: neonatal unit, incubator, pediatric ward. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Dentistry?",
+            "answer": "Claims Dentistry but no mention of: dental chair, dental X-ray, autoclave. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Ophthalmology?",
+            "answer": "Claims Ophthalmology but no mention of: slit lamp, operating microscope, tonometer, fundoscope. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Gynecology & Obstetrics?",
+            "answer": "Claims Gynecology & Obstetrics but no mention of: ultrasound, fetal monitor, delivery suite, operating theatre. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Radiology?",
+            "answer": "Claims Radiology but no mention of: X-ray, ultrasound, CT scan. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Psychiatry?",
+            "answer": "Claims Psychiatry but no mention of: counselling room, inpatient ward. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Emergency Medicine?",
+            "answer": "Claims Emergency Medicine but no mention of: emergency department, defibrillator, ventilator, trauma kit. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Nephrology?",
+            "answer": "Claims Nephrology but no mention of: dialysis machine, ultrasound. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.4: Is equipment data available to verify procedure claims?",
+            "answer": "Facility claims 28 specialties but has NO structured equipment data. Verification relies entirely on unstructured capability text.",
+            "confidence": "low",
+            "flag": "warning"
+          }
+        ],
+        "anomalyDetection": [
+          {
+            "question": "Q4.4: Are the claimed procedures realistic for this facility size?",
+            "answer": "CAUTION: Facility claims 28 specialties but reports no bed capacity. Without size data, the breadth of specialty claims cannot be verified.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q4.8: Is the breadth of procedures supported by infrastructure?",
+            "answer": "Claims advanced specialties (Cardiac Surgery, Neurosurgery, Plastic Surgery, Hepatobiliary Surgery) but lists NO equipment. These specialties require significant infrastructure (operating theatres, ICU, specialized imaging). Absence of equipment data is a major red flag.",
+            "confidence": "high",
+            "flag": "alert"
+          },
+          {
+            "question": "Q4.9: Are there contradictory signals?",
+            "answer": "Claims complex specialties (Cardiac Surgery, Neurosurgery, Plastic Surgery) but no mention of 24-hour or emergency services. Complex procedures require round-the-clock post-operative care.",
+            "confidence": "medium",
+            "flag": "warning"
+          }
+        ],
+        "serviceClassification": [
+          {
+            "question": "Q5.2: Does the facility perform procedures or refer them?",
+            "answer": "Referral language detected: 'partner'. Some claimed capabilities may involve referring patients to other facilities rather than in-house delivery.",
+            "confidence": "medium",
+            "flag": "warning"
+          }
+        ],
+        "workforceDistribution": [
+          {
+            "question": "Q6.1: What is the known workforce at this facility?",
+            "answer": "No doctor count reported. Workforce data gap \u2014 cannot assess staffing adequacy.",
+            "confidence": "low",
+            "flag": "warning"
+          }
+        ],
+        "resourceGaps": [
+          {
+            "question": "Q7.5: Are any procedures dependent on very few facilities?",
+            "answer": "This facility is one of very few in its region providing: Internal Medicine, General Surgery, Anesthesia, Cardiology, Cardiac Surgery. Loss of this facility would create critical coverage gaps.",
+            "confidence": "high",
+            "flag": "alert"
+          }
+        ],
+        "ngoAnalysis": []
+      },
+      "aiSummary": "Kings and Queens Medical University Teaching Hospital, located in Akosombo, Eastern Region, serves as a licensed medical facility with affiliations to Kings & Queens Medical University College and other educational institutions. It is accredited to accept National Health Insurance Scheme (NHIS) policies, which positions it as a significant healthcare provider in a region with limited healthcare infrastructure, as evidenced by the presence of only two hospitals in the dataset. The facility claims to offer a broad range of 28 specialties, including advanced fields such as Cardiac Surgery and Neurosurgery, which are critical in a region with few healthcare options.\n\nHowever, there are alarming discrepancies regarding the facility's claimed capabilities. Notably, there is no reported equipment to support any of the specialties listed, raising serious concerns about the facility's ability to deliver on its claims. For instance, essential equipment for General Surgery, Cardiology, and Neurosurgery\u2014such as operating theatres, ECG machines, and CT scanners\u2014are not mentioned. This absence of equipment data is a major red flag, suggesting that the facility may not be equipped to perform the complex procedures it claims to offer. Additionally, the lack of reported bed capacity and workforce data, including the number of doctors, further complicates the assessment of the facility's operational capacity and staffing adequacy.\n\nThe breadth of specialties claimed by Kings and Queens Medical University Teaching Hospital appears unrealistic given the absence of necessary infrastructure and equipment. Advanced specialties like Cardiac Surgery and Neurosurgery typically require significant resources, including ICU facilities and specialized imaging equipment, which are not indicated in the facility's records. Furthermore, the facility's claims may involve referring patients to other institutions rather than providing in-house care, as suggested by the language of partnership in its operational descriptions. This raises questions about the authenticity of the services offered and the potential for patients to receive adequate care locally.\n\nDespite these concerns, the facility plays a critical role in the Eastern Region by providing essential services such as Internal Medicine, General Surgery, and Anesthesia, which are not widely available in the area. The loss of this facility would create significant gaps in healthcare coverage, underscoring its importance as a provider of basic medical services. However, without transparency regarding its capabilities and infrastructure, the reliability of its services remains questionable, necessitating further investigation and oversight to ensure patient safety and care quality.",
+      "alertCount": 2,
+      "warningCount": 18,
+      "citation": {
+        "csvRow": 463,
+        "source": "https://kqth.kqmuc.edu.gh/",
+        "fields_used": [
+          "specialties",
+          "procedure",
+          "equipment",
+          "capability",
+          "description",
+          "organizationDescription",
+          "numberDoctors",
+          "capacity"
+        ]
+      }
+    },
+    {
+      "id": "facility_511",
+      "type": "facility",
+      "lat": 9.4075,
+      "lng": -0.839,
+      "name": "Le Mete NGO Ghana",
+      "city": "Tamale",
+      "region": "",
+      "facilityType": "",
+      "specialties": [
+        "urology",
+        "generalSurgery",
+        "neurosurgery",
+        "anesthesia",
+        "criticalCareMedicine",
+        "otolaryngology",
+        "gynecologyAndObstetrics",
+        "internalMedicine",
+        "pediatrics",
+        "nephrology",
+        "maternalAndChildHealth",
+        "dentistry",
+        "oralAndMaxillofacialSurgery",
+        "clinicalPathology"
+      ],
+      "equipment": [
+        "Two operating theatres equipped for general surgery and urology",
+        "Ward infrastructure includes sterilization room, septic rooms, recovery/awakening rooms, examination and dressing rooms, and a reception area"
+      ],
+      "capabilities": [
+        "Le Mete NGO Ghana owns a 4-hectare site donated by village chiefs of Nanton, registered as the property of Le Mete NGO Ghana",
+        "The center is integrated with the Tamale Teaching Hospital and operates under a co-ownership/management agreement with the University and the hospital",
+        "Led by Dr. Akis Afoko, who is president of Le Mete NGO Ghana",
+        "Population served by the center is estimated at 7 million",
+        "The project is supported by the Ghana Health Service and the Ministries of Education and Health",
+        "Estimated total project cost is 500,000 euros; Italy-based donations total 159,731 euros; Ghana-based donations total 120,000 euros; materials/equipment donations total around 110,000 euros",
+        "Phase status: Phase 1 and Phase 2 completed with two operating theatres; Phase 3 maternal-infant department with 18 beds; Phase 4 expansion completed; Phase 5 in progress to build additional wards, mortuary, auditorium and classrooms",
+        "The two operating theatres have supported 35\u201340 interventions per week"
+      ],
+      "numDoctors": null,
+      "bedCapacity": null,
+      "analysis": {
+        "basicLookups": [
+          {
+            "question": "Q1.1: What specialties does this facility offer?",
+            "answer": "This facility reports 14 specialties: Urology, General Surgery, Neurosurgery, Anesthesia, Critical Care Medicine, Otolaryngology, Gynecology & Obstetrics, Internal Medicine, Pediatrics, Nephrology and 4 more.",
+            "confidence": "high"
+          },
+          {
+            "question": "Q1.5: How does Tamale compare?",
+            "answer": "Tamale has 20 facilities in the dataset (10 hospitals). This has moderate coverage.",
+            "confidence": "high"
+          }
+        ],
+        "validation": [
+          {
+            "question": "Q3.1: Does this facility have equipment for General Surgery?",
+            "answer": "Claims General Surgery but no mention of: anaesthesia machine, sterilizer, blood bank. Only evidence of: operating theatre.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Neurosurgery?",
+            "answer": "Claims Neurosurgery but no mention of: operating microscope, CT scan, MRI, ICU, ventilator. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Gynecology & Obstetrics?",
+            "answer": "Claims Gynecology & Obstetrics but no mention of: ultrasound, fetal monitor, delivery suite. Only evidence of: operating theatre.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Pediatrics?",
+            "answer": "Claims Pediatrics but no mention of: neonatal unit, incubator, pediatric ward. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Nephrology?",
+            "answer": "Claims Nephrology but no mention of: dialysis machine, ultrasound. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Dentistry?",
+            "answer": "Claims Dentistry but no mention of: dental chair, dental X-ray, autoclave. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          }
+        ],
+        "anomalyDetection": [
+          {
+            "question": "Q4.9: Are there contradictory signals?",
+            "answer": "Claims complex specialties (Neurosurgery) but no mention of 24-hour or emergency services. Complex procedures require round-the-clock post-operative care.",
+            "confidence": "medium",
+            "flag": "warning"
+          }
+        ],
+        "serviceClassification": [
+          {
+            "question": "Q5.2: Does the facility perform procedures or refer them?",
+            "answer": "Referral language detected: 'collaborate'. Some claimed capabilities may involve referring patients to other facilities rather than in-house delivery.",
+            "confidence": "medium",
+            "flag": "warning"
+          }
+        ],
+        "workforceDistribution": [
+          {
+            "question": "Q6.1: What is the known workforce at this facility?",
+            "answer": "No doctor count reported. Workforce data gap \u2014 cannot assess staffing adequacy.",
+            "confidence": "low",
+            "flag": "warning"
+          }
+        ],
+        "resourceGaps": [
+          {
+            "question": "Q7.5: Are any procedures dependent on very few facilities?",
+            "answer": "This facility is one of very few in its region providing: Neurosurgery, Critical Care Medicine, Maternal & Child Health, Dentistry, Oral & Maxillofacial Surgery. Loss of this facility would create critical coverage gaps.",
+            "confidence": "high",
+            "flag": "alert"
+          }
+        ],
+        "ngoAnalysis": [
+          {
+            "question": "Q8.1: Is this an NGO-operated facility?",
+            "answer": "NGO/mission signals detected: 'ngo, volunteer'. Sustainability should be assessed \u2014 NGO-operated facilities may depend on external funding cycles.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "aiSummary": "Le Mete NGO Ghana, located in Tamale, plays a pivotal role in the healthcare landscape of the Northern Region, serving an estimated population of 7 million. This facility operates under a co-ownership and management agreement with the Tamale Teaching Hospital and the University, enhancing its capabilities through collaboration with established healthcare institutions. The facility claims to offer a wide range of specialties, including critical areas such as neurosurgery, critical care medicine, and maternal and child health, which are essential given the limited healthcare resources in the region.\n\nHowever, several red flags emerge from the analysis of Le Mete's claimed capabilities. Notably, while the facility asserts it can provide general surgery, neurosurgery, gynecology and obstetrics, pediatrics, and nephrology, there is a concerning lack of supporting equipment for these specialties. For instance, there is no mention of essential equipment such as anesthesia machines, operating microscopes, or neonatal units, which are critical for performing complex procedures. Additionally, the facility's claim of offering 24-hour emergency services is contradicted by the absence of necessary infrastructure for post-operative care, raising questions about the feasibility of its surgical offerings.\n\nThe workforce situation at Le Mete is also unclear, with no reported data on the number of doctors or staff. This gap in workforce information makes it challenging to assess staffing adequacy and raises concerns about the facility's ability to deliver on its claimed specialties effectively. The reliance on volunteer and NGO support may further complicate staffing sustainability, especially if external funding is inconsistent. \n\nDespite these concerns, Le Mete NGO Ghana is critical for the region, as it is one of the very few facilities providing specialized services such as neurosurgery and critical care medicine. The loss of this facility would create significant gaps in healthcare access, particularly for complex cases that require specialized attention. Therefore, while the facility's integration with larger healthcare systems is a strength, the discrepancies in claimed capabilities and the lack of workforce data necessitate a thorough evaluation to ensure that it can meet the healthcare needs of the population it serves.",
+      "alertCount": 1,
+      "warningCount": 9,
+      "citation": {
+        "csvRow": 513,
+        "source": "https://www.accoglienzalemete.org/cosa-facciamo-2",
+        "fields_used": [
+          "specialties",
+          "procedure",
+          "equipment",
+          "capability",
+          "description",
+          "organizationDescription",
+          "numberDoctors",
+          "capacity"
+        ]
+      }
+    },
+    {
+      "id": "facility_133",
+      "type": "facility",
+      "lat": 7.094,
+      "lng": -2.028,
+      "name": "Bechem Government Hospital",
+      "city": "Bechem",
+      "region": "Ahafo Region",
+      "facilityType": "hospital",
+      "specialties": [
+        "internalMedicine",
+        "dentistry",
+        "gynecologyAndObstetrics"
+      ],
+      "equipment": [
+        "Phototherapy machine donated to Bechem Government Hospital in May 2016",
+        "Dental chair donated to Bechem Government Hospital in May 2016"
+      ],
+      "capabilities": [
+        "Bechem Government Hospital has a bed capacity of 155.",
+        "Operates as a district (secondary) hospital within the Ghana Health Service in the Tano South District, Ahafo Region.",
+        "Not-for-profit facility.",
+        "Serves as a referral hospital for all sub-district health facilities.",
+        "Average daily attendance is around 366 patients.",
+        "Contracted NHIA provider for the Tano South District Health Insurance Scheme (TSDHIS).",
+        "Provides 24-hour service.",
+        "Originally established as a Maternity Home in 1950 and handed over to the Ministry of Health on 1 July 1978 as a Health Centre; presently operating as a District (Secondary) Hospital."
+      ],
+      "numDoctors": null,
+      "bedCapacity": 155,
+      "analysis": {
+        "basicLookups": [
+          {
+            "question": "Q1.1: What specialties does this facility offer?",
+            "answer": "This facility reports 3 specialties: Internal Medicine, Dentistry, Gynecology & Obstetrics.",
+            "confidence": "high"
+          },
+          {
+            "question": "Q1.5: How does Ahafo Region compare?",
+            "answer": "Ahafo Region has 1 facilities in the dataset (1 hospitals). This has limited healthcare infrastructure.",
+            "confidence": "high"
+          }
+        ],
+        "validation": [
+          {
+            "question": "Q3.1: Does this facility have equipment for Dentistry?",
+            "answer": "Claims Dentistry but no mention of: dental X-ray, autoclave. Only evidence of: dental chair.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Gynecology & Obstetrics?",
+            "answer": "Claims Gynecology & Obstetrics but no mention of: ultrasound, fetal monitor, delivery suite, operating theatre. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          }
+        ],
+        "anomalyDetection": [
+          {
+            "question": "Q4.7: Do facility characteristics correlate as expected?",
+            "answer": "Facility reports 155 beds but no doctor count. A 155-bed facility would typically require 20-40+ physicians. Missing staffing data weakens confidence in capacity claims.",
+            "confidence": "medium",
+            "flag": "warning"
+          }
+        ],
+        "serviceClassification": [
+          {
+            "question": "Q5.1: Are services permanent or itinerant?",
+            "answer": "ITINERANT SIGNALS DETECTED: Text contains 'mission'. Some services may be delivered through periodic outreach rather than permanent service lines. However, also found permanent signals: 'daily'.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q5.2: Does the facility perform procedures or refer them?",
+            "answer": "Referral language detected: 'refer'. Some claimed capabilities may involve referring patients to other facilities rather than in-house delivery.",
+            "confidence": "medium",
+            "flag": "warning"
+          }
+        ],
+        "workforceDistribution": [
+          {
+            "question": "Q6.1: What is the known workforce at this facility?",
+            "answer": "No doctor count reported. Workforce data gap \u2014 cannot assess staffing adequacy.",
+            "confidence": "low",
+            "flag": "warning"
+          }
+        ],
+        "resourceGaps": [
+          {
+            "question": "Q7.5: Are any procedures dependent on very few facilities?",
+            "answer": "This facility is one of very few in its region providing: Internal Medicine, Dentistry, Gynecology & Obstetrics. Loss of this facility would create critical coverage gaps.",
+            "confidence": "high",
+            "flag": "alert"
+          }
+        ],
+        "ngoAnalysis": [
+          {
+            "question": "Q8.1: Is this an NGO-operated facility?",
+            "answer": "NGO/mission signals detected: 'mission'. Sustainability should be assessed \u2014 NGO-operated facilities may depend on external funding cycles.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "aiSummary": "Bechem Government Hospital serves as a critical healthcare provider in the Ahafo Region, operating as a district (secondary) hospital with a bed capacity of 155. It functions under the Ghana Health Service and plays a vital role as a referral hospital for sub-district health facilities, catering to an average daily attendance of approximately 366 patients. The facility is a not-for-profit entity and is a contracted provider for the Tano South District Health Insurance Scheme, which underscores its importance in the local healthcare landscape. Given that Ahafo Region has limited healthcare infrastructure, this hospital is essential for delivering key medical services, particularly in internal medicine, dentistry, and gynecology and obstetrics.\n\nHowever, there are several red flags regarding the hospital's operational capabilities. Notably, while the facility claims to offer dental services, it lacks essential equipment such as dental X-rays and autoclaves, with only a dental chair listed as available. Similarly, for gynecology and obstetrics, there is no evidence of critical equipment like ultrasounds, fetal monitors, or a delivery suite, raising concerns about the facility's ability to provide comprehensive care in these specialties. Additionally, the absence of reported doctor counts is alarming; a facility of this size would typically require 20-40+ physicians to adequately staff its services. This missing data significantly undermines confidence in the hospital's claimed capacity.\n\nThe workforce signals indicate potential issues with staffing adequacy. The lack of a documented doctor count suggests that the facility may rely on itinerant staff or mission-based services, which could lead to inconsistent care delivery. While there are indications of permanent services, the presence of itinerant signals raises questions about the reliability and continuity of care provided to patients. Furthermore, the facility's reliance on external funding sources, typical of NGO-operated facilities, may pose sustainability risks, particularly if funding cycles fluctuate.\n\nGiven the limited healthcare options in the Ahafo Region, Bechem Government Hospital is critical for providing internal medicine, dentistry, and gynecology and obstetrics services. Its loss would create significant coverage gaps, as it is one of the few facilities offering these specialties in the area. To ensure that it continues to meet the healthcare needs of the community, it is imperative that the hospital addresses the highlighted equipment deficiencies, clarifies its staffing situation, and enhances its operational transparency.",
+      "alertCount": 1,
+      "warningCount": 6,
+      "citation": {
+        "csvRow": 135,
+        "source": "https://5eb4345b61596.site123.me/",
+        "fields_used": [
+          "specialties",
+          "procedure",
+          "equipment",
+          "capability",
+          "description",
+          "organizationDescription",
+          "numberDoctors",
+          "capacity"
+        ]
+      }
+    },
+    {
+      "id": "facility_58",
+      "type": "facility",
+      "lat": 6.12,
+      "lng": 0.8,
+      "name": "Akatsi South Municipal Hospital",
+      "city": "Akatsi",
+      "region": "",
+      "facilityType": "hospital",
+      "specialties": [
+        "psychiatry",
+        "gynecologyAndObstetrics",
+        "pediatrics",
+        "dentistry",
+        "otolaryngology",
+        "ophthalmology",
+        "endocrinologyAndDiabetesAndMetabolism",
+        "preventiveMedicine",
+        "infectiousDiseases",
+        "pathology",
+        "radiology",
+        "breastImaging",
+        "publicHealth",
+        "internalMedicine"
+      ],
+      "equipment": [],
+      "capabilities": [
+        "Open 24 hours a day, 7 days a week",
+        "Mental health services are provided",
+        "Maternal and child health services are provided",
+        "Out-patient (OPD) services are provided",
+        "Inpatient services are provided",
+        "Laboratory services are provided",
+        "Pharmacy and dispensing services are provided",
+        "ART services are provided"
+      ],
+      "numDoctors": null,
+      "bedCapacity": null,
+      "analysis": {
+        "basicLookups": [
+          {
+            "question": "Q1.1: What specialties does this facility offer?",
+            "answer": "This facility reports 14 specialties: Psychiatry, Gynecology & Obstetrics, Pediatrics, Dentistry, Otolaryngology, Ophthalmology, Endocrinology & Diabetes & Metabolism, Preventive Medicine, Infectious Diseases, Pathology and 4 more.",
+            "confidence": "high"
+          },
+          {
+            "question": "Q1.5: How does Akatsi compare?",
+            "answer": "Akatsi has 2 facilities in the dataset (1 hospitals). This has limited healthcare infrastructure.",
+            "confidence": "high"
+          }
+        ],
+        "validation": [
+          {
+            "question": "Q3.1: Does this facility have equipment for Psychiatry?",
+            "answer": "Claims Psychiatry but no mention of: counselling room, inpatient ward. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Gynecology & Obstetrics?",
+            "answer": "Claims Gynecology & Obstetrics but no mention of: ultrasound, fetal monitor, delivery suite, operating theatre. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Pediatrics?",
+            "answer": "Claims Pediatrics but no mention of: neonatal unit, incubator, pediatric ward. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Dentistry?",
+            "answer": "Claims Dentistry but no mention of: dental chair, dental X-ray, autoclave. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Ophthalmology?",
+            "answer": "Claims Ophthalmology but no mention of: slit lamp, operating microscope, tonometer, fundoscope. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Radiology?",
+            "answer": "Claims Radiology but no mention of: X-ray, ultrasound, CT scan. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.4: Is equipment data available to verify procedure claims?",
+            "answer": "Facility claims 14 specialties but has NO structured equipment data. Verification relies entirely on unstructured capability text.",
+            "confidence": "low",
+            "flag": "warning"
+          }
+        ],
+        "anomalyDetection": [
+          {
+            "question": "Q4: Anomaly Detection Summary",
+            "answer": "No significant anomalies detected. Specialty claims appear proportionate to reported infrastructure, though independent verification is recommended.",
+            "confidence": "medium",
+            "flag": "ok"
+          }
+        ],
+        "serviceClassification": [
+          {
+            "question": "Q5.1: Are services permanent or itinerant?",
+            "answer": "ITINERANT SIGNALS DETECTED: Text contains 'mission'. Some services may be delivered through periodic outreach rather than permanent service lines. However, also found permanent signals: '24 hours'.",
+            "confidence": "medium",
+            "flag": "warning"
+          }
+        ],
+        "workforceDistribution": [
+          {
+            "question": "Q6.1: What is the known workforce at this facility?",
+            "answer": "No doctor count reported. Workforce data gap \u2014 cannot assess staffing adequacy.",
+            "confidence": "low",
+            "flag": "warning"
+          }
+        ],
+        "resourceGaps": [
+          {
+            "question": "Q7.5: Are any procedures dependent on very few facilities?",
+            "answer": "This facility is one of very few in its region providing: Psychiatry, Gynecology & Obstetrics, Pediatrics, Dentistry, Otolaryngology. Loss of this facility would create critical coverage gaps.",
+            "confidence": "high",
+            "flag": "alert"
+          }
+        ],
+        "ngoAnalysis": [
+          {
+            "question": "Q8.1: Is this an NGO-operated facility?",
+            "answer": "NGO/mission signals detected: 'mission'. Sustainability should be assessed \u2014 NGO-operated facilities may depend on external funding cycles.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "aiSummary": "The Akatsi South Municipal Hospital serves as a critical healthcare provider in the Akatsi region, offering a range of services including mental health, maternal and child health, outpatient, inpatient, and laboratory services. Established as a dental clinic in 1996 and upgraded to municipal status in 2021, the facility has evolved to meet the healthcare needs of its community. However, the absence of reported bed capacity and doctor counts raises concerns about the facility's operational scale and staffing adequacy, particularly given its claims of providing 14 specialties.\n\nA significant red flag is the complete lack of reported medical equipment, which raises questions about the facility's ability to deliver on its claimed specialties. For instance, while the hospital lists psychiatry, gynecology and obstetrics, pediatrics, and dentistry among its services, there is no evidence of essential equipment such as counseling rooms, ultrasound machines, neonatal units, or dental chairs. This discrepancy between claimed capabilities and the absence of supporting infrastructure suggests a potential misrepresentation of the hospital's actual service capacity, which could mislead patients and stakeholders.\n\nThe analysis indicates that while Akatsi South Municipal Hospital claims to provide a comprehensive range of specialties, the lack of verification through structured equipment data and the absence of workforce information complicate the assessment of its operational viability. The facility's reliance on itinerant services, as indicated by the presence of \"mission\" in its description, suggests that some services may not be consistently available, further complicating patient access to care. This is particularly concerning given the facility's role as one of the few providers of critical specialties in the area; its loss would create significant gaps in healthcare coverage.\n\nIn summary, while Akatsi South Municipal Hospital plays a vital role in the region's healthcare landscape, the lack of verifiable infrastructure and workforce data raises serious concerns about its operational capacity and sustainability. The facility's claims of providing essential services must be critically evaluated against its actual capabilities to ensure that the community's healthcare needs are adequately met. Further investigation into the hospital's equipment and staffing is essential to ascertain its true capacity to deliver on its promises.",
+      "alertCount": 1,
+      "warningCount": 9,
+      "citation": {
+        "csvRow": 60,
+        "source": "https://www.ghanayello.com/company/50238/Akasti_District_Hospital",
+        "fields_used": [
+          "specialties",
+          "procedure",
+          "equipment",
+          "capability",
+          "description",
+          "organizationDescription",
+          "numberDoctors",
+          "capacity"
+        ]
+      }
+    },
+    {
+      "id": "facility_125",
+      "type": "facility",
+      "lat": 7.3349,
+      "lng": -2.3266,
+      "name": "Banhart Specialist Hospital",
+      "city": "Abesim - Sunyani",
+      "region": "",
+      "facilityType": "hospital",
+      "specialties": [
+        "internalMedicine",
+        "familyMedicine",
+        "cardiology",
+        "gastroenterology",
+        "neurology",
+        "nephrology",
+        "pulmonology",
+        "endocrinologyAndDiabetesAndMetabolism",
+        "pediatrics",
+        "gynecologyAndObstetrics",
+        "obstetricsAndMaternityCare",
+        "ophthalmology",
+        "otolaryngology",
+        "plasticSurgery",
+        "generalSurgery",
+        "neurosurgery",
+        "orthopedicSurgery",
+        "urology",
+        "dentistry",
+        "emergencyMedicine",
+        "physicalMedicineAndRehabilitation"
+      ],
+      "equipment": [
+        "CT-Scan imaging equipment",
+        "4D Ultrasound imaging equipment",
+        "Spirometry equipment",
+        "X-ray imaging equipment (X- ray)",
+        "Fibro scan equipment",
+        "Diagnostic Endoscopy equipment",
+        "Therapeutic Endoscopy equipment",
+        "Echocardiography equipment",
+        "ECG equipment",
+        "Dental X-ray equipment",
+        "Audiometry equipment"
+      ],
+      "capabilities": [
+        "24/7 emergency service",
+        "Extensive laboratory services",
+        "Pharmacy on site",
+        "Maternity (antenatal and postnatal care)",
+        "Neurosurgery service",
+        "Physiotherapy service",
+        "Surgical specialties including Specialist Obstetrics and Gynecology, General Surgery, Plastic Surgery, Neurosurgery, Orthopedic and Trauma, Urology, Ophthalmology, Dental Services, and ENT",
+        "Medical specialties including Family medicine, Physician, Cardiology, Gastroenterology, Neurology, Nephrology, Pulmonology, Endocrinology, Diet therapy, and Pediatrics"
+      ],
+      "numDoctors": null,
+      "bedCapacity": null,
+      "analysis": {
+        "basicLookups": [
+          {
+            "question": "Q1.1: What specialties does this facility offer?",
+            "answer": "This facility reports 21 specialties: Internal Medicine, Family Medicine, Cardiology, Gastroenterology, Neurology, Nephrology, Pulmonology, Endocrinology & Diabetes & Metabolism, Pediatrics, Gynecology & Obstetrics and 11 more.",
+            "confidence": "high"
+          },
+          {
+            "question": "Q1.5: How does Abesim - Sunyani compare?",
+            "answer": "Abesim - Sunyani has 1 facilities in the dataset (1 hospitals). This has limited healthcare infrastructure.",
+            "confidence": "high"
+          }
+        ],
+        "validation": [
+          {
+            "question": "Q3.1: Does this facility have equipment for Pediatrics?",
+            "answer": "Claims Pediatrics but no mention of: neonatal unit, incubator, pediatric ward. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Gynecology & Obstetrics?",
+            "answer": "Claims Gynecology & Obstetrics but no mention of: fetal monitor, delivery suite, operating theatre. Only evidence of: ultrasound.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Ophthalmology?",
+            "answer": "Claims Ophthalmology but no mention of: slit lamp, operating microscope, tonometer, fundoscope. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for General Surgery?",
+            "answer": "Claims General Surgery but no mention of: operating theatre, anaesthesia machine, sterilizer, blood bank. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Neurosurgery?",
+            "answer": "Claims Neurosurgery but no mention of: operating microscope, CT scan, MRI, ICU, ventilator. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Orthopedic Surgery?",
+            "answer": "Claims Orthopedic Surgery but no mention of: operating theatre, C-arm. Only evidence of: X-ray.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Dentistry?",
+            "answer": "Claims Dentistry but no mention of: dental chair, autoclave. Only evidence of: dental X-ray.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Emergency Medicine?",
+            "answer": "Claims Emergency Medicine but no mention of: emergency department, defibrillator, ventilator, trauma kit. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          }
+        ],
+        "anomalyDetection": [
+          {
+            "question": "Q4.4: Are the claimed procedures realistic for this facility size?",
+            "answer": "CAUTION: Facility claims 21 specialties but reports no bed capacity. Without size data, the breadth of specialty claims cannot be verified.",
+            "confidence": "medium",
+            "flag": "warning"
+          }
+        ],
+        "serviceClassification": [
+          {
+            "question": "Q5.1: Are services permanent or itinerant?",
+            "answer": "Services appear to be permanently staffed. Indicators: '24/7'.",
+            "confidence": "medium",
+            "flag": "ok"
+          }
+        ],
+        "workforceDistribution": [
+          {
+            "question": "Q6.1: What is the known workforce at this facility?",
+            "answer": "No doctor count reported. Workforce data gap \u2014 cannot assess staffing adequacy.",
+            "confidence": "low",
+            "flag": "warning"
+          }
+        ],
+        "resourceGaps": [
+          {
+            "question": "Q7.5: Are any procedures dependent on very few facilities?",
+            "answer": "This facility is one of very few in its region providing: Internal Medicine, Family Medicine, Cardiology, Gastroenterology, Neurology. Loss of this facility would create critical coverage gaps.",
+            "confidence": "high",
+            "flag": "alert"
+          }
+        ],
+        "ngoAnalysis": []
+      },
+      "aiSummary": "Banhart Specialist Hospital, located in Abesim - Sunyani, serves as a crucial healthcare provider in a region with limited healthcare infrastructure, being the only facility of its kind in the area. The hospital claims to offer a wide range of 21 specialties, including internal medicine, cardiology, and neurology, alongside 24/7 emergency services, extensive laboratory services, and a pharmacy on-site. However, the absence of reported bed capacity and the number of doctors raises concerns about the facility's operational scale and ability to effectively manage the claimed specialties.\n\nA significant red flag arises from the discrepancies between the claimed specialties and the supporting equipment available. For instance, while the facility claims to provide services in pediatrics, gynecology and obstetrics, and general surgery, there is no evidence of essential equipment such as neonatal units, delivery suites, or operating theatres. This lack of critical infrastructure raises questions about the facility's ability to deliver on its claims, particularly for specialties that require specialized equipment and dedicated spaces. The absence of a documented bed capacity further complicates the assessment of whether the breadth of specialties is realistic given the hospital's infrastructure.\n\nWorkforce signals indicate that services appear to be permanently staffed, as evidenced by the 24/7 emergency service. However, the lack of reported doctor counts creates a significant data gap, making it difficult to assess staffing adequacy and the potential for burnout or overextension of existing personnel. The reliance on permanent staff is a positive indicator, yet without specific numbers, the facility's capability to handle the claimed specialties remains uncertain.\n\nBanhart Specialist Hospital is critical for the region, particularly as it is one of the few facilities providing essential services like internal medicine, cardiology, and gastroenterology. The loss of this facility would create significant coverage gaps in these specialties, underscoring its importance to the local population. However, the inconsistencies in specialty claims and the lack of supporting infrastructure and workforce data highlight the need for a thorough review and potential intervention to ensure that the facility can meet the healthcare needs of the community effectively.",
+      "alertCount": 1,
+      "warningCount": 10,
+      "citation": {
+        "csvRow": 127,
+        "source": "https://banhartspecialist.com/",
+        "fields_used": [
+          "specialties",
+          "procedure",
+          "equipment",
+          "capability",
+          "description",
+          "organizationDescription",
+          "numberDoctors",
+          "capacity"
+        ]
+      }
+    },
+    {
+      "id": "facility_756",
+      "type": "facility",
+      "lat": 6.95,
+      "lng": -2.0833,
+      "name": "Saint John of God Hospital, Duayaw Nkwanta",
+      "city": "Duayaw Nkwanta",
+      "region": "",
+      "facilityType": "hospital",
+      "specialties": [
+        "ophthalmology",
+        "dentistry",
+        "pathology",
+        "orthopedicSurgery",
+        "cardiology",
+        "gynecologyAndObstetrics",
+        "neonatologyPerinatalMedicine",
+        "internalMedicine"
+      ],
+      "equipment": [],
+      "capabilities": [
+        "Located in Duayaw Nkwanta, Ghana",
+        "Certified by Health Facility Regulatory Authority (HeFRA) as a primary health facility",
+        "Accredited by the National Health Insurance Authority (NHIA)",
+        "Administrative structure includes three levels: Diocesan level, National Catholic Health Services, and Christian Health Association of Ghana",
+        "Collaborates with Ghana Health Service at regional and district levels",
+        "Headed by a four-member management team appointed by the Diocesan Health Board",
+        "Eye Care department offers specialist, optometric and optical services",
+        "Dental Unit offers standard and comprehensive dental services for patients of all ages"
+      ],
+      "numDoctors": null,
+      "bedCapacity": null,
+      "analysis": {
+        "basicLookups": [
+          {
+            "question": "Q1.1: What specialties does this facility offer?",
+            "answer": "This facility reports 8 specialties: Ophthalmology, Dentistry, Pathology, Orthopedic Surgery, Cardiology, Gynecology & Obstetrics, Neonatology Perinatal Medicine, Internal Medicine.",
+            "confidence": "high"
+          },
+          {
+            "question": "Q1.5: How does Duayaw Nkwanta compare?",
+            "answer": "Duayaw Nkwanta has 2 facilities in the dataset (2 hospitals). This has limited healthcare infrastructure.",
+            "confidence": "high"
+          }
+        ],
+        "validation": [
+          {
+            "question": "Q3.1: Does this facility have equipment for Ophthalmology?",
+            "answer": "Claims Ophthalmology but no mention of: slit lamp, operating microscope, tonometer, fundoscope. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Dentistry?",
+            "answer": "Claims Dentistry but no mention of: dental chair, dental X-ray, autoclave. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Orthopedic Surgery?",
+            "answer": "Claims Orthopedic Surgery but no mention of: X-ray, operating theatre, C-arm. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Cardiology?",
+            "answer": "Claims Cardiology but no mention of: ECG, echocardiograph, defibrillator, cardiac monitor. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.1: Does this facility have equipment for Gynecology & Obstetrics?",
+            "answer": "Claims Gynecology & Obstetrics but no mention of: ultrasound, fetal monitor, delivery suite, operating theatre. No supporting equipment evidence found in unstructured text.",
+            "confidence": "medium",
+            "flag": "warning"
+          },
+          {
+            "question": "Q3.4: Is equipment data available to verify procedure claims?",
+            "answer": "Facility claims 8 specialties but has NO structured equipment data. Verification relies entirely on unstructured capability text.",
+            "confidence": "low",
+            "flag": "warning"
+          }
+        ],
+        "anomalyDetection": [
+          {
+            "question": "Q4: Anomaly Detection Summary",
+            "answer": "No significant anomalies detected. Specialty claims appear proportionate to reported infrastructure, though independent verification is recommended.",
+            "confidence": "medium",
+            "flag": "ok"
+          }
+        ],
+        "serviceClassification": [
+          {
+            "question": "Q5.1: Are services permanent or itinerant?",
+            "answer": "Services appear to be permanently staffed. Indicators: '24 hours'.",
+            "confidence": "medium",
+            "flag": "ok"
+          },
+          {
+            "question": "Q5.2: Does the facility perform procedures or refer them?",
+            "answer": "Referral language detected: 'collaborate'. Some claimed capabilities may involve referring patients to other facilities rather than in-house delivery.",
+            "confidence": "medium",
+            "flag": "warning"
+          }
+        ],
+        "workforceDistribution": [
+          {
+            "question": "Q6.1: What is the known workforce at this facility?",
+            "answer": "No doctor count reported. Workforce data gap \u2014 cannot assess staffing adequacy.",
+            "confidence": "low",
+            "flag": "warning"
+          }
+        ],
+        "resourceGaps": [
+          {
+            "question": "Q7.5: Are any procedures dependent on very few facilities?",
+            "answer": "This facility is one of very few in its region providing: Ophthalmology, Dentistry, Pathology, Orthopedic Surgery, Cardiology. Loss of this facility would create critical coverage gaps.",
+            "confidence": "high",
+            "flag": "alert"
+          }
+        ],
+        "ngoAnalysis": []
+      },
+      "aiSummary": "Saint John of God Hospital in Duayaw Nkwanta serves as a primary healthcare facility in a region with limited healthcare infrastructure, being one of only two hospitals in the area. It is certified by the Health Facility Regulatory Authority (HeFRA) and accredited by the National Health Insurance Authority (NHIA), which positions it as a crucial provider of healthcare services. The hospital's administrative structure is organized at three levels, indicating a robust governance framework that includes collaboration with the Ghana Health Service at both regional and district levels.\n\nHowever, significant red flags arise from the facility's reported specialties. Despite claiming to offer eight distinct specialties, there is no evidence of the necessary equipment to support these claims. For instance, the facility lists ophthalmology but lacks essential tools such as a slit lamp and operating microscope. Similar discrepancies are noted for dentistry, orthopedic surgery, cardiology, and gynecology & obstetrics, where no supporting equipment is documented. This absence of equipment raises concerns about the facility's actual capability to deliver these services, suggesting that some procedures may be referred to other institutions rather than performed in-house.\n\nThe facility's workforce data is notably incomplete, with no reported number of doctors or specific staffing details. While it appears that services are permanently staffed, the lack of clarity on the number of healthcare professionals raises questions about staffing adequacy. The absence of a defined workforce could hinder the hospital's ability to meet the healthcare demands of the community effectively. Additionally, the reliance on collaborative language suggests that the facility may not perform all claimed procedures, further complicating its role as a healthcare provider.\n\nSaint John of God Hospital is critical for the Duayaw Nkwanta region, as it is one of the few facilities offering specialties such as ophthalmology, dentistry, and cardiology. The potential loss of this facility would create significant gaps in healthcare coverage, underscoring its importance. However, the discrepancies in specialty claims and the lack of equipment and workforce data necessitate immediate attention to ensure that the hospital can fulfill its intended role in the community effectively.",
+      "alertCount": 1,
+      "warningCount": 8,
+      "citation": {
+        "csvRow": 758,
+        "source": "https://stjohnofgodhospital.org/",
+        "fields_used": [
+          "specialties",
+          "procedure",
+          "equipment",
+          "capability",
+          "description",
+          "organizationDescription",
+          "numberDoctors",
+          "capacity"
+        ]
+      }
+    }
+  ],
+  "deserts": [
+    {
+      "id": "desert_bole_district",
+      "type": "desert",
+      "lat": 9.0333,
+      "lng": -2.4833,
+      "name": "Bole District",
+      "region": "Savannah Region",
+      "population": 61593,
+      "nearestFacility": "Tamale Teaching Hospital",
+      "nearestDistance_km": 148,
+      "missingSpecialties": [
+        "neurosurgery",
+        "cardiology",
+        "nephrology",
+        "oncology",
+        "neonatology"
+      ],
+      "context": "Bole District is in the Savannah Region with a population of ~61,000. The nearest hospital with surgical capability is Tamale Teaching Hospital, 148km away on poorly maintained roads. The district has a few CHPS compounds but no hospital with surgical, emergency, or specialist capacity. Maternal mortality is significantly above the national average.",
+      "severityScore": 10,
+      "analysis": {
+        "geospatial": [
+          {
+            "question": "Q2.3: Is Bole District a geographic cold spot?",
+            "answer": "Bole District in Savannah Region is a confirmed healthcare cold spot. The nearest facility with meaningful capacity is Tamale Teaching Hospital, 148km away. Population of ~61,593 people has no access to: Neurosurgery, Cardiology, Nephrology, Oncology.",
+            "confidence": "high",
+            "flag": "alert"
+          },
+          {
+            "question": "Q2.1: What are the nearest facilities in the dataset?",
+            "answer": "\u2022 Le Mete NGO Ghana \u2014 187km (14 specialties)\n\u2022 Banhart Specialist Hospital \u2014 189km (21 specialties)\n\u2022 Bechem Government Hospital \u2014 221km (3 specialties)",
+            "confidence": "high"
+          }
+        ],
+        "unmetNeeds": [
+          {
+            "question": "Q9.5: Does Bole District have capacity for its population?",
+            "answer": "Population ~61,593 with nearest hospital 148km away. Missing 5 critical specialties. Based on WHO guidelines, a population this size requires at minimum: basic emergency obstetric care, surgical capability, and diagnostic services \u2014 none of which are available locally.",
+            "confidence": "high",
+            "flag": "alert"
+          }
+        ],
+        "ngoGaps": [
+          {
+            "question": "Q8.3: Are there NGOs working in this area despite evident need?",
+            "answer": "No NGO or international organization presence detected within 100km of Bole District. This area has a population of ~61,593 with significant unmet needs, making it a high-priority target for development organizations.",
+            "confidence": "medium",
+            "flag": "alert"
+          }
+        ]
+      },
+      "aiSummary": "Bole District in the Savannah Region of Ghana is a stark example of a medical desert, characterized by a significant lack of healthcare facilities and specialized medical services. With a population of approximately 61,593, residents face dire health challenges, particularly in maternal and child health, as evidenced by maternal mortality rates that exceed the national average. The absence of essential healthcare services, including surgical and emergency care, exacerbates health disparities, leaving the community vulnerable to preventable diseases and complications.\n\nThe geographical isolation of Bole District is evident, with the nearest facility capable of providing surgical services\u2014Tamale Teaching Hospital\u2014located 148 kilometers away on poorly maintained roads. This distance poses a formidable barrier to timely medical intervention, particularly for emergencies. Furthermore, the district lacks critical specialties such as neurosurgery, cardiology, nephrology, oncology, and neonatology, which are vital for addressing the complex health needs of the population. The absence of these services means that individuals requiring specialized care must travel long distances, often resulting in delayed treatment and increased morbidity and mortality.\n\nThe most urgent unmet needs in Bole District include the establishment of a fully equipped hospital with surgical and emergency capabilities, as well as the introduction of specialized medical services. Immediate interventions should focus on building a local healthcare facility that can provide basic emergency obstetric care, surgical services, and diagnostic capabilities. Additionally, the recruitment and training of healthcare professionals in the missing specialties is crucial to ensure that the community has access to comprehensive care.\n\nTo address these pressing issues, actionable interventions should be prioritized based on their potential impact. First, establishing a community hospital within Bole District should be the primary focus, as it would dramatically reduce travel time for patients and improve access to essential services. Second, partnerships with NGOs and international organizations should be sought to facilitate the provision of medical supplies, training, and specialist outreach programs. Lastly, improving transportation infrastructure and establishing mobile health clinics could enhance access to care, particularly during seasonal challenges that may affect road conditions.\n\nCompounding factors such as the district's geography and seasonal access challenges further complicate the healthcare landscape. The poorly maintained roads can become impassable during the rainy season, further isolating residents from necessary medical care. Additionally, the lack of cross-border health initiatives with neighboring countries limits opportunities for collaboration and resource sharing. Addressing these systemic barriers is essential for transforming Bole District from a medical desert into a community with equitable access to healthcare services.",
+      "recommendations": [
+        "Deploy mobile health clinics for emergency triage and stabilization",
+        "Establish telemedicine link to nearest specialist hospital for remote consultation",
+        "Recruit and train community health workers for early detection and referral pathways"
+      ],
+      "alertCount": 3
+    },
+    {
+      "id": "desert_damongo",
+      "type": "desert",
+      "lat": 9.0833,
+      "lng": -1.8167,
+      "name": "Damongo",
+      "region": "Savannah Region",
+      "population": 38000,
+      "nearestFacility": "Tamale Teaching Hospital",
+      "nearestDistance_km": 95,
+      "missingSpecialties": [
+        "generalSurgery",
+        "orthopedicSurgery",
+        "ophthalmology",
+        "radiology",
+        "emergencyMedicine"
+      ],
+      "context": "Damongo is the capital of the Savannah Region but lacks a well-equipped hospital. The West Gonja District Hospital has minimal capacity. Patients requiring surgery or specialist care must travel to Tamale. Road conditions deteriorate severely during the rainy season.",
+      "severityScore": 8,
+      "analysis": {
+        "geospatial": [
+          {
+            "question": "Q2.3: Is Damongo a geographic cold spot?",
+            "answer": "Damongo in Savannah Region is a confirmed healthcare cold spot. The nearest facility with meaningful capacity is Tamale Teaching Hospital, 95km away. Population of ~38,000 people has no access to: General Surgery, Orthopedic Surgery, Ophthalmology, Radiology.",
+            "confidence": "high",
+            "flag": "alert"
+          },
+          {
+            "question": "Q2.1: What are the nearest facilities in the dataset?",
+            "answer": "\u2022 Le Mete NGO Ghana \u2014 114km (14 specialties)\n\u2022 Banhart Specialist Hospital \u2014 202km (21 specialties)\n\u2022 Bechem Government Hospital \u2014 222km (3 specialties)",
+            "confidence": "high"
+          }
+        ],
+        "unmetNeeds": [
+          {
+            "question": "Q9.5: Does Damongo have capacity for its population?",
+            "answer": "Population ~38,000 with nearest hospital 95km away. Missing 5 critical specialties. Based on WHO guidelines, a population this size requires at minimum: basic emergency obstetric care, surgical capability, and diagnostic services \u2014 none of which are available locally.",
+            "confidence": "high",
+            "flag": "alert"
+          }
+        ],
+        "ngoGaps": [
+          {
+            "question": "Q8.3: Are there NGOs working in this area despite evident need?",
+            "answer": "No NGO or international organization presence detected within 100km of Damongo. This area has a population of ~38,000 with significant unmet needs, making it a high-priority target for development organizations.",
+            "confidence": "medium",
+            "flag": "alert"
+          }
+        ]
+      },
+      "aiSummary": "Damongo, the capital of the Savannah Region in Ghana, is a stark example of a medical desert, characterized by a significant lack of healthcare facilities and specialized medical services. With a population of approximately 38,000, residents face severe barriers to accessing essential healthcare, as the nearest facility with adequate capacity, the Tamale Teaching Hospital, is located 95 kilometers away. This distance translates into a critical delay in receiving care, particularly for patients requiring surgical interventions or specialist consultations. The absence of general surgery, orthopedic surgery, ophthalmology, radiology, and emergency medicine services exacerbates health risks, leading to preventable morbidity and mortality in the community.\n\nQuantifying the healthcare gap in Damongo reveals alarming statistics. The 95-kilometer distance to the nearest capable facility poses a significant hurdle for the local population, especially in emergencies where timely intervention is crucial. The lack of essential specialties means that patients must endure long journeys, often under challenging conditions, particularly during the rainy season when road conditions deteriorate. This situation not only affects the immediate health outcomes of individuals but also places a strain on families who must bear the financial and emotional burdens associated with travel for care.\n\nThe most urgent unmet needs in Damongo include the establishment of surgical capabilities, the provision of emergency medical services, and the availability of diagnostic imaging. The absence of these critical services means that conditions that could be treated locally often escalate into emergencies, resulting in increased healthcare costs and loss of life. Furthermore, the lack of NGOs or international organizations in the area highlights the urgent need for targeted interventions to address these gaps.\n\nTo alleviate the healthcare crisis in Damongo, several actionable interventions can be prioritized. First, establishing a well-equipped health facility with essential surgical and emergency services should be the top priority. This facility should also include diagnostic capabilities such as radiology to facilitate timely and accurate diagnoses. Second, mobile health clinics could be deployed to provide periodic specialist care and preventive services, addressing immediate health concerns while building local capacity. Third, partnerships with NGOs and governmental organizations should be sought to enhance resource allocation and support for healthcare initiatives in the region. \n\nCompounding factors such as the region's geography and seasonal access challenges must be considered in planning these interventions. The remote location of Damongo, coupled with poor road conditions during the rainy season, necessitates innovative solutions to ensure that healthcare access is not only established but also sustainable. Addressing these issues holistically will be crucial in transforming Damongo from a medical desert into a community with adequate healthcare resources.",
+      "recommendations": [
+        "Deploy mobile health clinics for emergency triage and stabilization",
+        "Establish telemedicine link to nearest specialist hospital for remote consultation",
+        "Prioritize surgical capacity \u2014 even a minor surgical theatre could save lives in emergency cases",
+        "Establish 24/7 emergency stabilization point to reduce transfer mortality",
+        "Schedule periodic ophthalmology outreach camps (high prevalence of preventable blindness)",
+        "Recruit and train community health workers for early detection and referral pathways"
+      ],
+      "alertCount": 3
+    },
+    {
+      "id": "desert_nalerigu",
+      "type": "desert",
+      "lat": 10.525,
+      "lng": -0.37,
+      "name": "Nalerigu",
+      "region": "North East Region",
+      "population": 28000,
+      "nearestFacility": "Baptist Medical Centre Nalerigu",
+      "nearestDistance_km": 0,
+      "missingSpecialties": [
+        "neurosurgery",
+        "cardiology",
+        "oncology",
+        "nephrology",
+        "psychiatry"
+      ],
+      "context": "While Nalerigu has the Baptist Medical Centre (one of few hospitals in the North East Region), it serves an enormous catchment of over 500,000 people across multiple districts. The hospital has limited specialist capacity and no advanced imaging. Most surrounding communities are 50-100km from any health facility.",
+      "severityScore": 6,
+      "analysis": {
+        "geospatial": [
+          {
+            "question": "Q2.3: Is Nalerigu a geographic cold spot?",
+            "answer": "Nalerigu in North East Region is a confirmed healthcare cold spot. The nearest facility with meaningful capacity is Baptist Medical Centre Nalerigu, but it has severe capacity limitations. Population of ~28,000 people has no access to: Neurosurgery, Cardiology, Oncology, Nephrology.",
+            "confidence": "high",
+            "flag": "alert"
+          },
+          {
+            "question": "Q2.1: What are the nearest facilities in the dataset?",
+            "answer": "\u2022 Le Mete NGO Ghana \u2014 135km (14 specialties)\n\u2022 Banhart Specialist Hospital \u2014 415km (21 specialties)\n\u2022 Bechem Government Hospital \u2014 423km (3 specialties)",
+            "confidence": "high"
+          }
+        ],
+        "unmetNeeds": [
+          {
+            "question": "Q9.5: Does Nalerigu have capacity for its population?",
+            "answer": "Population ~28,000 with severely under-resourced local facility. Missing 5 critical specialties. Based on WHO guidelines, a population this size requires at minimum: basic emergency obstetric care, surgical capability, and diagnostic services \u2014 none of which are available locally.",
+            "confidence": "high",
+            "flag": "alert"
+          }
+        ],
+        "ngoGaps": [
+          {
+            "question": "Q8.3: Are there NGOs working in this area despite evident need?",
+            "answer": "No NGO or international organization presence detected within 100km of Nalerigu. This area has a population of ~28,000 with significant unmet needs, making it a high-priority target for development organizations.",
+            "confidence": "medium",
+            "flag": "alert"
+          }
+        ]
+      },
+      "aiSummary": "Nalerigu, located in the North East Region of Ghana, epitomizes a medical desert, with a population of approximately 28,000 residents facing severe healthcare access challenges. The primary healthcare facility, Baptist Medical Centre Nalerigu, is overwhelmed, serving a catchment area of over 500,000 people from multiple districts. Despite its proximity, the center lacks essential specialist services, including neurosurgery, cardiology, oncology, nephrology, and psychiatry. This scarcity of medical capabilities has dire human consequences, as residents are forced to travel significant distances\u2014often 50-100 kilometers\u2014to access basic healthcare, leading to delayed diagnoses, untreated conditions, and preventable morbidity and mortality.\n\nQuantifying the healthcare gap in Nalerigu reveals a stark reality: the nearest facilities with adequate specialty care are located at least 135 kilometers away, with the closest capable facility being Le Mete NGO Ghana. Given the population size, WHO guidelines recommend access to basic emergency obstetric care, surgical capabilities, and diagnostic services, none of which are available locally. The absence of these critical services means that approximately 28,000 individuals lack timely access to necessary medical interventions, significantly impacting their health outcomes and overall quality of life.\n\nThe most urgent unmet needs in Nalerigu include the establishment of specialized medical services in neurosurgery, cardiology, oncology, nephrology, and psychiatry. Additionally, there is an immediate requirement for basic emergency obstetric care and surgical capabilities. Without these services, the community remains vulnerable to health crises that could otherwise be managed effectively. The lack of advanced imaging further exacerbates the situation, as it limits the ability to diagnose and treat conditions that require precise medical intervention.\n\nTo address these pressing needs, actionable interventions should be prioritized based on their potential impact. First, establishing telemedicine services could provide immediate access to specialist consultations, bridging the gap until local services can be developed. Second, partnerships with NGOs and governmental health agencies should be pursued to facilitate the establishment of a multi-specialty clinic in Nalerigu, focusing on the most critical specialties identified. Third, mobile health clinics could be deployed to reach remote communities, providing essential preventive care and health education. Finally, training local healthcare workers in basic surgical and emergency care could enhance the capacity of the existing facility and improve patient outcomes.\n\nCompounding factors such as the region's geography, characterized by difficult terrain and limited infrastructure, further complicate healthcare access. Seasonal variations may also affect transportation and access to care, particularly during the rainy season when roads become impassable. Additionally, the lack of cross-border healthcare initiatives limits the potential for collaboration with neighboring countries that may have more resources. Addressing these challenges is essential for improving health equity in Nalerigu and ensuring that the population receives the care they desperately need.",
+      "recommendations": [
+        "Establish telemedicine link to nearest specialist hospital for remote consultation",
+        "Recruit and train community health workers for early detection and referral pathways"
+      ],
+      "alertCount": 3
+    },
+    {
+      "id": "desert_nandom",
+      "type": "desert",
+      "lat": 10.85,
+      "lng": -2.75,
+      "name": "Nandom",
+      "region": "Upper West Region",
+      "population": 48000,
+      "nearestFacility": "Nandom District Hospital",
+      "nearestDistance_km": 0,
+      "missingSpecialties": [
+        "generalSurgery",
+        "orthopedicSurgery",
+        "ophthalmology",
+        "pediatrics",
+        "radiology"
+      ],
+      "context": "Nandom is in Ghana's most underserved region. The district hospital exists but has severe staffing shortages \u2014 often operating without a single doctor. The Upper West Region has the lowest doctor-to-patient ratio in Ghana at 1:30,000+. Most patients requiring anything beyond basic care must travel to Wa (110km) or Tamale (350km).",
+      "severityScore": 7,
+      "analysis": {
+        "geospatial": [
+          {
+            "question": "Q2.3: Is Nandom a geographic cold spot?",
+            "answer": "Nandom in Upper West Region is a confirmed healthcare cold spot. The nearest facility with meaningful capacity is Nandom District Hospital, but it has severe capacity limitations. Population of ~48,000 people has no access to: General Surgery, Orthopedic Surgery, Ophthalmology, Pediatrics.",
+            "confidence": "high",
+            "flag": "alert"
+          },
+          {
+            "question": "Q2.1: What are the nearest facilities in the dataset?",
+            "answer": "\u2022 Le Mete NGO Ghana \u2014 266km (14 specialties)\n\u2022 Banhart Specialist Hospital \u2014 393km (21 specialties)\n\u2022 Bechem Government Hospital \u2014 425km (3 specialties)",
+            "confidence": "high"
+          }
+        ],
+        "unmetNeeds": [
+          {
+            "question": "Q9.5: Does Nandom have capacity for its population?",
+            "answer": "Population ~48,000 with severely under-resourced local facility. Missing 5 critical specialties. Based on WHO guidelines, a population this size requires at minimum: basic emergency obstetric care, surgical capability, and diagnostic services \u2014 none of which are available locally.",
+            "confidence": "high",
+            "flag": "alert"
+          }
+        ],
+        "ngoGaps": [
+          {
+            "question": "Q8.3: Are there NGOs working in this area despite evident need?",
+            "answer": "No NGO or international organization presence detected within 100km of Nandom. This area has a population of ~48,000 with significant unmet needs, making it a high-priority target for development organizations.",
+            "confidence": "medium",
+            "flag": "alert"
+          }
+        ]
+      },
+      "aiSummary": "Nandom, located in Ghana's Upper West Region, epitomizes a medical desert, characterized by a critical lack of healthcare access and resources. With a population of approximately 48,000, the area is served by the Nandom District Hospital, which, despite being the nearest facility, suffers from severe staffing shortages and often operates without a single doctor. This dire situation forces residents to seek essential medical care over 110 kilometers away in Wa or even 350 kilometers to Tamale, exacerbating health disparities and leading to preventable morbidity and mortality. The absence of basic surgical capabilities, pediatric care, and diagnostic services significantly impacts the community, particularly vulnerable populations such as children and the elderly.\n\nQuantifying the healthcare gap in Nandom reveals a stark reality: the region's doctor-to-patient ratio is an alarming 1:30,000+, the lowest in Ghana. The Nandom District Hospital lacks five critical specialties\u2014general surgery, orthopedic surgery, ophthalmology, pediatrics, and radiology\u2014rendering it ill-equipped to address the healthcare needs of its residents. The World Health Organization guidelines suggest that a population of this size requires at least basic emergency obstetric care, surgical capability, and diagnostic services, none of which are available locally. This gap not only affects immediate health outcomes but also leads to a reliance on distant facilities, which can be financially and logistically prohibitive for many families.\n\nThe most urgent unmet needs in Nandom include the establishment of surgical services, pediatric care, and diagnostic imaging capabilities. Addressing these gaps is critical to improving health outcomes and reducing the burden of disease in the community. Specific, actionable interventions could include deploying mobile health clinics to provide essential services, recruiting healthcare professionals through incentive programs, and establishing partnerships with NGOs to facilitate training and resource allocation. Additionally, the implementation of telemedicine services could offer immediate consultations for specialized care, bridging the gap until local capabilities can be developed.\n\nCompounding the challenges faced by Nandom are geographical barriers and seasonal access issues. The region's remote location and poor road infrastructure can hinder access to care, particularly during the rainy season when travel becomes more difficult. Furthermore, the lack of NGO presence within a 100-kilometer radius indicates a significant oversight in resource allocation, highlighting the urgent need for targeted interventions in this high-priority area. By addressing these factors, stakeholders can work towards alleviating the healthcare crisis in Nandom and improving the overall health and well-being of its residents.",
+      "recommendations": [
+        "Establish telemedicine link to nearest specialist hospital for remote consultation",
+        "Prioritize surgical capacity \u2014 even a minor surgical theatre could save lives in emergency cases",
+        "Urgent need for maternal and child health services \u2014 high maternal mortality area",
+        "Schedule periodic ophthalmology outreach camps (high prevalence of preventable blindness)",
+        "Recruit and train community health workers for early detection and referral pathways"
+      ],
+      "alertCount": 3
+    },
+    {
+      "id": "desert_dambai",
+      "type": "desert",
+      "lat": 8.0667,
+      "lng": 0.1833,
+      "name": "Dambai",
+      "region": "Oti Region",
+      "population": 35000,
+      "nearestFacility": "Nkwanta District Hospital",
+      "nearestDistance_km": 72,
+      "missingSpecialties": [
+        "generalSurgery",
+        "emergencyMedicine",
+        "gynecologyAndObstetrics",
+        "pediatrics",
+        "radiology"
+      ],
+      "context": "Dambai is the capital of the newly created Oti Region (2019), carved from the Volta Region. Despite being a regional capital, healthcare infrastructure has not kept pace. The town sits on the eastern bank of the Volta Lake, and many communities depend on boat transport. The nearest hospital with surgical capacity is 72km away on unpaved roads.",
+      "severityScore": 8,
+      "analysis": {
+        "geospatial": [
+          {
+            "question": "Q2.3: Is Dambai a geographic cold spot?",
+            "answer": "Dambai in Oti Region is a confirmed healthcare cold spot. The nearest facility with meaningful capacity is Nkwanta District Hospital, 72km away. Population of ~35,000 people has no access to: General Surgery, Emergency Medicine, Gynecology & Obstetrics, Pediatrics.",
+            "confidence": "high",
+            "flag": "alert"
+          },
+          {
+            "question": "Q2.1: What are the nearest facilities in the dataset?",
+            "answer": "\u2022 Le Mete NGO Ghana \u2014 187km (14 specialties)\n\u2022 Kings and Queens Medical University Teaching Hospital \u2014 197km (28 specialties)\n\u2022 Akatsi South Municipal Hospital \u2014 227km (14 specialties)",
+            "confidence": "high"
+          }
+        ],
+        "unmetNeeds": [
+          {
+            "question": "Q9.5: Does Dambai have capacity for its population?",
+            "answer": "Population ~35,000 with nearest hospital 72km away. Missing 5 critical specialties. Based on WHO guidelines, a population this size requires at minimum: basic emergency obstetric care, surgical capability, and diagnostic services \u2014 none of which are available locally.",
+            "confidence": "high",
+            "flag": "alert"
+          }
+        ],
+        "ngoGaps": [
+          {
+            "question": "Q8.3: Are there NGOs working in this area despite evident need?",
+            "answer": "No NGO or international organization presence detected within 100km of Dambai. This area has a population of ~35,000 with significant unmet needs, making it a high-priority target for development organizations.",
+            "confidence": "medium",
+            "flag": "alert"
+          }
+        ]
+      },
+      "aiSummary": "Dambai, the capital of the newly established Oti Region, is a stark example of a medical desert, characterized by a severe lack of healthcare infrastructure and essential medical services. With a population of approximately 35,000, residents face significant barriers to accessing even the most basic healthcare. The nearest facility capable of providing surgical care is the Nkwanta District Hospital, located a daunting 72 kilometers away on unpaved roads. This distance, compounded by the reliance on boat transport across the Volta Lake, creates a critical gap in timely medical intervention, leading to dire health outcomes for the community.\n\nThe healthcare gap in Dambai is alarming. The absence of five essential specialties\u2014general surgery, emergency medicine, gynecology and obstetrics, pediatrics, and radiology\u2014means that the population lacks access to crucial services that are vital for maternal and child health, emergency care, and surgical interventions. According to WHO guidelines, a community of this size requires basic emergency obstetric care, surgical capabilities, and diagnostic services, none of which are currently available locally. The lack of these services not only endangers lives but also exacerbates health disparities, leaving the most vulnerable populations at risk.\n\nThe most urgent unmet needs in Dambai include the establishment of emergency medical services, surgical capabilities, and maternal and child health services. Addressing these gaps is critical to improving health outcomes and reducing mortality rates in the region. Specific, actionable interventions should include the construction of a local health facility equipped with essential surgical and emergency services, the recruitment and training of healthcare professionals in the missing specialties, and the establishment of a reliable transportation system to facilitate access to care.\n\nCompounding the challenges faced by Dambai are geographical barriers and seasonal access issues. The reliance on boat transport can be particularly problematic during the rainy season when water levels fluctuate, potentially isolating communities further. Additionally, the absence of NGOs or international organizations within a 100-kilometer radius highlights the urgent need for targeted intervention. By prioritizing resource allocation to Dambai, development organizations can significantly improve healthcare access and outcomes for this underserved population, ultimately fostering a healthier and more resilient community.",
+      "recommendations": [
+        "Establish telemedicine link to nearest specialist hospital for remote consultation",
+        "Prioritize surgical capacity \u2014 even a minor surgical theatre could save lives in emergency cases",
+        "Urgent need for maternal and child health services \u2014 high maternal mortality area",
+        "Establish 24/7 emergency stabilization point to reduce transfer mortality",
+        "Recruit and train community health workers for early detection and referral pathways"
+      ],
+      "alertCount": 3
+    },
+    {
+      "id": "desert_kadjebi",
+      "type": "desert",
+      "lat": 7.5333,
+      "lng": 0.5333,
+      "name": "Kadjebi",
+      "region": "Oti Region",
+      "population": 46000,
+      "nearestFacility": "Kadjebi Health Centre",
+      "nearestDistance_km": 85,
+      "missingSpecialties": [
+        "generalSurgery",
+        "emergencyMedicine",
+        "ophthalmology",
+        "dentistry",
+        "radiology"
+      ],
+      "context": "Kadjebi District in the Oti Region is mountainous with scattered communities that are extremely difficult to reach. The health centre has no surgical capability, limited medication, and intermittent electricity. Pregnant women in emergency situations face dangerous journeys of 2-4 hours to reach the nearest hospital. Snake bite cases \u2014 common in this region \u2014 often result in death due to lack of antivenom.",
+      "severityScore": 9,
+      "analysis": {
+        "geospatial": [
+          {
+            "question": "Q2.3: Is Kadjebi a geographic cold spot?",
+            "answer": "Kadjebi in Oti Region is a confirmed healthcare cold spot. The nearest facility with meaningful capacity is Kadjebi Health Centre, 85km away. Population of ~46,000 people has no access to: General Surgery, Emergency Medicine, Ophthalmology, Dentistry.",
+            "confidence": "high",
+            "flag": "alert"
+          },
+          {
+            "question": "Q2.1: What are the nearest facilities in the dataset?",
+            "answer": "\u2022 Kings and Queens Medical University Teaching Hospital \u2014 148km (28 specialties)\n\u2022 Akatsi South Municipal Hospital \u2014 160km (14 specialties)\n\u2022 Chrispod Hospital & Diagnostic Center \u2014 227km (9 specialties)",
+            "confidence": "high"
+          }
+        ],
+        "unmetNeeds": [
+          {
+            "question": "Q9.5: Does Kadjebi have capacity for its population?",
+            "answer": "Population ~46,000 with nearest hospital 85km away. Missing 5 critical specialties. Based on WHO guidelines, a population this size requires at minimum: basic emergency obstetric care, surgical capability, and diagnostic services \u2014 none of which are available locally.",
+            "confidence": "high",
+            "flag": "alert"
+          }
+        ],
+        "ngoGaps": [
+          {
+            "question": "Q8.3: Are there NGOs working in this area despite evident need?",
+            "answer": "No NGO or international organization presence detected within 100km of Kadjebi. This area has a population of ~46,000 with significant unmet needs, making it a high-priority target for development organizations.",
+            "confidence": "medium",
+            "flag": "alert"
+          }
+        ]
+      },
+      "aiSummary": "Kadjebi, located in the Oti Region of Ghana, is a stark example of a medical desert, characterized by a severe lack of healthcare access and critical medical services. With a population of approximately 46,000 people, the nearest healthcare facility, the Kadjebi Health Centre, is a daunting 85 kilometers away. This significant distance translates into life-threatening delays for residents, particularly for pregnant women facing emergencies, who may endure perilous journeys of 2-4 hours to reach the nearest hospital. The absence of essential medical specialties, including general surgery, emergency medicine, ophthalmology, dentistry, and radiology, exacerbates the already dire situation, leaving the community vulnerable to preventable deaths and untreated conditions.\n\nQuantifying the healthcare gap in Kadjebi reveals alarming statistics. The local health centre lacks surgical capabilities and has limited medication and intermittent electricity, rendering it ill-equipped to handle emergencies or complex medical cases. The WHO guidelines indicate that a population of this size requires at least basic emergency obstetric care, surgical services, and diagnostic capabilities\u2014none of which are available locally. The absence of these critical services means that common medical emergencies, such as snake bites, can result in fatalities due to the unavailability of antivenom and timely treatment. The cumulative effect of these deficiencies places the entire population at risk, highlighting the urgent need for intervention.\n\nThe most pressing unmet needs in Kadjebi include the establishment of surgical and emergency medical services, as well as the provision of essential diagnostic capabilities. The community also requires access to maternal healthcare services and preventive care, such as dental and ophthalmological services, to address the broader spectrum of health issues faced by residents. Without immediate action, the health disparities in Kadjebi will continue to widen, leading to increased morbidity and mortality rates.\n\nTo address these urgent needs, specific, actionable interventions are necessary. First, establishing a fully equipped healthcare facility within Kadjebi that offers general surgery and emergency medicine should be prioritized, along with the training of local healthcare workers in these specialties. Second, mobile health clinics could be deployed to provide regular preventive care and emergency services to remote communities. Third, partnerships with NGOs and international organizations should be fostered to secure funding and resources for medical supplies, equipment, and training programs. \n\nCompounding the challenges faced by Kadjebi is its mountainous geography, which makes access to healthcare facilities even more difficult, particularly during the rainy season when roads become impassable. Additionally, the lack of cross-border healthcare initiatives with neighboring regions further isolates this community from essential medical services. Addressing these geographic and logistical barriers will be crucial in ensuring that the residents of Kadjebi receive the healthcare they desperately need.",
+      "recommendations": [
+        "Deploy mobile health clinics for emergency triage and stabilization",
+        "Establish telemedicine link to nearest specialist hospital for remote consultation",
+        "Prioritize surgical capacity \u2014 even a minor surgical theatre could save lives in emergency cases",
+        "Establish 24/7 emergency stabilization point to reduce transfer mortality",
+        "Schedule periodic ophthalmology outreach camps (high prevalence of preventable blindness)",
+        "Recruit and train community health workers for early detection and referral pathways"
+      ],
+      "alertCount": 3
+    },
+    {
+      "id": "desert_donkorkrom",
+      "type": "desert",
+      "lat": 6.6333,
+      "lng": -0.1333,
+      "name": "Donkorkrom",
+      "region": "Eastern Region",
+      "population": 31000,
+      "nearestFacility": "Atua Government Hospital",
+      "nearestDistance_km": 65,
+      "missingSpecialties": [
+        "generalSurgery",
+        "pediatrics",
+        "ophthalmology",
+        "radiology",
+        "emergencyMedicine"
+      ],
+      "context": "Donkorkrom in the Kwahu Afram Plains District is one of the most isolated areas in the Eastern Region. Located across the Volta Lake, many communities can only be reached by boat. The health centre has no doctor and minimal equipment. The population has high rates of bilharzia and waterborne diseases, yet no diagnostic capability exists.",
+      "severityScore": 8,
+      "analysis": {
+        "geospatial": [
+          {
+            "question": "Q2.3: Is Donkorkrom a geographic cold spot?",
+            "answer": "Donkorkrom in Eastern Region is a confirmed healthcare cold spot. The nearest facility with meaningful capacity is Atua Government Hospital, 65km away. Population of ~31,000 people has no access to: General Surgery, Pediatrics, Ophthalmology, Radiology.",
+            "confidence": "high",
+            "flag": "alert"
+          },
+          {
+            "question": "Q2.1: What are the nearest facilities in the dataset?",
+            "answer": "\u2022 Kings and Queens Medical University Teaching Hospital \u2014 43km (28 specialties)\n\u2022 Chrispod Hospital & Diagnostic Center \u2014 111km (9 specialties)\n\u2022 Lekma Hospital \u2013 Teshie \u2014 117km (1 specialties)",
+            "confidence": "high"
+          }
+        ],
+        "unmetNeeds": [
+          {
+            "question": "Q9.5: Does Donkorkrom have capacity for its population?",
+            "answer": "Population ~31,000 with nearest hospital 65km away. Missing 5 critical specialties. Based on WHO guidelines, a population this size requires at minimum: basic emergency obstetric care, surgical capability, and diagnostic services \u2014 none of which are available locally.",
+            "confidence": "high",
+            "flag": "alert"
+          }
+        ],
+        "ngoGaps": [
+          {
+            "question": "Q8.3: Are there NGOs working in this area despite evident need?",
+            "answer": "No NGO or international organization presence detected within 100km of Donkorkrom. This area has a population of ~31,000 with significant unmet needs, making it a high-priority target for development organizations.",
+            "confidence": "medium",
+            "flag": "alert"
+          }
+        ]
+      },
+      "aiSummary": "Donkorkrom, located in the Kwahu Afram Plains District of Ghana's Eastern Region, is a stark example of a medical desert, characterized by extreme isolation and a critical lack of healthcare resources. With a population of approximately 31,000, the community faces dire health challenges, including high rates of bilharzia and waterborne diseases, yet lacks the necessary medical infrastructure to address these issues. The nearest healthcare facility, Atua Government Hospital, is a daunting 65 kilometers away, making access to care not only inconvenient but often impossible for many residents. The absence of a doctor and essential medical equipment at the local health center exacerbates the situation, leaving the population vulnerable and underserved.\n\nQuantifying the healthcare gap in Donkorkrom reveals alarming deficiencies. The community is devoid of five critical medical specialties: general surgery, pediatrics, ophthalmology, radiology, and emergency medicine. According to WHO guidelines, a population of this size requires basic emergency obstetric care, surgical capability, and diagnostic services\u2014none of which are available locally. The lack of these services means that residents must travel long distances for even basic healthcare, which is particularly burdensome for those with limited mobility or financial resources. The absence of local diagnostic capabilities further complicates the situation, as residents cannot access timely and accurate diagnoses for prevalent health issues.\n\nThe most urgent unmet needs in Donkorkrom include the establishment of emergency medical services, surgical capabilities, and pediatric care. The lack of a functioning healthcare system not only jeopardizes the health of individuals but also places a significant burden on families and the community as a whole. Without immediate intervention, the health disparities faced by this population will continue to widen, leading to preventable morbidity and mortality. \n\nTo address these critical gaps, specific and actionable interventions are necessary. First, establishing a mobile clinic service could provide immediate access to essential healthcare services, including basic diagnostics and treatment for common ailments. Second, training and deploying community health workers to deliver basic healthcare and education on disease prevention would empower the local population and improve health outcomes. Third, advocating for the establishment of a fully equipped health facility in Donkorkrom, complete with the missing specialties, should be prioritized to ensure sustainable healthcare access in the long term.\n\nCompounding factors such as geography and seasonal access further complicate healthcare delivery in Donkorkrom. The area's isolation, with many communities reachable only by boat across the Volta Lake, poses significant logistical challenges for healthcare providers. Seasonal flooding can exacerbate these issues, limiting access to care during critical times. Additionally, the absence of NGOs or international organizations within a 100-kilometer radius highlights the urgent need for targeted intervention and resource allocation in this high-priority area. Addressing these challenges is essential to improving health outcomes and ensuring that the residents of Donkorkrom receive the care they desperately need.",
+      "recommendations": [
+        "Establish telemedicine link to nearest specialist hospital for remote consultation",
+        "Prioritize surgical capacity \u2014 even a minor surgical theatre could save lives in emergency cases",
+        "Urgent need for maternal and child health services \u2014 high maternal mortality area",
+        "Establish 24/7 emergency stabilization point to reduce transfer mortality",
+        "Schedule periodic ophthalmology outreach camps (high prevalence of preventable blindness)",
+        "Recruit and train community health workers for early detection and referral pathways"
+      ],
+      "alertCount": 3
+    },
+    {
+      "id": "desert_enchi",
+      "type": "desert",
+      "lat": 5.8333,
+      "lng": -2.8333,
+      "name": "Enchi",
+      "region": "Western North Region",
+      "population": 42000,
+      "nearestFacility": "Enchi District Hospital",
+      "nearestDistance_km": 0,
+      "missingSpecialties": [
+        "neurology",
+        "cardiology",
+        "orthopedicSurgery",
+        "ophthalmology",
+        "radiology"
+      ],
+      "context": "Enchi is the capital of Aowin Municipal in Western North Region. The district hospital is severely under-resourced, serving a large catchment including many cocoa farming communities with high rates of pesticide-related illness. The nearest specialist hospital is in Takoradi (180km). Galamsey (illegal mining) activities create significant health hazards with no local treatment capacity.",
+      "severityScore": 7,
+      "analysis": {
+        "geospatial": [
+          {
+            "question": "Q2.3: Is Enchi a geographic cold spot?",
+            "answer": "Enchi in Western North Region is a confirmed healthcare cold spot. The nearest facility with meaningful capacity is Enchi District Hospital, but it has severe capacity limitations. Population of ~42,000 people has no access to: Neurology, Cardiology, Orthopedic Surgery, Ophthalmology.",
+            "confidence": "high",
+            "flag": "alert"
+          },
+          {
+            "question": "Q2.1: What are the nearest facilities in the dataset?",
+            "answer": "\u2022 Saint John of God Hospital, Duayaw Nkwanta \u2014 149km (8 specialties)\n\u2022 Bechem Government Hospital \u2014 166km (3 specialties)\n\u2022 Banhart Specialist Hospital \u2014 176km (21 specialties)",
+            "confidence": "high"
+          }
+        ],
+        "unmetNeeds": [
+          {
+            "question": "Q9.5: Does Enchi have capacity for its population?",
+            "answer": "Population ~42,000 with severely under-resourced local facility. Missing 5 critical specialties. Based on WHO guidelines, a population this size requires at minimum: basic emergency obstetric care, surgical capability, and diagnostic services \u2014 none of which are available locally.",
+            "confidence": "high",
+            "flag": "alert"
+          }
+        ],
+        "ngoGaps": [
+          {
+            "question": "Q8.3: Are there NGOs working in this area despite evident need?",
+            "answer": "No NGO or international organization presence detected within 100km of Enchi. This area has a population of ~42,000 with significant unmet needs, making it a high-priority target for development organizations.",
+            "confidence": "medium",
+            "flag": "alert"
+          }
+        ]
+      },
+      "aiSummary": "Enchi, located in the Western North Region of Ghana, is a pronounced medical desert, characterized by a severe lack of specialized healthcare services and resources. With a population of approximately 42,000, the community faces significant health challenges, particularly due to its reliance on the under-resourced Enchi District Hospital, which lacks critical specialties such as neurology, cardiology, orthopedic surgery, ophthalmology, and radiology. The absence of these services directly impacts the health outcomes of residents, leaving them vulnerable to untreated conditions, exacerbated by high rates of pesticide-related illnesses from the surrounding cocoa farming activities and health hazards linked to illegal mining (galamsey).\n\nThe gap in healthcare access is stark: the nearest facility with meaningful capacity is located 180 kilometers away in Takoradi, making it virtually inaccessible for the majority of the population. Given the WHO guidelines, a community of this size should have access to basic emergency obstetric care, surgical capabilities, and diagnostic services, none of which are available locally. This lack of access not only endangers lives but also contributes to a cycle of poverty and health disparities, as residents are forced to travel long distances for care, often resulting in delayed treatment and preventable complications.\n\nThe most urgent unmet needs in Enchi include the establishment of specialized medical services to address neurological, cardiovascular, orthopedic, and ophthalmic conditions. Additionally, the community requires basic diagnostic capabilities to manage common health issues effectively. The absence of these services is compounded by geographical barriers, as the region's infrastructure is inadequate, and seasonal access can further hinder transportation to distant facilities. The lack of NGO presence within a 100-kilometer radius exacerbates the situation, leaving the community without external support or resources.\n\nTo address these critical gaps, actionable interventions should be prioritized based on their potential impact. First, establishing a mobile health clinic that can provide periodic specialized services in neurology, cardiology, and orthopedics would significantly improve access to care. Second, training local healthcare workers in basic diagnostic and emergency care could enhance the capacity of the Enchi District Hospital. Third, partnerships with NGOs and governmental organizations should be sought to develop telemedicine solutions, allowing residents to consult with specialists remotely. Finally, advocacy for improved infrastructure, including better roads and transportation options, is essential to facilitate access to healthcare services, particularly during seasonal challenges. Addressing these needs holistically will be crucial in transforming Enchi from a medical desert into a community with equitable access to healthcare.",
+      "recommendations": [
+        "Establish telemedicine link to nearest specialist hospital for remote consultation",
+        "Schedule periodic ophthalmology outreach camps (high prevalence of preventable blindness)",
+        "Recruit and train community health workers for early detection and referral pathways"
+      ],
+      "alertCount": 3
+    },
+    {
+      "id": "desert_tumu",
+      "type": "desert",
+      "lat": 10.8833,
+      "lng": -1.9833,
+      "name": "Tumu",
+      "region": "Upper West Region",
+      "population": 20000,
+      "nearestFacility": "Tumu District Hospital",
+      "nearestDistance_km": 0,
+      "missingSpecialties": [
+        "generalSurgery",
+        "gynecologyAndObstetrics",
+        "pediatrics",
+        "ophthalmology",
+        "emergencyMedicine"
+      ],
+      "context": "Tumu is the capital of Sissala East District in the Upper West Region, near the Burkina Faso border. The district hospital has minimal capacity and frequently runs without a doctor. The Sissala districts have some of Ghana's worst health indicators: high maternal mortality, high under-5 mortality, and widespread malnutrition. Cross-border disease outbreaks (meningitis, cholera) from Burkina Faso regularly overwhelm the limited health infrastructure.",
+      "severityScore": 5,
+      "analysis": {
+        "geospatial": [
+          {
+            "question": "Q2.3: Is Tumu a geographic cold spot?",
+            "answer": "Tumu in Upper West Region is a confirmed healthcare cold spot. The nearest facility with meaningful capacity is Tumu District Hospital, but it has severe capacity limitations. Population of ~20,000 people has no access to: General Surgery, Gynecology & Obstetrics, Pediatrics, Ophthalmology.",
+            "confidence": "high",
+            "flag": "alert"
+          },
+          {
+            "question": "Q2.1: What are the nearest facilities in the dataset?",
+            "answer": "\u2022 Le Mete NGO Ghana \u2014 207km (14 specialties)\n\u2022 Banhart Specialist Hospital \u2014 396km (21 specialties)\n\u2022 Bechem Government Hospital \u2014 421km (3 specialties)",
+            "confidence": "high"
+          }
+        ],
+        "unmetNeeds": [
+          {
+            "question": "Q9.5: Does Tumu have capacity for its population?",
+            "answer": "Population ~20,000 with severely under-resourced local facility. Missing 5 critical specialties. Based on WHO guidelines, a population this size requires at minimum: basic emergency obstetric care, surgical capability, and diagnostic services \u2014 none of which are available locally.",
+            "confidence": "high",
+            "flag": "alert"
+          }
+        ],
+        "ngoGaps": [
+          {
+            "question": "Q8.3: Are there NGOs working in this area despite evident need?",
+            "answer": "No NGO or international organization presence detected within 100km of Tumu. This area has a population of ~20,000 with significant unmet needs, making it a high-priority target for development organizations.",
+            "confidence": "medium",
+            "flag": "alert"
+          }
+        ]
+      },
+      "aiSummary": "Tumu, the capital of the Sissala East District in Ghana's Upper West Region, epitomizes a medical desert, severely lacking in essential healthcare services. With a population of approximately 20,000, the community faces dire health challenges, including alarmingly high maternal and under-5 mortality rates, compounded by widespread malnutrition. The Tumu District Hospital, the only healthcare facility in the area, is critically under-resourced and often operates without a physician, leaving residents without access to vital medical specialties such as general surgery, gynecology and obstetrics, pediatrics, ophthalmology, and emergency medicine. This lack of access has profound human impacts, as individuals are forced to forgo necessary medical care, leading to preventable deaths and deteriorating health outcomes.\n\nQuantifying the healthcare gap in Tumu reveals a stark reality. The nearest facilities with adequate medical capabilities are located over 200 kilometers away, making them virtually inaccessible for the majority of the population. The absence of critical specialties means that local residents must travel long distances for basic surgical procedures, maternal care, and pediatric services, which is often not feasible due to financial constraints and transportation challenges. The lack of emergency medical services further exacerbates the situation, as residents are left vulnerable during health crises. The cumulative effect of these deficiencies places the entire population at risk, particularly vulnerable groups such as pregnant women and children.\n\nThe most urgent unmet needs in Tumu include the establishment of emergency medical services, the provision of maternal and child health care, and the introduction of surgical capabilities. Addressing these gaps is crucial to improving health outcomes in the region. Specific, actionable interventions could include deploying mobile health clinics to provide immediate care, training local healthcare workers in essential surgical and obstetric skills, and establishing partnerships with NGOs to facilitate the provision of specialized medical services. Additionally, creating a telemedicine network could help bridge the gap in specialties until local capacity can be built.\n\nCompounding factors such as Tumu's geographical isolation and proximity to the Burkina Faso border further complicate the healthcare landscape. Seasonal access issues, particularly during the rainy season, can hinder transportation and exacerbate health crises. Furthermore, cross-border disease outbreaks, including meningitis and cholera, frequently overwhelm the already strained health infrastructure, necessitating urgent intervention. Addressing these multifaceted challenges will require a coordinated effort from local authorities, NGOs, and international organizations to ensure that the residents of Tumu receive the healthcare they desperately need.",
+      "recommendations": [
+        "Establish telemedicine link to nearest specialist hospital for remote consultation",
+        "Prioritize surgical capacity \u2014 even a minor surgical theatre could save lives in emergency cases",
+        "Urgent need for maternal and child health services \u2014 high maternal mortality area",
+        "Establish 24/7 emergency stabilization point to reduce transfer mortality",
+        "Schedule periodic ophthalmology outreach camps (high prevalence of preventable blindness)",
+        "Recruit and train community health workers for early detection and referral pathways"
+      ],
+      "alertCount": 3
+    },
+    {
+      "id": "desert_kete_krachi",
+      "type": "desert",
+      "lat": 7.8,
+      "lng": -0.0333,
+      "name": "Kete Krachi",
+      "region": "Oti Region",
+      "population": 35000,
+      "nearestFacility": "Kete Krachi District Hospital",
+      "nearestDistance_km": 0,
+      "missingSpecialties": [
+        "generalSurgery",
+        "ophthalmology",
+        "radiology",
+        "cardiology",
+        "psychiatry"
+      ],
+      "context": "Kete Krachi sits on a peninsula jutting into the Volta Lake. Many communities in its catchment can only be reached by boat, making emergency medical transfers extremely challenging. The district hospital has basic capability but no surgical theatre and limited diagnostic equipment. River blindness (onchocerciasis) remains endemic in surrounding communities, yet ophthalmological services are completely absent.",
+      "severityScore": 6,
+      "analysis": {
+        "geospatial": [
+          {
+            "question": "Q2.3: Is Kete Krachi a geographic cold spot?",
+            "answer": "Kete Krachi in Oti Region is a confirmed healthcare cold spot. The nearest facility with meaningful capacity is Kete Krachi District Hospital, but it has severe capacity limitations. Population of ~35,000 people has no access to: General Surgery, Ophthalmology, Radiology, Cardiology.",
+            "confidence": "high",
+            "flag": "alert"
+          },
+          {
+            "question": "Q2.1: What are the nearest facilities in the dataset?",
+            "answer": "\u2022 Kings and Queens Medical University Teaching Hospital \u2014 167km (28 specialties)\n\u2022 Le Mete NGO Ghana \u2014 200km (14 specialties)\n\u2022 Akatsi South Municipal Hospital \u2014 208km (14 specialties)",
+            "confidence": "high"
+          }
+        ],
+        "unmetNeeds": [
+          {
+            "question": "Q9.5: Does Kete Krachi have capacity for its population?",
+            "answer": "Population ~35,000 with severely under-resourced local facility. Missing 5 critical specialties. Based on WHO guidelines, a population this size requires at minimum: basic emergency obstetric care, surgical capability, and diagnostic services \u2014 none of which are available locally.",
+            "confidence": "high",
+            "flag": "alert"
+          }
+        ],
+        "ngoGaps": [
+          {
+            "question": "Q8.3: Are there NGOs working in this area despite evident need?",
+            "answer": "No NGO or international organization presence detected within 100km of Kete Krachi. This area has a population of ~35,000 with significant unmet needs, making it a high-priority target for development organizations.",
+            "confidence": "medium",
+            "flag": "alert"
+          }
+        ]
+      },
+      "aiSummary": "Kete Krachi in the Oti Region of Ghana is a stark example of a medical desert, characterized by a significant lack of essential healthcare services for its population of approximately 35,000. The Kete Krachi District Hospital, the only facility within the area, is critically under-resourced, lacking vital specialties such as general surgery, ophthalmology, radiology, cardiology, and psychiatry. This deficiency has dire human consequences, as residents face life-threatening conditions without access to necessary medical interventions. The absence of surgical capabilities and diagnostic equipment severely limits the hospital's ability to provide even basic emergency care, leaving the community vulnerable to preventable diseases and complications.\n\nQuantifying the gap in healthcare access reveals alarming statistics. The nearest facilities with adequate capabilities are over 167 kilometers away, with the closest being Kings and Queens Medical University Teaching Hospital. This distance poses a significant barrier to timely care, particularly for emergencies, as many surrounding communities can only be reached by boat. The lack of ophthalmological services is particularly concerning, given the endemic nature of river blindness (onchocerciasis) in the region, which remains untreated due to the absence of specialists. The population's health is further compromised by the lack of access to cardiology and psychiatric services, which are critical for managing chronic conditions and mental health issues.\n\nThe most urgent unmet needs in Kete Krachi include the establishment of surgical capabilities, the provision of ophthalmological services, and the availability of diagnostic imaging. Immediate interventions should prioritize the development of a fully equipped surgical theatre at the district hospital, alongside the recruitment of specialists in general surgery and ophthalmology. Additionally, mobile clinics could be deployed to provide outreach services, particularly for eye care and mental health support, to reach the most isolated communities. Establishing partnerships with NGOs and international organizations is crucial to mobilize resources and expertise to address these gaps effectively.\n\nCompounding the challenges faced by Kete Krachi are geographical barriers and seasonal access issues. The peninsula's reliance on boat transport for medical emergencies exacerbates delays in care, particularly during adverse weather conditions. Furthermore, the absence of NGOs or international organizations within a 100-kilometer radius highlights the urgent need for targeted interventions in this neglected area. Addressing these compounding factors will be essential to improving healthcare access and outcomes for the residents of Kete Krachi.",
+      "recommendations": [
+        "Establish telemedicine link to nearest specialist hospital for remote consultation",
+        "Prioritize surgical capacity \u2014 even a minor surgical theatre could save lives in emergency cases",
+        "Schedule periodic ophthalmology outreach camps (high prevalence of preventable blindness)",
+        "Recruit and train community health workers for early detection and referral pathways"
+      ],
+      "alertCount": 3
+    }
+  ],
+  "metadata": {
+    "totalFacilities": 10,
+    "totalDeserts": 10,
+    "csvRowsAnalyzed": 987,
+    "totalAlerts": 40,
+    "totalWarnings": 83,
+    "questionCategories": [
+      "Q1: Basic Queries & Lookups",
+      "Q2: Geospatial Queries",
+      "Q3: Validation & Verification",
+      "Q4: Misrepresentation & Anomaly Detection",
+      "Q5: Service Classification & Inference",
+      "Q6: Workforce Distribution",
+      "Q7: Resource Distribution & Gaps",
+      "Q8: NGO & International Organization Analysis",
+      "Q9: Unmet Needs & Demand Analysis"
+    ],
+    "dataSource": "Virtue Foundation Ghana v0.3"
+  }
+}

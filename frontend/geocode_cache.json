@@ -1,0 +1,3672 @@
+{
+  "109/No 1 Bekwai Rd (Near Mexico Hotel), Takoradi": {
+    "lat": 4.889480124912172,
+    "lng": -1.7513626538888516,
+    "method": "api_city"
+  },
+  "Opp. Standard Chartered Bank, Dansoman": {
+    "lat": 5.547177005654872,
+    "lng": -0.26803595331546115,
+    "method": "api_city"
+  },
+  "Opp. Standard Chartered Bank, Dansoman, Accra": {
+    "lat": 5.560137752612744,
+    "lng": -0.20319969861104425,
+    "method": "api_city"
+  },
+  "Liberation Rd. 37, Accra": {
+    "lat": 5.6094077,
+    "lng": -0.1768892,
+    "method": "api_full"
+  },
+  "Behind Cuzi Soap Training Centre, Krofrom Light Industrial Area, Acherensua, Asutifi South, Acherensua, Ghana, Acherensua, Asutifi South": {
+    "lat": 6.972760508767813,
+    "lng": -2.3018288370325197,
+    "method": "api_city"
+  },
+  "Parakuo Estates, on the Abokobi road, Accra": {
+    "lat": 5.5558975716555565,
+    "lng": -0.20113999942723473,
+    "method": "api_city"
+  },
+  "Ashongman-Abokobi road, Accra": {
+    "lat": 5.556469331412344,
+    "lng": -0.20001475994854856,
+    "method": "api_city"
+  },
+  "Ring Road Central, Accra": {
+    "lat": 5.565434,
+    "lng": -0.2252375,
+    "method": "api_full"
+  },
+  "P.O. Box 49, DHA, ABURA, Abura": {
+    "lat": 5.31385822745224,
+    "lng": -0.7706736242110216,
+    "method": "api_city"
+  },
+  "161 Ringway Estate, Osu Osu, Accra": {
+    "lat": 5.553123886009598,
+    "lng": -0.1996340027823872,
+    "method": "api_city"
+  },
+  "Obaakrowa Close, Accra Newtown": {
+    "lat": 5.58441047714585,
+    "lng": -0.20678832930950944,
+    "method": "api_city"
+  },
+  "127/21 Saflo Link, Abelemkpe, Accra": {
+    "lat": 5.55313241189338,
+    "lng": -0.20490436351979066,
+    "method": "api_city"
+  },
+  "Castle Road, Box 1305, Accra": {
+    "lat": 5.562522,
+    "lng": -0.2044377,
+    "method": "api_full"
+  },
+  "Castle Road, Accra": {
+    "lat": 5.562522,
+    "lng": -0.2044377,
+    "method": "api_full"
+  },
+  "49 Nii Ayi Kushie St, Tantra Hill, Accra": {
+    "lat": 5.6425436,
+    "lng": -0.2494619,
+    "method": "api_full"
+  },
+  "49 Nii Ayi Kushie St, Tantra Hill": {
+    "lat": 5.6425436,
+    "lng": -0.2494619,
+    "method": "api_full"
+  },
+  "ACHIASE, Ashanti Region": {
+    "lat": 6.7815189,
+    "lng": -1.6824866,
+    "method": "api_full"
+  },
+  "GA-297-6410, ACCRA": {
+    "lat": 5.560809844933297,
+    "lng": -0.19831703580883542,
+    "method": "api_city"
+  },
+  "Suite G05 Nester Square, Airport City, Accra": {
+    "lat": 5.558102381698004,
+    "lng": -0.19791018019947273,
+    "method": "api_city"
+  },
+  "82 Lakeside Estate Community 1, Lakeview street, Accra": {
+    "lat": 5.5557949527824135,
+    "lng": -0.20235557772653354,
+    "method": "api_city"
+  },
+  "C/O P.O.BOX 48, DABOASE": {
+    "lat": 8.050411955174155,
+    "lng": -0.7873305711050822,
+    "method": "unknown"
+  },
+  "Ahodwo, Kumasi": {
+    "lat": 6.656522,
+    "lng": -1.6196492,
+    "method": "api_full"
+  },
+  "No. 4 Melcom road, Ahodwo": {
+    "lat": 6.6541425,
+    "lng": -1.6186642,
+    "method": "api_full"
+  },
+  "Western, Adjoum, Adjoum, Western": {
+    "lat": 5.688777977023279,
+    "lng": -2.6600994414390597,
+    "method": "api_city"
+  },
+  "ADUM BANSO C/O P.O.BOX 48, DABOASE, Adum Banso, Western Region": {
+    "lat": 5.065163350823569,
+    "lng": -1.8993756930924874,
+    "method": "api_city"
+  },
+  "Lakeside Community 8 Road, Accra": {
+    "lat": 5.555426038748109,
+    "lng": -0.2012164387631948,
+    "method": "api_city"
+  },
+  "AFRAMSO 111, BOX 36 NSUTA, Nsuta": {
+    "lat": 5.273168545548042,
+    "lng": -1.9858224111842564,
+    "method": "api_city"
+  },
+  "Adenta Housing down, Accra": {
+    "lat": 5.5567809955280545,
+    "lng": -0.19861263524156636,
+    "method": "api_city"
+  },
+  "Oto Ofori Ln., Accra": {
+    "lat": 5.553766871307115,
+    "lng": -0.19959686469470356,
+    "method": "api_city"
+  },
+  "Domeabra, Nkawkaw": {
+    "lat": 6.5430016,
+    "lng": -0.7641051,
+    "method": "api_full"
+  },
+  "Akwamase street, Asokore": {
+    "lat": 6.8447006476023144,
+    "lng": -1.3864292976172685,
+    "method": "api_city"
+  },
+  "P.O.BOX 15, Techiman, Bono East Region": {
+    "lat": 7.584971,
+    "lng": -1.936401,
+    "method": "api_full"
+  },
+  "Ahmadiiya Road, Techiman": {
+    "lat": 7.58218354125452,
+    "lng": -1.937619720113211,
+    "method": "api_city"
+  },
+  "AHMADIYYA HOSPITAL COMPOUND, P.O.BOX 31, DABOASE, Western Region": {
+    "lat": 5.138221869104065,
+    "lng": -1.658407141242331,
+    "method": "api_city"
+  },
+  "Community 22 Junction, Tema, Tema": {
+    "lat": 5.656769303332347,
+    "lng": -0.009678402977092866,
+    "method": "api_city"
+  },
+  "No. 16 Kofi Annan Street, Airport Residential Area, Accra, Accra": {
+    "lat": 5.6172003,
+    "lng": -0.1767145,
+    "method": "api_full"
+  },
+  "Old Airport Road, Tamale": {
+    "lat": 9.404572849614718,
+    "lng": -0.8433515388875126,
+    "method": "api_city"
+  },
+  "High Tention, Kumasi": {
+    "lat": 6.7019497598020354,
+    "lng": -1.6237740613948581,
+    "method": "api_city"
+  },
+  "Gbalixorme, On the Akatsi - Tadzewu - Dzodze road, P. O. Box AK 83, Akatsi, Ghana, Akatsi": {
+    "lat": 6.132529255106419,
+    "lng": 0.796500863870081,
+    "method": "api_city"
+  },
+  "North Legon, Accra": {
+    "lat": 5.6465979,
+    "lng": -0.188004,
+    "method": "api_full"
+  },
+  "Bethel Street, North Legon, Accra": {
+    "lat": 5.6816136,
+    "lng": -0.1772742,
+    "method": "api_full"
+  },
+  "c/o SSNIT Asafo branch office Kumasi, Kumasi": {
+    "lat": 6.697549132487829,
+    "lng": -1.6262526279246645,
+    "method": "api_city"
+  },
+  "NEW AKRADE, Akosombo": {
+    "lat": 6.27223315876018,
+    "lng": 0.04931079965255393,
+    "method": "api_city"
+  },
+  "Dzagble Avenue, Accra, Greater Accra": {
+    "lat": 5.6116783,
+    "lng": -0.2397054,
+    "method": "api_full"
+  },
+  "On the Nalerigu Road, few meters away from the Gas filling station, Walewale, Walewale, Northern Region": {
+    "lat": 10.35654651219201,
+    "lng": -0.7953432980185243,
+    "method": "fallback"
+  },
+  "Kamgbunli Main Street, GPS WE-1157-2820, Kamgbunli, Western Region": {
+    "lat": 4.975866884203633,
+    "lng": -2.415423552358583,
+    "method": "api_city"
+  },
+  "Kotobabi Rd., Abavana St., Accra": {
+    "lat": 5.556265635543223,
+    "lng": -0.20346973754739428,
+    "method": "api_city"
+  },
+  "1 Awura Meeya Road, Sahara, Dansoman, Accra, 200 metres from the Dansoman roundabout, Accra": {
+    "lat": 5.554044835906611,
+    "lng": -0.2048384786334658,
+    "method": "api_city"
+  },
+  "Ashanti, Wamasi, Wamasi, Ashanti": {
+    "lat": 6.744665799526885,
+    "lng": -1.5178503665102996,
+    "method": "fallback"
+  },
+  "Plot No. 42, Baatsona, Tema": {
+    "lat": 5.659630331039428,
+    "lng": -0.009868873288927918,
+    "method": "api_city"
+  },
+  "HSE No. F235/2, Near Lara Mart, OSU Accra, Accra": {
+    "lat": 5.555595943866794,
+    "lng": -0.1986462894768776,
+    "method": "api_city"
+  },
+  "Laramart shopping centre, Abebressem street. Osu photoclub, Accra": {
+    "lat": 5.555006411942081,
+    "lng": -0.20086513548371315,
+    "method": "api_city"
+  },
+  "Aboabo Main Road, Adjacent Prudential Bank, Kumasi": {
+    "lat": 6.702093366140719,
+    "lng": -1.6201963600545268,
+    "method": "api_city"
+  },
+  "BOX 84, DADIESO": {
+    "lat": 8.118858011758155,
+    "lng": -0.8629973238829982,
+    "method": "unknown"
+  },
+  "Ngleshie-Amanfro Taxi rank, Kasoa": {
+    "lat": 7.990618392531904,
+    "lng": -1.0195179099146086,
+    "method": "unknown"
+  },
+  "Nyinamponase, Nyinamponase, Ashanti": {
+    "lat": 6.7708514536588735,
+    "lng": -1.1611917816462238,
+    "method": "api_city"
+  },
+  "DOME ACCRA, Accra": {
+    "lat": 5.6318658,
+    "lng": -0.2357816,
+    "method": "api_full"
+  },
+  "Klagon Branch, Klagon": {
+    "lat": 5.663520567488956,
+    "lng": -0.05675244616879614,
+    "method": "api_city"
+  },
+  "Community 22 Junction, Tema": {
+    "lat": 5.660847332021504,
+    "lng": -0.007714590001422699,
+    "method": "api_city"
+  },
+  "64 garden street East Legon, Accra, Greater Accra": {
+    "lat": 5.6413674,
+    "lng": -0.1556976,
+    "method": "api_full"
+  },
+  "Akwasiase Hn Ak 21, Ghana, Ashanti": {
+    "lat": 6.800025600791265,
+    "lng": -1.5183052548859022,
+    "method": "api_city"
+  },
+  "JPRQ+HX Accra, Tantra Hill, Accra, Accra": {
+    "lat": 5.554803121343566,
+    "lng": -0.20011040759841034,
+    "method": "api_city"
+  },
+  "P.O Box BK 706, Sehwi-Yawmatwa, Bia West District, New Takoradi, Western Region": {
+    "lat": 4.902964699468401,
+    "lng": -1.743549929127232,
+    "method": "api_city"
+  },
+  "P.O.BOX 108, SEFWI ANHWIASO": {
+    "lat": 7.875821289984934,
+    "lng": -1.1195299697270453,
+    "method": "unknown"
+  },
+  "Ankaful, KEEA, Ankaful, KEEA": {
+    "lat": 7.931063141832376,
+    "lng": -1.096237056387178,
+    "method": "unknown"
+  },
+  "Alajo, Ashalaja Kpehe, Kotobabi, Accra": {
+    "lat": 5.560335176573803,
+    "lng": -0.19826014145616258,
+    "method": "api_city"
+  },
+  "Dr. Gabriel Boakye Street, Kumasi": {
+    "lat": 6.6947983964908975,
+    "lng": -1.6222533062003763,
+    "method": "api_city"
+  },
+  "Anyaa Market, Ablekuma-Pokuase Highway, Accra": {
+    "lat": 5.559218456260337,
+    "lng": -0.20321899152256337,
+    "method": "api_city"
+  },
+  "OPPOSITE GLED ACADEMY/OPHANAGE HOME, APOWA, C/O DHA BOX 49, AGONA NKWANTA, Agona Nkwanta": {
+    "lat": 4.887501793977512,
+    "lng": -1.9675339688486457,
+    "method": "api_city"
+  },
+  "International Maritime Hospital, Community 3, Tema": {
+    "lat": 5.6264939,
+    "lng": -0.0267704,
+    "method": "api_full"
+  },
+  "10 Odoi Yeboah Road, Nima Police - Junction, Accra": {
+    "lat": 5.553389114668575,
+    "lng": -0.19733531390820333,
+    "method": "api_city"
+  },
+  "Old Bekwai road, Kumasi": {
+    "lat": 6.699766626413589,
+    "lng": -1.6253870432995317,
+    "method": "api_city"
+  },
+  "Santasi Ahenema Kokoben Kumasi, Kumasi": {
+    "lat": 6.697649838146869,
+    "lng": -1.6230155545601745,
+    "method": "api_city"
+  },
+  "P.O. Box 33, Agona, Asamang, Asamang": {
+    "lat": 6.770133730662397,
+    "lng": -1.6936621641313956,
+    "method": "api_city"
+  },
+  "P.O. Box 16, Sefwi Asawinso, Sefwi Asawinso": {
+    "lat": 6.425078827640557,
+    "lng": -2.703248431348399,
+    "method": "api_city"
+  },
+  "Nana Frimpong Close, Ashaiman Polyclinic, Tema, Tema": {
+    "lat": 5.658510516034178,
+    "lng": -0.007418653357276496,
+    "method": "api_city"
+  },
+  "ATEBUBU, BOX 7, Atebubu, Brong Ahafo Region": {
+    "lat": 7.749819380302871,
+    "lng": -0.9836689172762373,
+    "method": "fallback"
+  },
+  "Atebubu-Kwadjokrom Road, Atebubu": {
+    "lat": 7.754055557033508,
+    "lng": -0.9913196299871662,
+    "method": "api_city"
+  },
+  "Box 6 Ateiku, Ateiku": {
+    "lat": 5.566248612866443,
+    "lng": -1.693296294579425,
+    "method": "api_city"
+  },
+  "Green Avenue Street Bojo Beach Road New Aplaku Old Barrier, Weija": {
+    "lat": 5.582920364721394,
+    "lng": -0.32856410693128785,
+    "method": "api_city"
+  },
+  "Airport residential area, Accra": {
+    "lat": 5.6132499,
+    "lng": -0.1832656,
+    "method": "api_full"
+  },
+  "Bokazo, P.o. Box 2, Axim": {
+    "lat": 4.863203805132535,
+    "lng": -2.2395961779194073,
+    "method": "api_city"
+  },
+  "Ayeduase-Kumasi, Kumasi": {
+    "lat": 6.6745796,
+    "lng": -1.5683457,
+    "method": "api_full"
+  },
+  "9 Mowule Street, Nyaniba Estates, Accra": {
+    "lat": 5.553333711788027,
+    "lng": -0.2013530112676427,
+    "method": "api_city"
+  },
+  "Gurugu, Tamale Port, Tamale": {
+    "lat": 9.403087422681798,
+    "lng": -0.8440704135247175,
+    "method": "api_city"
+  },
+  "Atuba Binduri, Bawku": {
+    "lat": 11.059517114787637,
+    "lng": -0.24315105148199784,
+    "method": "api_city"
+  },
+  "Abesim - Sunyani, Opposite DreamField INT. SCH, Abesim - Sunyani": {
+    "lat": 7.299687817352168,
+    "lng": -2.270776110788237,
+    "method": "api_city"
+  },
+  "Brenu Street, Lartebiokorshie, near Radio Gold, Mataheko, Mataheko": {
+    "lat": 5.765227148493727,
+    "lng": 0.005039309991446862,
+    "method": "api_city"
+  },
+  "Greater Accra, Agbogbloshie, Ghana, Agbogbloshie, Greater Accra": {
+    "lat": 5.553159622165919,
+    "lng": -0.22640477466269798,
+    "method": "api_city"
+  },
+  "Battor, North Tongu District, Battor, Volta": {
+    "lat": 6.0509678,
+    "lng": 0.3966303,
+    "method": "api_full"
+  },
+  "Battor via Sogakofe, Battor, Volta Region": {
+    "lat": 6.068059800694512,
+    "lng": 0.40467494406136356,
+    "method": "api_city"
+  },
+  "Accra-Airport Residential Area; Accra-Lapaz (St Michael\u2019s Specialist Hospital); Kumasi-Ahodwo": {
+    "lat": 7.988889188794161,
+    "lng": -0.9338637195024322,
+    "method": "unknown"
+  },
+  "Bechem, Ghana, P.O.Box 29 Sunyani Road, Bechem, Ahafo Region": {
+    "lat": 7.084217256857855,
+    "lng": -2.026519238969199,
+    "method": "api_city"
+  },
+  "P.O.Box 29 Sunyani Rd., Bechem": {
+    "lat": 7.085154971270882,
+    "lng": -2.0208414308693823,
+    "method": "api_city"
+  },
+  "Behind the Chief's Palace, Abesim": {
+    "lat": 7.283293922432705,
+    "lng": -2.2710501943964037,
+    "method": "api_city"
+  },
+  "17 Asoyi Crescent, East Legon, Behind MTN Office, Accra": {
+    "lat": 5.560463467184221,
+    "lng": -0.20373402017262437,
+    "method": "api_city"
+  },
+  "Near Kajur Lab, Comm. 1 Community 1, Tema": {
+    "lat": 5.663457412549254,
+    "lng": -0.00894484450840143,
+    "method": "api_city"
+  },
+  "Vertical Centre Comm II, Tema, Box 1242, Tema": {
+    "lat": 5.657350776340281,
+    "lng": -0.01026248341815243,
+    "method": "api_city"
+  },
+  "P. O. Box 21, Berekum, Brong Ahafo Region": {
+    "lat": 7.451842048146725,
+    "lng": -2.583901827711822,
+    "method": "fallback"
+  },
+  "Near Lighthouse Chapel and directly opposite Bernard's Takeout, along Target Avenue, Tamale": {
+    "lat": 9.408147391875348,
+    "lng": -0.8408147048816554,
+    "method": "api_city"
+  },
+  "60 Boundary Road East Legon, Accra": {
+    "lat": 5.6340835,
+    "lng": -0.1479898,
+    "method": "api_full"
+  },
+  "35 Coconut Street, Amasaman, Accra": {
+    "lat": 5.5601182973102325,
+    "lng": -0.1999409024604207,
+    "method": "api_city"
+  },
+  "Northern, Bimbilla, Bimbilla, Northern": {
+    "lat": 8.8527677,
+    "lng": 0.057822,
+    "method": "api_full"
+  },
+  "Tema Comm 3, Site A, Tema": {
+    "lat": 5.659362300136995,
+    "lng": -0.007734553854488547,
+    "method": "api_city"
+  },
+  "Tesano, Greater Accra, Tesano, Greater Accra": {
+    "lat": 5.6041936,
+    "lng": -0.2256592,
+    "method": "api_full"
+  },
+  "Main Office Dansoman, Accra": {
+    "lat": 5.558156895176668,
+    "lng": -0.20123971166311103,
+    "method": "api_city"
+  },
+  "Sefwi Bodi, Western": {
+    "lat": 6.3329573,
+    "lng": -2.8292619,
+    "method": "api_full"
+  },
+  "Boinzan P.o. Box 104, Sefwi Boinzan": {
+    "lat": 7.758070227808336,
+    "lng": -1.1540255488138706,
+    "method": "unknown"
+  },
+  "Mandari Road, Bole": {
+    "lat": 9.031091727944615,
+    "lng": -2.490851873519353,
+    "method": "api_city"
+  },
+  "19 Seventh Avenue Ridge West, P.O. Box 16746, Accra, Accra North": {
+    "lat": 5.647318711729487,
+    "lng": -0.19051805990089152,
+    "method": "api_city"
+  },
+  "Peace And Love Hospital Avenue, Oduom, P.O.Box X 374 FNT, Kumasi, Kumasi": {
+    "lat": 6.694843021050489,
+    "lng": -1.6201259896485982,
+    "method": "api_city"
+  },
+  "Dzorwulu Blohum street, Accra": {
+    "lat": 5.556226735016974,
+    "lng": -0.19865511638274116,
+    "method": "api_city"
+  },
+  "49 Blohum Road, Inside Studio 7 Beauty Lounge Compound, Dzorwulu": {
+    "lat": 5.614932664360679,
+    "lng": -0.2022351346550584,
+    "method": "api_city"
+  },
+  "Obuasi, Obuasi Municipal, Obuasi, Ashanti Region": {
+    "lat": 6.2041079,
+    "lng": -1.6824245,
+    "method": "api_full"
+  },
+  "105-43 Gye Nyame St, Taifa, Accra": {
+    "lat": 5.6635562,
+    "lng": -0.2490522,
+    "method": "api_full"
+  },
+  "Okponglo Street, East Legon": {
+    "lat": 5.635681077884114,
+    "lng": -0.15999299028275266,
+    "method": "api_city"
+  },
+  "49B Osu Badu St (opposite Royal Fiesta Hotel), Accra": {
+    "lat": 5.5608436024541446,
+    "lng": -0.20425281210163254,
+    "method": "api_city"
+  },
+  "Jones Nelson Rd, Accra": {
+    "lat": 5.5536418,
+    "lng": -0.2099033,
+    "method": "api_full"
+  },
+  "Ashanti, New Kokobiriko (Abijan-Nkwant, Ghana, Ashanti": {
+    "lat": 6.796901623464681,
+    "lng": -1.5154535754893539,
+    "method": "api_city"
+  },
+  "Beulah Lane, Cape Coast": {
+    "lat": 5.104061475438956,
+    "lng": -1.2442566841113731,
+    "method": "api_city"
+  },
+  "Tamale, Tamale": {
+    "lat": 9.3997269,
+    "lng": -0.8320699,
+    "method": "api_full"
+  },
+  "JX72+XJG, Dr Nanka Bruce Rd, Accra": {
+    "lat": 5.560273913480064,
+    "lng": -0.19806592843829604,
+    "method": "api_city"
+  },
+  "Old Ashongma, Agbogba": {
+    "lat": 5.688727327563825,
+    "lng": -0.19765082550720972,
+    "method": "api_city"
+  },
+  "Liberia Camp / Buduburam": {
+    "lat": 7.975443444616498,
+    "lng": -0.907904367115792,
+    "method": "unknown"
+  },
+  "Centenary House, Shiashie, Accra": {
+    "lat": 5.555568148460728,
+    "lng": -0.19855459090481664,
+    "method": "api_city"
+  },
+  "Battor-Mepe Road, Battor, Volta Region": {
+    "lat": 6.069559628320092,
+    "lng": 0.40673917065566645,
+    "method": "api_city"
+  },
+  "P. O. Box 30, Anfoega Akukome": {
+    "lat": 7.704037769686906,
+    "lng": -1.0002694380819492,
+    "method": "unknown"
+  },
+  "16 Kofi Annan Street, Airport Residential Area, Accra": {
+    "lat": 5.6174247,
+    "lng": -0.1789491,
+    "method": "api_full"
+  },
+  "Dansoman-Beecham Junction, Accra": {
+    "lat": 5.556137813717749,
+    "lng": -0.19961766536345463,
+    "method": "api_city"
+  },
+  "18 Issaka Norga Street, Dansoman, Accra": {
+    "lat": 5.560459845149655,
+    "lng": -0.20097144473746031,
+    "method": "api_city"
+  },
+  "Ring Road East, Cantonment, Ghana": {
+    "lat": 8.026849657906226,
+    "lng": -1.0829578109636557,
+    "method": "api_city"
+  },
+  "P.O Box CT 6334, Cantonments, Accra, La Polyclinic Junction, Accra": {
+    "lat": 5.560807960679601,
+    "lng": -0.2006973655356535,
+    "method": "api_city"
+  },
+  "WS 396 Walantu South, Kasoa, Central Region": {
+    "lat": 5.528864434098103,
+    "lng": -0.4407323005733959,
+    "method": "api_city"
+  },
+  "Okomfo Anokye Road, Kumasi": {
+    "lat": 6.7000107,
+    "lng": -1.6287294,
+    "method": "api_full"
+  },
+  "BOX 108, BIBIANI, Bibiani": {
+    "lat": 6.454904544675113,
+    "lng": -2.3143498870507475,
+    "method": "api_city"
+  },
+  "Dome near Parakuo Estates, Dome, Ga East Municipality, Greater Accra Region": {
+    "lat": 5.630617246408509,
+    "lng": -0.23364614581378318,
+    "method": "fallback"
+  },
+  "Parakuo Estate, Dome, Accra": {
+    "lat": 5.6318658,
+    "lng": -0.2357816,
+    "method": "api_full"
+  },
+  "Dome, Dome, Ga East Municipality": {
+    "lat": 5.632401758856117,
+    "lng": -0.23233600478464178,
+    "method": "fallback"
+  },
+  "21 Jubilee Well Street, Labone, Accra": {
+    "lat": 5.5593195,
+    "lng": -0.1646471,
+    "method": "api_full"
+  },
+  "PO Box 1950 KNUST, Apromase, Kumasi": {
+    "lat": 6.697553371506837,
+    "lng": -1.6252737301256301,
+    "method": "api_city"
+  },
+  "Opp. Katamanto, Nungua Main Road, Nungua, Nungua": {
+    "lat": 5.603179686384401,
+    "lng": -0.07260139260625138,
+    "method": "api_city"
+  },
+  "APAASO, ATWIMA KWANWOMA District, Apaaso, Ashanti Region": {
+    "lat": 6.615055117257132,
+    "lng": -1.615039997757215,
+    "method": "api_city"
+  },
+  "Lashibi, Opposite Emefs Estate, Accra": {
+    "lat": 5.559976428471159,
+    "lng": -0.2003622622435573,
+    "method": "api_city"
+  },
+  "No 2, Dodi Link, Between Volta Street and Akosombo Road, Airport Residential, Accra, Greater Accra": {
+    "lat": 5.555498314569246,
+    "lng": -0.20147945671569822,
+    "method": "api_city"
+  },
+  "Wusorkrom, Yamoransah-Fosu Road, P.O. Box, DL 1203, Cape Coast": {
+    "lat": 5.105681328056717,
+    "lng": -1.2442250287718415,
+    "method": "api_city"
+  },
+  "P.O. BOX SK 95 - SOGAKOFE ( V/r) Sogakope, Ghana, Sogakope": {
+    "lat": 5.996568006669501,
+    "lng": 0.5991169099167969,
+    "method": "api_city"
+  },
+  "Tema Community 25, Near the District Police Station or Adjacent Henry\u2019s, Tema": {
+    "lat": 5.662020323446576,
+    "lng": -0.011248637520171035,
+    "method": "api_city"
+  },
+  "Dzorwulu, Accra": {
+    "lat": 5.6130923,
+    "lng": -0.1991566,
+    "method": "api_full"
+  },
+  "Abrepo, Kumasi": {
+    "lat": 6.7272682,
+    "lng": -1.6542739,
+    "method": "api_full"
+  },
+  "58 Boundary Road, behind Barclays Bank Spintex Road, Accra": {
+    "lat": 5.55510140317344,
+    "lng": -0.19978622813152108,
+    "method": "api_city"
+  },
+  "No 103 Hallelujah Broadway, Accra": {
+    "lat": 5.556905067401807,
+    "lng": -0.20324434245460116,
+    "method": "api_city"
+  },
+  "No. 5 Ginger Close, Housing Down, Adenta, Accra": {
+    "lat": 5.55990495161117,
+    "lng": -0.20061518684236965,
+    "method": "api_city"
+  },
+  "Accra, Greater Accra 00233, Accra, Greater Accra": {
+    "lat": 5.5674454,
+    "lng": -0.1937317,
+    "method": "api_full"
+  },
+  "Adako Jachie, Ejisu, Kumasi": {
+    "lat": 6.7288277,
+    "lng": -1.4916657,
+    "method": "api_full"
+  },
+  "Tikrom, Tikrom": {
+    "lat": 6.730620193236397,
+    "lng": -1.5109458270146063,
+    "method": "api_city"
+  },
+  "Kenten, Techiman": {
+    "lat": 7.581889282503476,
+    "lng": -1.9374748251928877,
+    "method": "api_city"
+  },
+  "Post Office Box DD 188, Dodowa, Dodowa": {
+    "lat": 5.87665220851955,
+    "lng": -0.10709850181810453,
+    "method": "api_city"
+  },
+  "Pakyi Number 2, Kumasi Near City Life Hybrid School, Kumasi": {
+    "lat": 6.696776387954975,
+    "lng": -1.6211167779428313,
+    "method": "api_city"
+  },
+  "JWH6+6J6, 67 Nungua Link, Accra": {
+    "lat": 5.557587544311797,
+    "lng": -0.20110730721647835,
+    "method": "api_city"
+  },
+  "67 Nungua link, Spintex Road, Baatsona, Accra Ghana, Accra": {
+    "lat": 5.560691852303042,
+    "lng": -0.1978059881455493,
+    "method": "api_city"
+  },
+  "Ashaiman, Near Tema, Ashaiman, Greater Accra": {
+    "lat": 5.693738066171369,
+    "lng": -0.026884224058347575,
+    "method": "api_city"
+  },
+  "SIGMA Square Building, Boundary Road., Accra": {
+    "lat": 5.554678758120446,
+    "lng": -0.20193224975145985,
+    "method": "api_city"
+  },
+  "Ritz, Adenta (Opposite Baron Warehouse, near Presby Church), Accra": {
+    "lat": 5.56088243237683,
+    "lng": -0.19825033008832071,
+    "method": "api_city"
+  },
+  "Tseaddo watermelon junction, Accra": {
+    "lat": 5.5567022594202395,
+    "lng": -0.1996946610417186,
+    "method": "api_city"
+  },
+  "Meridian House, Ring Road Central, Accra, Greater Accra": {
+    "lat": 5.555470290184488,
+    "lng": -0.20299018916750378,
+    "method": "api_city"
+  },
+  "65/67 Nii Sai Street, East Legon, Accra, Greater Accra Region": {
+    "lat": 5.558672394759302,
+    "lng": -0.2032841259696465,
+    "method": "api_city"
+  },
+  "Dzorwulu, 1st Osu Badu Street, Accra": {
+    "lat": 5.55829613343925,
+    "lng": -0.19833574156058664,
+    "method": "api_city"
+  },
+  "Edwinase Road, Close Kwadaso Municipal assembly, Kumasi": {
+    "lat": 6.699149125100578,
+    "lng": -1.6233294021877382,
+    "method": "api_city"
+  },
+  "CPC Park, Kumasi, Ghana, Kumasi Amanfrom, Kumasi": {
+    "lat": 6.694711500065765,
+    "lng": -1.6238657830748948,
+    "method": "api_city"
+  },
+  "Nkwabeng North, Sunyani": {
+    "lat": 7.339506823301148,
+    "lng": -2.3312654250356446,
+    "method": "api_city"
+  },
+  "GL 258, Asofaa Off Nsawam Rd, P. O. Box OS 2915, Osu, Accra East": {
+    "lat": 5.5773315890586375,
+    "lng": -0.20747186591957065,
+    "method": "api_city"
+  },
+  "GL 258, Asofaa Off Nsawam Rd, P. O. Box OS 2915, Osu \u2013 Accra East": {
+    "lat": 5.566163694444382,
+    "lng": -0.17808026536447924,
+    "method": "api_city"
+  },
+  "KNUST-EJISU HIGHWAY, Ejisu, Kwamo Highway, Ejisu": {
+    "lat": 6.715536048802015,
+    "lng": -1.4633036992259494,
+    "method": "api_city"
+  },
+  "SEFWI BEKWAI locust attaa kwame house opposite, Sefwi Bekwai": {
+    "lat": 6.195637437257973,
+    "lng": -2.320675740653314,
+    "method": "api_city"
+  },
+  "Abura, Cape Coast": {
+    "lat": 5.1333178,
+    "lng": -1.2725935,
+    "method": "api_full"
+  },
+  "P.O. Box 272, Bekwai, Ashanti": {
+    "lat": 6.459292248166365,
+    "lng": -1.581042193198198,
+    "method": "api_city"
+  },
+  "Top Hill Street, Asamankese": {
+    "lat": 5.864844653255069,
+    "lng": -0.6590547691722365,
+    "method": "api_city"
+  },
+  "Presbyterian Hospital, P. O. Box 47, Dormaa Ahenkro": {
+    "lat": 7.268090383273577,
+    "lng": -2.8762658266091417,
+    "method": "api_city"
+  },
+  "Schaefer Street": {
+    "lat": 8.022556364366915,
+    "lng": -1.073390495689444,
+    "method": "unknown"
+  },
+  "Palm Street, Nii Boi Town, behind Dome-Pokuase station, Accra": {
+    "lat": 5.557834988080982,
+    "lng": -0.20119222639721915,
+    "method": "api_city"
+  },
+  "Atlantic Mall - Atomic Road, Accra": {
+    "lat": 5.55612818916204,
+    "lng": -0.2026838608633205,
+    "method": "api_city"
+  },
+  "Tema Community 22, Tema Community 22, Greater Accra Region": {
+    "lat": 5.7036483,
+    "lng": -0.0184556,
+    "method": "api_full"
+  },
+  "A1438 Knight Avenue, Tema": {
+    "lat": 5.6612583391428055,
+    "lng": -0.007516975553231656,
+    "method": "api_city"
+  },
+  "SCC - Weija, Weija, Accra": {
+    "lat": 5.5550017,
+    "lng": -0.342683,
+    "method": "api_full"
+  },
+  "Box 581, Dunkwa-On-Offin": {
+    "lat": 5.968137499579974,
+    "lng": -1.7908052310503837,
+    "method": "api_city"
+  },
+  "P.O. Box 1361, Ashaley Botwe Old Town, Accra Central": {
+    "lat": 5.547721081431689,
+    "lng": -0.2095537571002795,
+    "method": "api_city"
+  },
+  "Pentecost Central, J.M.T, Berekum": {
+    "lat": 7.449270370749246,
+    "lng": -2.5837890779076678,
+    "method": "api_city"
+  },
+  "Tamale - Navrongo Road, near SSNIT Traffic Light, Bolgatanga, Upper East Region": {
+    "lat": 10.782338922116056,
+    "lng": -0.8458767424876047,
+    "method": "api_city"
+  },
+  "Behind Las Pamas Restaurant Off George Walker Bush Highway, Lapaz, Accra": {
+    "lat": 5.559274199464779,
+    "lng": -0.2033838583742445,
+    "method": "api_city"
+  },
+  "P.O Box 68, 0233 Sekyere, Sekyere, Ashanti Region": {
+    "lat": 6.998108810682844,
+    "lng": -1.4990054991076933,
+    "method": "api_city"
+  },
+  "H/NO. 12B/16 11TH STREET, ASAMANSUDO, P.O.BOX 142, SEKONDI, Sekondi": {
+    "lat": 4.925437452279255,
+    "lng": -1.7507637848787327,
+    "method": "api_city"
+  },
+  "108 Yiyiwa Drive, Abelenkpe, Accra, Greater Accra": {
+    "lat": 5.6115929,
+    "lng": -0.2134493,
+    "method": "api_full"
+  },
+  "Atebubu-Ejura Rd, Ejura": {
+    "lat": 7.387815988289629,
+    "lng": -1.3596766059972465,
+    "method": "api_city"
+  },
+  "Teshie, Accra, Ledzokuku-Krowor": {
+    "lat": 5.6045018,
+    "lng": -0.0916463,
+    "method": "api_full"
+  },
+  "Box 96, Half Assini": {
+    "lat": 7.818823927913053,
+    "lng": -0.8903294715891428,
+    "method": "unknown"
+  },
+  "East Legon, Accra": {
+    "lat": 5.6392848,
+    "lng": -0.1624589,
+    "method": "api_full"
+  },
+  "368/2 Watson Ave": {
+    "lat": 8.05495134852942,
+    "lng": -0.7778657509544551,
+    "method": "unknown"
+  },
+  "Adjacent SOS Children's Village, Hermann-Gmeiner Road, Tema": {
+    "lat": 5.659866050044129,
+    "lng": -0.011595886469362392,
+    "method": "api_city"
+  },
+  "Enchi, Aowin Municipality, Enchi, Western North Region": {
+    "lat": 5.824376477853779,
+    "lng": -2.8275056429170564,
+    "method": "api_city"
+  },
+  "Enchi, Enchi, Western North Region": {
+    "lat": 5.8325469,
+    "lng": -2.8190226,
+    "method": "api_full"
+  },
+  "CT 4242 Cantonments, Accra": {
+    "lat": 5.583664,
+    "lng": -0.1686359,
+    "method": "api_full"
+  },
+  "Airport Ridge, Western": {
+    "lat": 4.9066222,
+    "lng": -1.7831194,
+    "method": "api_full"
+  },
+  "Trade Fair, 25th Giffard Rd, Accra": {
+    "lat": 5.560930139809722,
+    "lng": -0.20451971322968873,
+    "method": "api_city"
+  },
+  "Plot No.93 Labone Housing Estate, Accra, Greater Accra": {
+    "lat": 5.556434544286451,
+    "lng": -0.20267400140570616,
+    "method": "api_city"
+  },
+  "South Suntreso off Cambridge School, Kumasi": {
+    "lat": 6.695435059549818,
+    "lng": -1.625850589676315,
+    "method": "api_city"
+  },
+  "Baastonaa Road, Accra": {
+    "lat": 5.557292451864999,
+    "lng": -0.20433026062059734,
+    "method": "api_city"
+  },
+  "Burma Camp - Recce Junction, Accra": {
+    "lat": 5.55361986361075,
+    "lng": -0.19790801260950974,
+    "method": "api_city"
+  },
+  "Burma Camp, Recce Junction, Chinese Quaters Road": {
+    "lat": 8.112715899330265,
+    "lng": -1.204393350741452,
+    "method": "unknown"
+  },
+  "Achimota, Abofu Traffic Light, Adjacent Shell Station & Stanbic Bank, Achimota": {
+    "lat": 5.621680960396897,
+    "lng": -0.228682962537601,
+    "method": "api_city"
+  },
+  "Abofu Traffic Lights, Achimota, Accra": {
+    "lat": 5.555520962493973,
+    "lng": -0.19850711477706187,
+    "method": "api_city"
+  },
+  "Obom road, Kasoa, Kasoa, Greater Accra": {
+    "lat": 5.554961078449828,
+    "lng": -0.23882794739107413,
+    "method": "api_city"
+  },
+  "37 Olusegun Obassanjo Highway, Accra": {
+    "lat": 5.556998710905093,
+    "lng": -0.2048834894386063,
+    "method": "api_city"
+  },
+  "Global Office Complex, 3rd & 4th floor J.A. Kuffour Avenue, Tesano, Adjacent to Tesano Police Station, Accra": {
+    "lat": 5.559774556029194,
+    "lng": -0.19777704554937522,
+    "method": "api_city"
+  },
+  "denu -aflao street, Aflao": {
+    "lat": 6.1029554,
+    "lng": 1.149211,
+    "method": "api_full"
+  },
+  "Odumasi St, Accra": {
+    "lat": 5.553372105056398,
+    "lng": -0.20184386315432745,
+    "method": "api_city"
+  },
+  "Kpetenkple St., Accra": {
+    "lat": 5.5795801,
+    "lng": -0.2452898,
+    "method": "api_full"
+  },
+  "Tamso Estates, Western, Tarkwa, Western Region": {
+    "lat": 5.307517969244705,
+    "lng": -1.9924974557552877,
+    "method": "api_city"
+  },
+  "Guggisberg Avenue, Accra": {
+    "lat": 5.5378124,
+    "lng": -0.2186411,
+    "method": "api_full"
+  },
+  "Finney Hospital Street, Mile 11, New Bortianor, Accra": {
+    "lat": 5.558631097418528,
+    "lng": -0.19897085064632417,
+    "method": "api_city"
+  },
+  "Finney Hospital Street, Mile 11, New Bortianor., Accra": {
+    "lat": 5.558415135084872,
+    "lng": -0.20001523417614103,
+    "method": "api_city"
+  },
+  "Nii Kojo Ababio Avenue, Accra": {
+    "lat": 5.560253227699266,
+    "lng": -0.20373826996144612,
+    "method": "api_city"
+  },
+  "Mrs Anane Avenue, Kumasi": {
+    "lat": 6.695865611717736,
+    "lng": -1.6218458399526037,
+    "method": "api_city"
+  },
+  "CC 360, Cape Coast": {
+    "lat": 5.1159011,
+    "lng": -1.2624507,
+    "method": "api_full"
+  },
+  "No. 4 Mrs. Anane Avenue, Odeneho Kwadaso, Kumasi": {
+    "lat": 6.694667162295784,
+    "lng": -1.6198129762159779,
+    "method": "api_city"
+  },
+  "No. 4 Mrs. Anane Avenue, Odeneho Kwadaso, Near Christian Service University College, Kumasi": {
+    "lat": 6.700343653183242,
+    "lng": -1.6258429573872313,
+    "method": "api_city"
+  },
+  "No. 8 Teshie Street, Pantang-Accra, Accra": {
+    "lat": 5.557882128807813,
+    "lng": -0.20272337935748866,
+    "method": "api_city"
+  },
+  "Nii Boi Nkpa Ave., Adenta-Accra, Accra, Accra": {
+    "lat": 5.5562600855479936,
+    "lng": -0.20390063981623216,
+    "method": "api_city"
+  },
+  "61-59 Olympics St, Near Joy FM Kokomlemle, Accra": {
+    "lat": 5.554859308772113,
+    "lng": -0.19830841242861943,
+    "method": "api_city"
+  },
+  "AHENEMA KOKOBEN-KUMASI, GH-Kumasi, Kumasi": {
+    "lat": 6.698410530288997,
+    "lng": -1.622580362660535,
+    "method": "api_city"
+  },
+  "Ahenema Kokoben, Kumasi": {
+    "lat": 6.7013699547462675,
+    "lng": -1.6245496426468684,
+    "method": "api_city"
+  },
+  "3rd Rangoon Close, Cantoments, Accra": {
+    "lat": 5.553921574238794,
+    "lng": -0.19910719797187465,
+    "method": "api_city"
+  },
+  "6 Ntiful Avenue, East Legon, Accra, Greater Accra": {
+    "lat": 5.558207951360555,
+    "lng": -0.20168116734781608,
+    "method": "api_city"
+  },
+  "MQFC+H67, Accra, Kwabenyan, Accra": {
+    "lat": 5.5597623014781385,
+    "lng": -0.19872777395672625,
+    "method": "api_city"
+  },
+  "Winneba Road, Accra, Ghana, Mallam-kosoa highway, Accra": {
+    "lat": 5.554494376117603,
+    "lng": -0.19849265452073528,
+    "method": "api_city"
+  },
+  "10 Osu Link, Nyaniba Estates, Osu, Osu, Accra, Greater Accra": {
+    "lat": 5.5560564,
+    "lng": -0.1815397,
+    "method": "api_full"
+  },
+  "1661 Cockscomb Street, Kumasi-Abuwakwa, Kumasi": {
+    "lat": 6.698454060453294,
+    "lng": -1.6203765851363108,
+    "method": "api_city"
+  },
+  "P. O. Box 473, Ridge, Greater Accra": {
+    "lat": 5.5573892433719445,
+    "lng": -0.19659924828812997,
+    "method": "api_city"
+  },
+  "Department of Internal Medicine, Korle Bu Teaching Hospital, Accra": {
+    "lat": 5.553994698366274,
+    "lng": -0.1997364389617062,
+    "method": "api_city"
+  },
+  "3 Banana Link, East Legon, close to American House, East Legon, Greater Accra": {
+    "lat": 5.639547474541274,
+    "lng": -0.16286189565633827,
+    "method": "api_city"
+  },
+  "Kwashieman Bus Stop, Kwashieman": {
+    "lat": 5.5893862,
+    "lng": -0.2698644,
+    "method": "api_full"
+  },
+  "Agona Nkwanta Main Lorry Station, P.o. Box Sc 88, Sekondi": {
+    "lat": 4.926022337647514,
+    "lng": -1.7454962535067622,
+    "method": "api_city"
+  },
+  "Plot 18 Block U, Yaa Dufie Drive, Poku Transport Hospital, Head Office AK-186-3338, Kumasi, Asokwa-Kumasi": {
+    "lat": 6.681637588100553,
+    "lng": -1.6093130879306687,
+    "method": "api_city"
+  },
+  "Community 4, Tema": {
+    "lat": 5.6565388,
+    "lng": -0.00792,
+    "method": "api_full"
+  },
+  "Nungua C5, Accra": {
+    "lat": 5.6011385,
+    "lng": -0.0703851,
+    "method": "api_full"
+  },
+  "16 Nii Afotey Brutu Ave, Manor Valley, Adjiringanor, Accra": {
+    "lat": 5.560875619970124,
+    "lng": -0.20478431377491826,
+    "method": "api_city"
+  },
+  "A1 -B1 Concourse, Komfo Anokye Teaching Hospital, Kumasi, Kumasi": {
+    "lat": 6.698544913784925,
+    "lng": -1.6265166248834586,
+    "method": "api_city"
+  },
+  "Diamond City, Akwatia": {
+    "lat": 6.038642787854104,
+    "lng": -0.8003045600612461,
+    "method": "api_city"
+  },
+  "Ring Road East, Cantonment": {
+    "lat": 8.091961740944992,
+    "lng": -1.0378271090536908,
+    "method": "unknown"
+  },
+  "Cantonments, Accra": {
+    "lat": 5.5841563,
+    "lng": -0.1692489,
+    "method": "api_full"
+  },
+  "Western, Takoradi, Western, Takoradi": {
+    "lat": 4.8965139,
+    "lng": -1.7568575,
+    "method": "api_full"
+  },
+  "P.O.BOX 228(TL), ABURA, TAKORADI": {
+    "lat": 4.889132452069648,
+    "lng": -1.7501148642280924,
+    "method": "api_city"
+  },
+  "New Town, Accra": {
+    "lat": 5.5827214,
+    "lng": -0.2084889,
+    "method": "api_full"
+  },
+  "Adomako Avenue Queen of Peace Junction, Anaji, Takoradi, Western Region": {
+    "lat": 4.886592090940309,
+    "lng": -1.754373277802811,
+    "method": "api_city"
+  },
+  "Adomako Avenue, Queen of Peace Junction, Anaji, Takoradi, Ghana, Takoradi": {
+    "lat": 4.885207656072336,
+    "lng": -1.7530364626557702,
+    "method": "api_city"
+  },
+  "Opposite E.P Church, Adenta, Assemblies, Accra": {
+    "lat": 5.553297747349327,
+    "lng": -0.20063870270385656,
+    "method": "api_city"
+  },
+  "7 Golden Glade street, Tse Addo, Accra": {
+    "lat": 5.553967247160268,
+    "lng": -0.19787981364088406,
+    "method": "api_city"
+  },
+  "No. 24, Fourth Street, Tesano, Accra": {
+    "lat": 5.557654702548913,
+    "lng": -0.19811431541070487,
+    "method": "api_city"
+  },
+  "PO Box 1950, KNUST, Kumasi": {
+    "lat": 6.695638562854958,
+    "lng": -1.6269495340201974,
+    "method": "api_city"
+  },
+  "AFIENYA, Tema": {
+    "lat": 8.105844479020648,
+    "lng": -1.0530913344824433,
+    "method": "unknown"
+  },
+  "Santasi roundabout opposite Unity Oil, Nana Ama Plaza, Kumasi, Kumasi": {
+    "lat": 6.70117400989682,
+    "lng": -1.6266756020642148,
+    "method": "api_city"
+  },
+  "Tolon Rd, Kasalgu, Tamale": {
+    "lat": 9.406676221349008,
+    "lng": -0.8456939086698649,
+    "method": "api_city"
+  },
+  "Mecham House, Lapaz, Abeka Junction, Tesano, Accra": {
+    "lat": 5.555366666401247,
+    "lng": -0.19766599602577228,
+    "method": "api_city"
+  },
+  "Mecham House - Lapaz, Lapaz": {
+    "lat": 5.603422835040288,
+    "lng": -0.2489323752723826,
+    "method": "api_city"
+  },
+  "Near Naval Base, Takoradi": {
+    "lat": 4.88813507671897,
+    "lng": -1.7557972537774638,
+    "method": "api_city"
+  },
+  "Akatsi Abor, Agbogba Ecowas Road, Accra": {
+    "lat": 5.55756347298345,
+    "lng": -0.20097912293143363,
+    "method": "api_city"
+  },
+  "Adjacent Emena GOIL Filling Station, Kumasi": {
+    "lat": 6.698482415099938,
+    "lng": -1.6237369753718316,
+    "method": "api_city"
+  },
+  "Castle Road, P. O. Box GP 473, Accra": {
+    "lat": 5.556277032118945,
+    "lng": -0.19865989686896834,
+    "method": "api_city"
+  },
+  "P. O. Box Y P 9 Kpando, Kpando": {
+    "lat": 6.998897959101463,
+    "lng": 0.2930840505920451,
+    "method": "api_city"
+  },
+  "Opposite Alla Junction Low Cost, Sefwi Wiawso, Western North Region, Sefwi Wiawso, Western North": {
+    "lat": 6.203639586282139,
+    "lng": -2.4833317827072334,
+    "method": "api_city"
+  },
+  "Tema Community 25 on the Accra-Aflao road, Tema": {
+    "lat": 5.656880468675226,
+    "lng": -0.012406086672761147,
+    "method": "api_city"
+  },
+  "29 Okpoti St, Accra": {
+    "lat": 5.706872,
+    "lng": -0.1531887,
+    "method": "api_full"
+  },
+  "29okpoti street,Adenta, Accra": {
+    "lat": 5.557029938290725,
+    "lng": -0.20367398772108508,
+    "method": "api_city"
+  },
+  "Gwollu Hospital, Sissala West District, Gwo, Ghana, Gwo": {
+    "lat": 7.955362743047384,
+    "lng": -0.9862938820701777,
+    "method": "unknown"
+  },
+  "Kasoa Fetteh Kakraba, Accra": {
+    "lat": 5.555210965773497,
+    "lng": -0.19832663763468586,
+    "method": "api_city"
+  },
+  "SAPEIMAN - NEAR FIRM FOUNDATION SCHOOL, Accra": {
+    "lat": 5.558175490011626,
+    "lng": -0.20059786716124273,
+    "method": "api_city"
+  },
+  "P.O. Box 167, Berekum": {
+    "lat": 7.4470246083055525,
+    "lng": -2.5823342375676086,
+    "method": "api_city"
+  },
+  "Kaneshie, opposite Cocoa Clinic, Accra": {
+    "lat": 5.557249418678643,
+    "lng": -0.20184738873181385,
+    "method": "api_city"
+  },
+  "P.O.BOX HP 457 HO V/R GHANA, Ho, Volta Region": {
+    "lat": 6.611576047083553,
+    "lng": 0.47074335995005384,
+    "method": "api_city"
+  },
+  "BANTAMA, Kumasi": {
+    "lat": 6.7051319,
+    "lng": -1.63486,
+    "method": "api_full"
+  },
+  "Togbui Sri Road, Anloga, Anloga": {
+    "lat": 5.792803451269372,
+    "lng": 0.8995791664448772,
+    "method": "api_city"
+  },
+  "Tarkwa-Esiama Road, Tarkwa Nsuaem, Tarkwa": {
+    "lat": 5.313297362393728,
+    "lng": -1.9961627322649194,
+    "method": "api_city"
+  },
+  "Teshie Bush Road, Accra": {
+    "lat": 5.560749962691051,
+    "lng": -0.19962782509064297,
+    "method": "api_city"
+  },
+  "No. 38 Anum Tessa Avenue, Adjiringano ( Bridge), East Legon, Accra": {
+    "lat": 5.554479913642866,
+    "lng": -0.20325502642326684,
+    "method": "api_city"
+  },
+  "No. 38 Anum Tessa Avenue, Adjiringano ( Bridge), East Legon, Digital Address: GD 232 - 0036, Accra": {
+    "lat": 5.555722078554857,
+    "lng": -0.20133124732636457,
+    "method": "api_city"
+  },
+  "No 7 Anum Tessa Avenue, Adjiriganor, Accra": {
+    "lat": 5.5606680097932,
+    "lng": -0.20149205320928804,
+    "method": "api_city"
+  },
+  "Bosoma High Street, Sunyani": {
+    "lat": 7.3365401,
+    "lng": -2.3289239,
+    "method": "api_full"
+  },
+  "House NO. 2 Mensah Wood Street, East Legon, Accra": {
+    "lat": 5.557000166180435,
+    "lng": -0.19992683039983242,
+    "method": "api_city"
+  },
+  "Ejisu Kumasi, Kumasi": {
+    "lat": 6.702322409140218,
+    "lng": -1.6203038614514613,
+    "method": "api_city"
+  },
+  "71 Boundary road, East Legon/Ogbojo, Accra": {
+    "lat": 5.559806371925013,
+    "lng": -0.20290031613111317,
+    "method": "api_city"
+  },
+  "Abete Street, Lapaz, Accra": {
+    "lat": 5.5553898411043745,
+    "lng": -0.20307455669049326,
+    "method": "api_city"
+  },
+  "Glahlah Road Ho, Ho": {
+    "lat": 6.610525820823332,
+    "lng": 0.46687479479209726,
+    "method": "api_city"
+  },
+  "P. O. BOX 374, Ho": {
+    "lat": 5.41944,
+    "lng": -0.6044404,
+    "method": "api_full"
+  },
+  "Volta, Hohoe": {
+    "lat": 7.1579624,
+    "lng": 0.4754281,
+    "method": "api_full"
+  },
+  "EJ-0007-7531, Eastern Region, Nkawkaw": {
+    "lat": 6.5488552,
+    "lng": -0.7689431,
+    "method": "api_full"
+  },
+  "2nd Lowcost GB.W. 334, Kekeli School Junction, Aflao": {
+    "lat": 6.115651901959266,
+    "lng": 1.1937563719367785,
+    "method": "api_city"
+  },
+  "Santasi Kumasi, Kumasi, Ashanti": {
+    "lat": 6.6723232,
+    "lng": -1.6410716,
+    "method": "api_full"
+  },
+  "Offinso, Old Offinso, Ghana, Offinso": {
+    "lat": 6.929191660335563,
+    "lng": -1.6644742643973867,
+    "method": "api_city"
+  },
+  "Kasoa | Nyanyano Road | Paradise Junction, Accra": {
+    "lat": 5.559795723372681,
+    "lng": -0.20471452277829089,
+    "method": "api_city"
+  },
+  "P.O.BOX HP 457, Ho V/R, Volta Region, Ho, Volta Region": {
+    "lat": 6.613586772744271,
+    "lng": 0.47049867793414574,
+    "method": "api_city"
+  },
+  "Boamadumasi, Boamadumasi": {
+    "lat": 7.755796447281213,
+    "lng": -1.212310664812641,
+    "method": "unknown"
+  },
+  "Kaase near Atinga Junction, Kumasi": {
+    "lat": 6.700083270493646,
+    "lng": -1.6230117122249792,
+    "method": "api_city"
+  },
+  "Harley Avenue, Korle-bu, Accra": {
+    "lat": 5.553939913665986,
+    "lng": -0.2022696811413769,
+    "method": "api_city"
+  },
+  "44, Nana Adoma Street, Asokore Mampong": {
+    "lat": 6.71096703439951,
+    "lng": -1.5690673879385113,
+    "method": "api_city"
+  },
+  "44, Nana Adoma street, Asokore Mampong, Kumasi": {
+    "lat": 8.082930951223926,
+    "lng": -1.1667247046522622,
+    "method": "unknown"
+  },
+  "5 Nyanyo Lane, Asylum Down, Accra": {
+    "lat": 5.5701897,
+    "lng": -0.2019884,
+    "method": "api_full"
+  },
+  "North Legon, near Wisconsin University": {
+    "lat": 7.725424480968021,
+    "lng": -0.9289709873681355,
+    "method": "unknown"
+  },
+  "No. 143 Nungua Link, Opposite K. Ofori Enterprise, Baatsona, Spintex Road, Accra, Ghana, Accra, Greater Accra": {
+    "lat": 5.556837341171543,
+    "lng": -0.2043450861882039,
+    "method": "api_city"
+  },
+  "Spintex Road, Accra": {
+    "lat": 5.6288265,
+    "lng": -0.0901987,
+    "method": "api_full"
+  },
+  "Nmati Agbonse Street, By Unique Floral, Accra": {
+    "lat": 5.559159464923128,
+    "lng": -0.20031592931053785,
+    "method": "api_city"
+  },
+  "Amanfrom, iron city, Kasoa (Accra & Central), Accra": {
+    "lat": 5.55656817804908,
+    "lng": -0.2025610050509807,
+    "method": "api_city"
+  },
+  "First floor, Senaky Plaza Building, Ashaiman": {
+    "lat": 5.695018396695515,
+    "lng": -0.030914954388739996,
+    "method": "api_city"
+  },
+  "Old Fidelity Bank Ghana Ltd - Ashaiman Market Branch, Accra, Ghana, Accra, Greater Accra": {
+    "lat": 5.5605854266879895,
+    "lng": -0.19979708652200387,
+    "method": "api_city"
+  },
+  "Plot 8, Block P, Kwadaso North, Kumasi": {
+    "lat": 6.696220307993486,
+    "lng": -1.6228822744225897,
+    "method": "api_city"
+  },
+  "10th St, Osu": {
+    "lat": 5.5652277,
+    "lng": -0.1834676,
+    "method": "api_full"
+  },
+  "No. 13 Kinshasa Avenue, East Legon, Accra, East Legon": {
+    "lat": 5.660365922044422,
+    "lng": -0.1720400763372764,
+    "method": "api_city"
+  },
+  "East Legon No.13 Kinshasa Avenue, Accra": {
+    "lat": 5.553822223998689,
+    "lng": -0.2039341889219885,
+    "method": "api_city"
+  },
+  "Plot 650, Ecomog Ave, Haatso \u2013 Accra, Accra": {
+    "lat": 5.554133977819389,
+    "lng": -0.19728360322433885,
+    "method": "api_city"
+  },
+  "Third Road, Behind GNPC Flats Community 3, Tema, Tema": {
+    "lat": 5.6611292415544145,
+    "lng": -0.011343306729986286,
+    "method": "api_city"
+  },
+  "Halcrow, Tema": {
+    "lat": 5.661123905968268,
+    "lng": -0.009346660690333498,
+    "method": "api_city"
+  },
+  "Community 3, Tema": {
+    "lat": 5.6258692,
+    "lng": -0.0306061,
+    "method": "api_full"
+  },
+  "Dixcove Hill, Takoradi": {
+    "lat": 4.8900456,
+    "lng": -1.7675049,
+    "method": "api_full"
+  },
+  "Adenta SDA Junction, Accra": {
+    "lat": 5.554285655286354,
+    "lng": -0.1975515319346086,
+    "method": "api_city"
+  },
+  "Alajo, Kaneshie Station, Accra": {
+    "lat": 5.55574999792927,
+    "lng": -0.20419859357841558,
+    "method": "api_city"
+  },
+  "Dr Seth Koranteng Street, Alajo, Accra": {
+    "lat": 5.6000118,
+    "lng": -0.2147463,
+    "method": "api_full"
+  },
+  "Afrancho, Akumadan, Kumasi, Kumasi, Ashanti": {
+    "lat": 6.698789720594333,
+    "lng": -1.6201330200555666,
+    "method": "api_city"
+  },
+  "Shiashie - East Legon opposite Emmanuel Eye Centre, Accra": {
+    "lat": 5.554851494185949,
+    "lng": -0.2025555391132011,
+    "method": "api_city"
+  },
+  "Kpormegbe road, Akatsi": {
+    "lat": 6.130775829062695,
+    "lng": 0.8017689382273271,
+    "method": "api_city"
+  },
+  "P.O. BOX AX 368, Anaji, opposite Jopizo Pharmacy, Takoradi, Western Region": {
+    "lat": 4.889946026508752,
+    "lng": -1.7507085153888284,
+    "method": "api_city"
+  },
+  "Western, Wassa Juabo": {
+    "lat": 7.826401542191488,
+    "lng": -0.898789729724822,
+    "method": "unknown"
+  },
+  "Hospital Close, Juaso, Ashanti": {
+    "lat": 6.581689954751164,
+    "lng": -1.1224869570548208,
+    "method": "api_city"
+  },
+  "Sakumono, Accra": {
+    "lat": 5.6112851,
+    "lng": -0.0459141,
+    "method": "api_full"
+  },
+  "Karaga, Box 3 Karaga, Karaga": {
+    "lat": 9.9267799,
+    "lng": -0.4316607,
+    "method": "api_full"
+  },
+  "Agege Last Stop, Dansoman, Dansoman, Dansoman, Accra": {
+    "lat": 5.543212673581884,
+    "lng": -0.26528590889818465,
+    "method": "api_city"
+  },
+  "Accra-Cape Coast Highway, Kasoa, Buduburam, Buduburam, Kasoa": {
+    "lat": 5.531178021661754,
+    "lng": -0.4408462602323134,
+    "method": "api_city"
+  },
+  "Western, Bibiani Afram Clinic, Ghana": {
+    "lat": 7.889891121103403,
+    "lng": -0.7509000418942655,
+    "method": "unknown"
+  },
+  "SPINTEX / TARKWA, Accra": {
+    "lat": 5.559258386942975,
+    "lng": -0.197619545490926,
+    "method": "api_city"
+  },
+  "P. O. Box 82, Keta": {
+    "lat": 5.918711013290824,
+    "lng": 0.9902319852463687,
+    "method": "api_city"
+  },
+  "Saint Charles road before Attaesibi Hotel, Tamale": {
+    "lat": 9.404904168742027,
+    "lng": -0.8458980707385775,
+    "method": "api_city"
+  },
+  "P.M.B AK59, Akosombo, Eastern Region, Ghana, Akosombo, Eastern Region": {
+    "lat": 6.27178441592895,
+    "lng": 0.049900795187781864,
+    "method": "api_city"
+  },
+  "Ayeduase Gate, Kumasi": {
+    "lat": 6.6756569,
+    "lng": -1.5636068,
+    "method": "api_full"
+  },
+  "P.O.BOX 72, KINTAMPO, Ghana, Kintampo": {
+    "lat": 8.054102295221233,
+    "lng": -1.7279858116163154,
+    "method": "api_city"
+  },
+  "KKSTREET 374/1, Swedru": {
+    "lat": 6.832997573848939,
+    "lng": -1.5995342881984669,
+    "method": "api_city"
+  },
+  "NYANKOFAM, MAIN ROAD TO WINNEBA TOWN, Central Region": {
+    "lat": 5.7239268810576505,
+    "lng": -1.3722314460976346,
+    "method": "api_city"
+  },
+  "KNUST, BOX KNUST, Kumasi, Ashanti Region": {
+    "lat": 6.6986060954531315,
+    "lng": -1.61947506981802,
+    "method": "api_city"
+  },
+  "Nkubem Old Estate, Nkubem Road, Koforidua": {
+    "lat": 6.097072713229247,
+    "lng": -0.2636814089077421,
+    "method": "api_city"
+  },
+  "Kokofu off Bekwei Road, Kokofu": {
+    "lat": 6.504081894855206,
+    "lng": -1.5340961057504094,
+    "method": "api_city"
+  },
+  "P.O. Box 1934, Kumasi": {
+    "lat": 6.701736398724975,
+    "lng": -1.6245410446992095,
+    "method": "api_city"
+  },
+  "P.O.Box KB846, Harley Street, Korle Bu, Accra": {
+    "lat": 5.555272793664086,
+    "lng": -0.19884688880088247,
+    "method": "api_city"
+  },
+  "P.O. Box KB77 Korle Bu, Accra": {
+    "lat": 5.555071017492936,
+    "lng": -0.2049629899182485,
+    "method": "api_city"
+  },
+  "Sefwi-yawmatwa Off Kaase Road, P.o.box 124 Wenchi B/a, Wenchi": {
+    "lat": 7.740592216495154,
+    "lng": -2.1031892475705347,
+    "method": "api_city"
+  },
+  "Suame Anomanye Junction": {
+    "lat": 7.74407585291054,
+    "lng": -0.9758962637805139,
+    "method": "unknown"
+  },
+  "Plot 21 Block B, Barekese Road, Opposite Kumasi Girls High School, Abrepo Panin, Kumasi": {
+    "lat": 6.697041713564631,
+    "lng": -1.6265968803565098,
+    "method": "api_city"
+  },
+  "Switchback Road, Cantonments, Accra": {
+    "lat": 5.555163188714929,
+    "lng": -0.2050889802885663,
+    "method": "api_city"
+  },
+  "P. O. Box 40, Kuntanase-Ashanti, Kuntanase, Ashanti": {
+    "lat": 6.539575850627104,
+    "lng": -1.4739161106794132,
+    "method": "api_city"
+  },
+  "P. O. Box 40, Kuntanase-Ashanti, Kuntanase, Kuntanase": {
+    "lat": 6.544274354055405,
+    "lng": -1.4771013239889361,
+    "method": "api_city"
+  },
+  "KWADASO PAPA KWASI JUNCTION, Kwadaso": {
+    "lat": 6.694101886113986,
+    "lng": -1.65757008702582,
+    "method": "api_city"
+  },
+  "B308/15 Sakatsuru Link, New Abossey Okai, Accra": {
+    "lat": 5.553891274223203,
+    "lng": -0.20390229011052155,
+    "method": "api_city"
+  },
+  "Episode Avenue, Takoradi, Western": {
+    "lat": 4.8869330175596355,
+    "lng": -1.7530891929702161,
+    "method": "api_city"
+  },
+  "No.B773/7 Mantse Boi Street, Accra": {
+    "lat": 5.553761020237649,
+    "lng": -0.19974150289223377,
+    "method": "api_city"
+  },
+  "Labadi Road, Accra": {
+    "lat": 5.5794815,
+    "lng": -0.1557095,
+    "method": "api_full"
+  },
+  "Opposite Osu Police station, Accra": {
+    "lat": 5.556501897382326,
+    "lng": -0.2000781058874843,
+    "method": "api_city"
+  },
+  "F203/6 Labone Link, Accra": {
+    "lat": 5.554341720620374,
+    "lng": -0.20181545977343512,
+    "method": "api_city"
+  },
+  "Orphan Crescent, Accra": {
+    "lat": 5.5655312,
+    "lng": -0.1739143,
+    "method": "api_full"
+  },
+  "Mukose Link, North Ind. Area, North Industrial Area, Accra": {
+    "lat": 5.5583088412072605,
+    "lng": -0.20155177510200156,
+    "method": "api_city"
+  },
+  "101 boundary Road opposite adelaide House, Accra, East Legon": {
+    "lat": 5.654423025624764,
+    "lng": -0.16712235602387876,
+    "method": "api_city"
+  },
+  "Anorhuma Street, Lapaz, Accra": {
+    "lat": 5.5596324519901925,
+    "lng": -0.20331016096370344,
+    "method": "api_city"
+  },
+  "Sunyani Abesim Opposite Victory Hardware, Sunyani": {
+    "lat": 7.338182557740705,
+    "lng": -2.332058536341513,
+    "method": "api_city"
+  },
+  "East Legon Boundary Road (Bethel House), Accra, Greater Accra": {
+    "lat": 5.553619209539181,
+    "lng": -0.19892191554401392,
+    "method": "api_city"
+  },
+  "47 Fertilizer Road, Teshie": {
+    "lat": 5.5987079,
+    "lng": -0.1026216,
+    "method": "api_full"
+  },
+  "27 Pawpaw Street, East Legon": {
+    "lat": 5.6452233,
+    "lng": -0.1549988,
+    "method": "api_full"
+  },
+  "27 Pawpaw Street, Accra": {
+    "lat": 5.6452233,
+    "lng": -0.1549988,
+    "method": "api_full"
+  },
+  "PMB Teshie Area \u2013 Office Location: Tswuibleoo, Teshie, Accra, Greater Accra": {
+    "lat": 5.556201648671817,
+    "lng": -0.20078530662531902,
+    "method": "api_city"
+  },
+  "Nmai Dzorn - Adjiringanor Road, Accra": {
+    "lat": 5.559564427110855,
+    "lng": -0.19852669070447299,
+    "method": "api_city"
+  },
+  "Achimota Mall, Accra Mall; Junction Mall, Accra": {
+    "lat": 5.55634891663,
+    "lng": -0.20495565565797677,
+    "method": "api_city"
+  },
+  "Interburton, Cape Coast": {
+    "lat": 5.107930132570606,
+    "lng": -1.2444774992689422,
+    "method": "api_city"
+  },
+  "48 Mango Street, Asylum Down, Accra": {
+    "lat": 5.55665205367915,
+    "lng": -0.2037584309196217,
+    "method": "api_city"
+  },
+  "B837/7 SHIASHIA CLOSE, NORTH KANESHIE, Accra": {
+    "lat": 5.553781699476837,
+    "lng": -0.20217575353627737,
+    "method": "api_city"
+  },
+  "7 Days Road Ofankor": {
+    "lat": 7.949806643347211,
+    "lng": -1.0971517947845049,
+    "method": "unknown"
+  },
+  "11 Pampron Djorn St New Nmai Dzorn, Accra": {
+    "lat": 5.556061729238041,
+    "lng": -0.20371892838459715,
+    "method": "api_city"
+  },
+  "P O Box OF 528 South Ofankor, South Ofankor, Accra": {
+    "lat": 5.553445185210551,
+    "lng": -0.2001169847139178,
+    "method": "api_city"
+  },
+  "CT1703, Cantonment-Accra, Accra": {
+    "lat": 5.558773367219909,
+    "lng": -0.20469347555120138,
+    "method": "api_city"
+  },
+  "P.O. Box DK 684, Darkuman-Nyamekye, Greater Accra, Darkuman-Nyamekye": {
+    "lat": 8.032515234496099,
+    "lng": -1.1854261752300492,
+    "method": "unknown"
+  },
+  "MAB INTERNATIONAL HOSPITAL, P.O. Box DK 684, Darkuman - Nyamekye, Darkuman-Nyamekye, Greater Accra": {
+    "lat": 5.605143139440716,
+    "lng": -0.1874079959365558,
+    "method": "fallback"
+  },
+  "Madina, Doku, Accra": {
+    "lat": 5.556855025785833,
+    "lng": -0.20236811966883486,
+    "method": "api_city"
+  },
+  "GYATO C/O/JUABOSO GOVT HOSPITAL, Juaboso": {
+    "lat": 6.339740266541238,
+    "lng": -2.8218326605059683,
+    "method": "api_city"
+  },
+  "Salaga-Atetubu Road, Kabiase Gonja, Kabiase Gonja": {
+    "lat": 7.80237382698161,
+    "lng": -1.1374115023965508,
+    "method": "unknown"
+  },
+  "No. 2 Adjoate Street, Osu, Accra": {
+    "lat": 5.556232354602489,
+    "lng": -0.19790114788855265,
+    "method": "api_city"
+  },
+  "MANHYIA AROUND ASANTEHENE'S PALACE, Ashanti Region": {
+    "lat": 6.802397552912032,
+    "lng": -1.5168095593951638,
+    "method": "api_city"
+  },
+  "Cp -tophill (presby junction), Accra, SH": {
+    "lat": 5.554191555129533,
+    "lng": -0.20465027090277108,
+    "method": "api_city"
+  },
+  "Adedze Street, Kpando, Kpando, Volta Region": {
+    "lat": 6.994816656984819,
+    "lng": 0.29405600632564516,
+    "method": "api_city"
+  },
+  "Takofiano Opposite Noka Shopping Centre on the Kintampo Road, Techiman": {
+    "lat": 7.583161110387791,
+    "lng": -1.9356049109420042,
+    "method": "api_city"
+  },
+  "Opposite Las Palmas Restaurant, Accra": {
+    "lat": 5.557505851826639,
+    "lng": -0.20321158705174538,
+    "method": "api_city"
+  },
+  "Ashaiman Traffic, Papaye Building, Ashaiman": {
+    "lat": 5.697027666417789,
+    "lng": -0.025719119328021567,
+    "method": "api_city"
+  },
+  "Santasi Roundabout, Opposite Palace Supermarket, On top of Fidelity Bank, Santasi": {
+    "lat": 6.657593721061631,
+    "lng": -1.6446102482285474,
+    "method": "api_city"
+  },
+  "Takoradi Kwesimintsim Station, on top of Lower Pra Rural Bank, Kwesimintsim, Kwesimintsim": {
+    "lat": 4.916774085048773,
+    "lng": -1.7851441495380995,
+    "method": "api_city"
+  },
+  "Takoradi Kwesimintsim Station, on top of Lower Pra Rural Bank, Kwesimintsim, Takoradi": {
+    "lat": 4.886462557597262,
+    "lng": -1.7539288281190561,
+    "method": "api_city"
+  },
+  "26 Akwei Street, Tesano, Accra": {
+    "lat": 5.556487813702557,
+    "lng": -0.1977785203992553,
+    "method": "api_city"
+  },
+  "Santasi, Kumasi, Ashanti": {
+    "lat": 6.6723232,
+    "lng": -1.6410716,
+    "method": "api_full"
+  },
+  "Children's Hospital, Okomfo Anokye Road, Kumasi": {
+    "lat": 6.7016994146445175,
+    "lng": -1.6199835687606179,
+    "method": "api_city"
+  },
+  "Brenya Ave 97, Accra": {
+    "lat": 5.6096535,
+    "lng": -0.2301654,
+    "method": "api_full"
+  },
+  "Ablekuma-Joma, Accra": {
+    "lat": 5.560853204946822,
+    "lng": -0.20149184028100775,
+    "method": "api_city"
+  },
+  "SDA Hospital Junction, opposite Ruuf Pub, On top of Chris Pharma, Nsukwao, Koforidua": {
+    "lat": 6.098650031469572,
+    "lng": -0.26081524299529596,
+    "method": "api_city"
+  },
+  "JWH6+6J6, 67 Nungua Link, Accra, Accra": {
+    "lat": 5.561064985798579,
+    "lng": -0.19875982855983354,
+    "method": "api_city"
+  },
+  "Mampong Akwapim": {
+    "lat": 5.9144109,
+    "lng": -0.140398,
+    "method": "api_full"
+  },
+  "Post: P.O.Box MA 14, Akuapem Mampong, Akuapem Mampong": {
+    "lat": 5.914993931394655,
+    "lng": -0.1443104505929445,
+    "method": "api_city"
+  },
+  "Weija-Gbawe Municipal District, Weija, Greater Accra Region": {
+    "lat": 5.5613468,
+    "lng": -0.3126686,
+    "method": "api_full"
+  },
+  "Onyasia Ridge Road, Accra": {
+    "lat": 5.5579344585157155,
+    "lng": -0.20160925653248588,
+    "method": "api_city"
+  },
+  "Medilab Building, Kumasi": {
+    "lat": 6.69502961757264,
+    "lng": -1.6269208623122327,
+    "method": "api_city"
+  },
+  "Korle-Bu, Accra": {
+    "lat": 5.5433937,
+    "lng": -0.2354469,
+    "method": "api_full"
+  },
+  "P.O. Box T 91 old Tafo Kumasi, Kumasi": {
+    "lat": 6.701509557167151,
+    "lng": -1.62635250960537,
+    "method": "api_city"
+  },
+  "No.1 Abafun Cresent, Labone, Accra": {
+    "lat": 5.556218383290514,
+    "lng": -0.19863227960628557,
+    "method": "api_city"
+  },
+  "adjacent Labone Palace Mall, Accra": {
+    "lat": 5.560048731503678,
+    "lng": -0.19728912355508216,
+    "method": "api_city"
+  },
+  "Koala Shopping Mall, Oxford Street, Osu, Accra": {
+    "lat": 5.555227258509435,
+    "lng": -0.19857825950134317,
+    "method": "api_city"
+  },
+  "Royalt Castle Road, Kokomlemle (Near Haavad Senior High School), Accra": {
+    "lat": 5.557064663194958,
+    "lng": -0.20413229203885985,
+    "method": "api_city"
+  },
+  "Pedu Junction adjacent Total filling station, Cape Coast": {
+    "lat": 5.105582271952495,
+    "lng": -1.2396848503153721,
+    "method": "api_city"
+  },
+  "Adjacent Sunflower Lodge, Dodowa": {
+    "lat": 5.877329998880233,
+    "lng": -0.1034974973527143,
+    "method": "api_city"
+  },
+  "Mempeasem, C/o/ Dha, Bia, Mempeasem": {
+    "lat": 5.647053280298745,
+    "lng": -0.16055143790582543,
+    "method": "api_city"
+  },
+  "22 Stewart Avenue, Uaddar Barracks, Bantama, Kumasi": {
+    "lat": 6.694571746111246,
+    "lng": -1.627118322293124,
+    "method": "api_city"
+  },
+  "Juaso-Nsawam Road, Mepom": {
+    "lat": 5.794502442007805,
+    "lng": -0.5934325671161373,
+    "method": "api_city"
+  },
+  "Post Office Box MK 164 Mankessim, Mankessim": {
+    "lat": 5.270983414789857,
+    "lng": -1.0209502631242142,
+    "method": "api_city"
+  },
+  "Adjacent TDC Comm.1 Tema, Tema": {
+    "lat": 5.661237463830412,
+    "lng": -0.012113549516200564,
+    "method": "api_city"
+  },
+  "Ofaakor Congo Villa Kasoa, Accra": {
+    "lat": 5.560369604466228,
+    "lng": -0.2045221125550601,
+    "method": "api_city"
+  },
+  "Amakom Near Lake Bosomtwe": {
+    "lat": 7.796752752863512,
+    "lng": -1.0108696745617478,
+    "method": "unknown"
+  },
+  "Box 55 Wenchi, Wenchi Municipal, Bono, Wenchi, Bono": {
+    "lat": 7.745840838984632,
+    "lng": -2.0999379528081583,
+    "method": "api_city"
+  },
+  "4 Barekese Road, Abrepo Junction Near Angel Fm, Kumasi": {
+    "lat": 6.701370082862726,
+    "lng": -1.6239454294145532,
+    "method": "api_city"
+  },
+  "1st Floor, Pyramid Building, Above Stanbic Bank, Near Nima traffic light, Opp Nima Police Station, Ring Road, Accra": {
+    "lat": 5.555257647527799,
+    "lng": -0.20239589678186173,
+    "method": "api_city"
+  },
+  "Urban road, Fise - Amasaman, Accra": {
+    "lat": 5.553305003194101,
+    "lng": -0.19725411324890937,
+    "method": "api_city"
+  },
+  "70 - 72 Olympics Road, Kokomlemle, Accra, Greater Accra Region": {
+    "lat": 5.5737876,
+    "lng": -0.2122062,
+    "method": "api_full"
+  },
+  "7072 Olympics Rd, Accra": {
+    "lat": 5.5737876,
+    "lng": -0.2122062,
+    "method": "api_full"
+  },
+  "Kasoa Peace Town, near Top Hill Pentecost Church, Accra": {
+    "lat": 5.558254885587093,
+    "lng": -0.20233113860772528,
+    "method": "api_city"
+  },
+  "Hse# DAD/A/015, Opposite New Post Office, Dormaa Ahenkro": {
+    "lat": 7.272219346154539,
+    "lng": -2.869502654904944,
+    "method": "api_city"
+  },
+  "Blk 53, 476 Melcom Road, Cindy's Junction, Ahodwo-Daban, Kumasi": {
+    "lat": 6.700502374777419,
+    "lng": -1.6204800991650479,
+    "method": "api_city"
+  },
+  "88 Ameyaw Street, Techiman": {
+    "lat": 7.586535563648209,
+    "lng": -1.9377167401115905,
+    "method": "api_city"
+  },
+  "Lebanon School Junction, Dame Site Rd, Lebanon Box AS 683, Ashaiman": {
+    "lat": 5.695346224672608,
+    "lng": -0.03230989943499791,
+    "method": "api_city"
+  },
+  "Fafraha-Dodowa Road, Accra": {
+    "lat": 5.559004728830778,
+    "lng": -0.1980030270121747,
+    "method": "api_city"
+  },
+  "Fafraha - Dodowa Road, Adenta-Fafraha, Adenta-Fafraha, Greater Accra": {
+    "lat": 5.604813668459727,
+    "lng": -0.1883028772318044,
+    "method": "fallback"
+  },
+  "Adenta-Dodowa Road, Accra": {
+    "lat": 5.7087187,
+    "lng": -0.1710001,
+    "method": "api_full"
+  },
+  "Community 25, Ashfoam Junction, Tema": {
+    "lat": 5.659088961638384,
+    "lng": -0.006861652936159202,
+    "method": "api_city"
+  },
+  "H/No. 36 Akwei Street, Tesano, MSI Reproductive Choices Ghana Support Office, PMB 267, GH, Accra, Greater Accra": {
+    "lat": 5.5576659405204,
+    "lng": -0.19901771380549987,
+    "method": "api_city"
+  },
+  "Dzorwulu, Ayawaso West, Accra, Greater Accra": {
+    "lat": 5.6130923,
+    "lng": -0.1991566,
+    "method": "api_full"
+  },
+  "KE83 URANUS ST. TUBA, Off the Tuba-Kokrobite Rd, Accra": {
+    "lat": 5.5541729170122895,
+    "lng": -0.20036326131984947,
+    "method": "api_city"
+  },
+  "Kwabenya Highway Adjacent Adom Plaza, East Kwabenya, GPS: C158, Kwabenya Rd GE-224 5750, Accra": {
+    "lat": 5.5588869617817505,
+    "lng": -0.1989513508768853,
+    "method": "api_city"
+  },
+  "P.O. Box MC 1031, Takoradi": {
+    "lat": 4.889989139265446,
+    "lng": -1.7480507900987456,
+    "method": "api_city"
+  },
+  "P.o.box 05, Dixcove": {
+    "lat": 4.792159178268007,
+    "lng": -1.9430959775706511,
+    "method": "api_city"
+  },
+  "4 mami Dzidzo way, Odave Somanya, behind the Equiped El shadai school, Somanya": {
+    "lat": 6.104603118259878,
+    "lng": -0.01757714498192704,
+    "method": "api_city"
+  },
+  "Korle-Bu Teaching Hospital, Accra": {
+    "lat": 5.5383167,
+    "lng": -0.2268145,
+    "method": "api_full"
+  },
+  "Harley Street, Korle Bu, P.O.Box KB846, Korle Bu, Accra \u2013 Ghana, Accra": {
+    "lat": 5.558316081580903,
+    "lng": -0.2001683794391482,
+    "method": "api_city"
+  },
+  "Korle Bu Teaching Hospital, Accra": {
+    "lat": 5.5383167,
+    "lng": -0.2268145,
+    "method": "api_full"
+  },
+  "St. Benito Menni Hospital, Adansi Dompoase, Dompoase": {
+    "lat": 6.6362336880092085,
+    "lng": -1.5908729363443448,
+    "method": "api_city"
+  },
+  "Abompe New Site, Obuasi": {
+    "lat": 6.2085508430310155,
+    "lng": -1.6918358565787002,
+    "method": "api_city"
+  },
+  "Hospital Road, New Abirim": {
+    "lat": 7.934243281531205,
+    "lng": -0.8337881647943957,
+    "method": "unknown"
+  },
+  "Head Office Opposite Kuffuor Station, Ashaiman GB-018-9188, Ashaiman": {
+    "lat": 5.697075147470377,
+    "lng": -0.025584108385173394,
+    "method": "api_city"
+  },
+  "Adenta, New Legon, Rosa Rosa Bus stop, Accra, Greater Accra Region": {
+    "lat": 5.561038725266133,
+    "lng": -0.19981509748848786,
+    "method": "api_city"
+  },
+  "Adoagyiri-adeiso Road, Adoagyiri-adeiso": {
+    "lat": 5.8197241,
+    "lng": -0.3552492,
+    "method": "api_full"
+  },
+  "Hospital Road / Krakue Road, Obenyade Area, Tema Community 11, Accra": {
+    "lat": 5.559430576540056,
+    "lng": -0.20466794435050337,
+    "method": "api_city"
+  },
+  "Palmwine Jtn, Labadi, Labadi": {
+    "lat": 5.5153320338411955,
+    "lng": -1.1292142217260839,
+    "method": "api_city"
+  },
+  "2 Newlands Street, Koforidua": {
+    "lat": 6.098481339027875,
+    "lng": -0.26062740359709163,
+    "method": "api_city"
+  },
+  "VRA Bamiri Road, Techiman": {
+    "lat": 7.582325273764733,
+    "lng": -1.9378780983228174,
+    "method": "api_city"
+  },
+  "2nd Achimota link, Mohammed Polo Street, Accra": {
+    "lat": 5.55608751931475,
+    "lng": -0.20293345337063665,
+    "method": "api_city"
+  },
+  "Abofu GH Media Road, Accra": {
+    "lat": 5.557214215318614,
+    "lng": -0.20234283374870074,
+    "method": "api_city"
+  },
+  "Nkenkaso, Ghana, Nkenkaso": {
+    "lat": 7.679236918089268,
+    "lng": -1.0516815455168675,
+    "method": "unknown"
+  },
+  "Western, Prestea Nkwanta, Ghana": {
+    "lat": 7.795078990292987,
+    "lng": -0.7977052651223971,
+    "method": "unknown"
+  },
+  "Addogono, Nungua": {
+    "lat": 5.602957988260387,
+    "lng": -0.06954383907393748,
+    "method": "api_city"
+  },
+  "Tesano, Accra": {
+    "lat": 5.6024593,
+    "lng": -0.2241331,
+    "method": "api_full"
+  },
+  "No. 12 OSONOR STREET, Tesano, Accra": {
+    "lat": 5.6017457439811755,
+    "lng": -0.22538612226032434,
+    "method": "api_city"
+  },
+  "35 Kofi Annan St, Airport Residential Area, Accra": {
+    "lat": 5.6172003,
+    "lng": -0.1767145,
+    "method": "api_full"
+  },
+  "F168 Anita Mensah Street, Beach Road, Takoradi": {
+    "lat": 4.891208655665978,
+    "lng": -1.7542731115248276,
+    "method": "api_city"
+  },
+  "Baba Yara Street, Site 13, Opposite TDC, Community 1, Tema": {
+    "lat": 5.6635749960588155,
+    "lng": -0.009191614972342763,
+    "method": "api_city"
+  },
+  "Nsawam okobeyeyie Aburi Road Near Nsawam Senior High School, Nsawam": {
+    "lat": 5.818161410516792,
+    "lng": -0.34726258036217944,
+    "method": "api_city"
+  },
+  "18 Silicon Avenue, Kentinkrono, Kumasi, Ashanti": {
+    "lat": 6.699064839643872,
+    "lng": -1.6197345382468709,
+    "method": "api_city"
+  },
+  "Abadal Street, Amasaman": {
+    "lat": 5.7013169703625985,
+    "lng": -0.29907160559763624,
+    "method": "api_city"
+  },
+  "Aburi Road Obosomase, Obosomase": {
+    "lat": 5.872057105547953,
+    "lng": -0.15464256798316586,
+    "method": "api_city"
+  },
+  "Opposite Obuasi General Hospital, Obuasi": {
+    "lat": 6.213128474341709,
+    "lng": -1.6909758398786194,
+    "method": "api_city"
+  },
+  "Obuasi Municipal Assembly, Obuasi": {
+    "lat": 6.2041079,
+    "lng": -1.6824245,
+    "method": "api_full"
+  },
+  "Heart of Goaso municipality, Goaso": {
+    "lat": 6.801195949265185,
+    "lng": -2.517770287159133,
+    "method": "api_city"
+  },
+  "No. 13 Ahinakwa Street, Official Street, Adabraka, Accra, Accra": {
+    "lat": 5.548509985896885,
+    "lng": -0.2111520189519818,
+    "method": "api_city"
+  },
+  "After Buase taxi rank towards Anyankaso, Old Offinso": {
+    "lat": 7.996137877867124,
+    "lng": -0.8453732393904061,
+    "method": "unknown"
+  },
+  "Tema community 2, Just behind the Main market, Tema, Greater Accra Region": {
+    "lat": 5.6574861901639615,
+    "lng": -0.010239349376569467,
+    "method": "api_city"
+  },
+  "Ashiyie, Adenta Dodowa Road, Accra": {
+    "lat": 5.7425333,
+    "lng": -0.15342,
+    "method": "api_full"
+  },
+  "Lamashegu-off Kumasi Accra road, Tamale": {
+    "lat": 9.403589192684683,
+    "lng": -0.8446461556708518,
+    "method": "api_city"
+  },
+  "MPATUOM, MPATUOM, ASHANTI REGION": {
+    "lat": 6.750240612519728,
+    "lng": -1.5211425531326426,
+    "method": "fallback"
+  },
+  "Patase, Opposite Mount Sinai Methodist Church, Kumasi": {
+    "lat": 6.695985361744378,
+    "lng": -1.6250990237075222,
+    "method": "api_city"
+  },
+  "Adoagiri, ST. Martins Nsawam, Nsawam": {
+    "lat": 5.812480186083627,
+    "lng": -0.346029498546128,
+    "method": "api_city"
+  },
+  "New Bakanta (Anyianzili), Ellembelle District, Western Region., Bakanta, Ghana, Bakanta, Western Region": {
+    "lat": 4.954631166707421,
+    "lng": -2.428940924218602,
+    "method": "api_city"
+  },
+  "Osu Oxford Street behind Koala Shopping Mall, Accra": {
+    "lat": 5.560592089075391,
+    "lng": -0.19887451956774257,
+    "method": "api_city"
+  },
+  "Box 47, Bonyere, Ghana": {
+    "lat": 7.848891931026916,
+    "lng": -0.820872395199461,
+    "method": "unknown"
+  },
+  "P.O Box 003, Breman Asikuma, Breman Asikuma, Central Region": {
+    "lat": 5.582469972188011,
+    "lng": -0.9967205456763559,
+    "method": "api_city"
+  },
+  "Fijai Hill, Western, Western": {
+    "lat": 5.429677620476341,
+    "lng": -2.12472043349325,
+    "method": "api_city"
+  },
+  "P. O. Box 210, Sunyani": {
+    "lat": 7.341053527975648,
+    "lng": -2.3343225695776497,
+    "method": "api_city"
+  },
+  "Bantama, Kumasi": {
+    "lat": 6.7051319,
+    "lng": -1.63486,
+    "method": "api_full"
+  },
+  "71 Boundary Road, East Legon, Accra": {
+    "lat": 5.6340835,
+    "lng": -0.1479898,
+    "method": "api_full"
+  },
+  "Near Emmanuel Villa, GM-025-1276 Passion Hill Street, Ogbojo, Accra": {
+    "lat": 5.560745966555383,
+    "lng": -0.204693169829665,
+    "method": "api_city"
+  },
+  "Opposite Effiduase Government Hospital, Ejisu": {
+    "lat": 6.716735064663672,
+    "lng": -1.463912619828219,
+    "method": "api_city"
+  },
+  "Santasi Roundabout Kumasi, Kumasi": {
+    "lat": 6.6723232,
+    "lng": -1.6410716,
+    "method": "api_full"
+  },
+  "Oduiom Kumasi, Kumasi": {
+    "lat": 6.701819844160385,
+    "lng": -1.6264826569973305,
+    "method": "api_city"
+  },
+  "Peace And Love Hospital, Baatsona, Spintex Rd., Accra": {
+    "lat": 5.5536684509963266,
+    "lng": -0.1983661675003027,
+    "method": "api_city"
+  },
+  "Dzoworlu, Nii Nortei Nyanchi street next to Bayport, Accra": {
+    "lat": 5.55563717546737,
+    "lng": -0.20375614043605703,
+    "method": "api_city"
+  },
+  "Volta, Peki, Peki, Volta": {
+    "lat": 6.5312915,
+    "lng": 0.239066,
+    "method": "api_full"
+  },
+  "AYANFURI-DUNKWA, Ayanfuri": {
+    "lat": 5.957065526108624,
+    "lng": -1.894494553148626,
+    "method": "api_city"
+  },
+  "Danquah Circle, Adjacent Police Hospital, Cantonments": {
+    "lat": 5.587573179089413,
+    "lng": -0.1698983440167792,
+    "method": "api_city"
+  },
+  "East Legon, LA-Bawaleshie, Accra": {
+    "lat": 5.6582302,
+    "lng": -0.1704529,
+    "method": "api_full"
+  },
+  "Adjei Onanor St, Adenta, Adenta, Greater Accra": {
+    "lat": 5.705693891466727,
+    "lng": -0.17030882319592294,
+    "method": "api_city"
+  },
+  "Adjei Onanor Street, Adentan": {
+    "lat": 5.701045936651509,
+    "lng": -0.16664187443514084,
+    "method": "api_city"
+  },
+  "Off Sunyani-Kumasi road near Bechem Police station, Bechem": {
+    "lat": 7.091623826606834,
+    "lng": -2.0278098055200675,
+    "method": "api_city"
+  },
+  "Kparigu Clinic, West Mamprusi Municipal, Kparigu": {
+    "lat": 7.8176862351986784,
+    "lng": -1.2441582522574248,
+    "method": "unknown"
+  },
+  "Homowo Street, Middle East-Ashaiman, Ashaiman": {
+    "lat": 5.696431609548396,
+    "lng": -0.02832608708887852,
+    "method": "api_city"
+  },
+  "Homowo Street, Ashaiman": {
+    "lat": 5.6903449,
+    "lng": -0.0216396,
+    "method": "api_full"
+  },
+  "Homowo street, Ashaiman": {
+    "lat": 5.6903449,
+    "lng": -0.0216396,
+    "method": "api_full"
+  },
+  "Plot 650 Ecomog Rd, (Opposite Benab Oil filling station. Closest station is Haatso Station), Haatso": {
+    "lat": 5.671906164926557,
+    "lng": -0.20289113997262906,
+    "method": "api_city"
+  },
+  "Asokwa, Kumasi, Near Amakom, Kumasi": {
+    "lat": 6.696574732419901,
+    "lng": -1.6227934591451265,
+    "method": "api_city"
+  },
+  "Asokwa, Near Amakom, Kumasi, Kumasi": {
+    "lat": 6.69870619034524,
+    "lng": -1.6241257302612913,
+    "method": "api_city"
+  },
+  "Maxwell Road, Western": {
+    "lat": 4.9381734,
+    "lng": -1.7152614,
+    "method": "api_full"
+  },
+  "DN Uber Drv4, Hospital road, Amasaman, Accra": {
+    "lat": 5.553199326669735,
+    "lng": -0.1984352400188165,
+    "method": "api_city"
+  },
+  "Apire, Near Santasi, Kumasi": {
+    "lat": 6.700795139718718,
+    "lng": -1.6247192233337455,
+    "method": "api_city"
+  },
+  "Guggisberg Avenue (opposite Korle Bu police station), Accra": {
+    "lat": 5.5611027136611835,
+    "lng": -0.20139842963630575,
+    "method": "api_city"
+  },
+  "P.O. Box 5, Sandema": {
+    "lat": 10.7353788,
+    "lng": -1.2867192,
+    "method": "api_full"
+  },
+  "Abaase, C/o P.o.box 20, Sefwi Essam": {
+    "lat": 7.665287745980381,
+    "lng": -0.9778405859199912,
+    "method": "unknown"
+  },
+  "23 Durban St, Accra": {
+    "lat": 5.557171696484952,
+    "lng": -0.1975832262723416,
+    "method": "api_city"
+  },
+  "Bomso, AK - 316 - 1041, Kumasi, Ashanti": {
+    "lat": 6.69608849287474,
+    "lng": -1.6263241016740355,
+    "method": "api_city"
+  },
+  "Nii Awoso Street, Mataheko, Accra": {
+    "lat": 5.5545240584465345,
+    "lng": -0.20521587597707003,
+    "method": "api_city"
+  },
+  "Old Tafo near OKESS, Kumasi": {
+    "lat": 6.701894418046051,
+    "lng": -1.6199350510994375,
+    "method": "api_city"
+  },
+  "Derby Ave, Accra": {
+    "lat": 5.5450802,
+    "lng": -0.2149458,
+    "method": "api_full"
+  },
+  "P.o. Box 49, Agona Nkwanta": {
+    "lat": 4.890152367246662,
+    "lng": -1.9693102268110478,
+    "method": "api_city"
+  },
+  "Prisons Road, Sunyani": {
+    "lat": 7.341166159706409,
+    "lng": -2.327517315384905,
+    "method": "api_city"
+  },
+  "P.O.Box LG1126, Legon, Accra": {
+    "lat": 5.644499658387869,
+    "lng": -0.19397181952669013,
+    "method": "api_city"
+  },
+  "P.O. Box 1106, Tema, Tema": {
+    "lat": 5.6779007,
+    "lng": -0.032785,
+    "method": "api_full"
+  },
+  "Unnamed Road, Mampong, Ashanti Region": {
+    "lat": 7.056617381325602,
+    "lng": -1.406509231412378,
+    "method": "api_city"
+  },
+  "10 Royal Castle Link Kokomlemle, Accra": {
+    "lat": 5.555483123586051,
+    "lng": -0.20475886795228598,
+    "method": "api_city"
+  },
+  "27 Maseru Street, East Legon, Accra, Greater Accra": {
+    "lat": 5.558621176733904,
+    "lng": -0.2040171043435831,
+    "method": "api_city"
+  },
+  "Commercial Street, Opposite GT Bank Tarkwa, Tarkwa": {
+    "lat": 5.309214302498856,
+    "lng": -1.9925667554289654,
+    "method": "api_city"
+  },
+  "Nkraam St, Kumasi": {
+    "lat": 6.697003195690888,
+    "lng": -1.621635349170741,
+    "method": "api_city"
+  },
+  "HNO F886/2 14TH LANE BEHIND KOALA, P O BOX AN 7286, ACCRA NORTH, Accra, Greater Accra": {
+    "lat": 5.558499471585507,
+    "lng": -0.20425244149857769,
+    "method": "api_city"
+  },
+  "Rap, Tema": {
+    "lat": 7.796038020878574,
+    "lng": -1.0009827984615653,
+    "method": "unknown"
+  },
+  "Docia Owusu Avenue, Kumasi": {
+    "lat": 6.696994559266568,
+    "lng": -1.6195362382465446,
+    "method": "api_city"
+  },
+  "Ahodwo-bibiani Near Estates, Box 47 Bibiani, Bibiani": {
+    "lat": 6.449819087283755,
+    "lng": -2.3169687249182895,
+    "method": "api_city"
+  },
+  "Patrice Lumumba Road, Accra": {
+    "lat": 5.6096193,
+    "lng": -0.1803444,
+    "method": "api_full"
+  },
+  "Guggisberg Avenue, The facility is located within the Korle Bu Teachinhg Hospital adjascent the Maternity Department., Accra": {
+    "lat": 5.555432941519182,
+    "lng": -0.20285047916023582,
+    "method": "api_city"
+  },
+  "Western, Bibiani, Western Region": {
+    "lat": 6.1945439,
+    "lng": -2.3222895,
+    "method": "api_full"
+  },
+  "Ashaiman-Zenu New Road.": {
+    "lat": 8.033876038455375,
+    "lng": -1.1652618150495138,
+    "method": "unknown"
+  },
+  "Nungua, Opposite Old Nungua Dampong Pharmacy, Accra": {
+    "lat": 5.557290797353681,
+    "lng": -0.1987329752834106,
+    "method": "api_city"
+  },
+  "RC 89/B, Gumani, Tamale": {
+    "lat": 9.404751690020998,
+    "lng": -0.8432240145860731,
+    "method": "api_city"
+  },
+  "Tantra Street, Accra": {
+    "lat": 5.6403923,
+    "lng": -0.2526289,
+    "method": "api_full"
+  },
+  "6 Baiden Avenue 1st St, Accra": {
+    "lat": 5.557407498567351,
+    "lng": -0.20241009430650203,
+    "method": "api_city"
+  },
+  "Botwe Newtown Junction, behind Star Oil, Ashale-Botwe, Ashale-Botwe": {
+    "lat": 5.686506096730704,
+    "lng": -0.16457957370664905,
+    "method": "api_city"
+  },
+  "New Weija(gicel Estate), Box Wj 430 New Weija, New Weija": {
+    "lat": 5.547864558387283,
+    "lng": -0.34300338576065886,
+    "method": "api_city"
+  },
+  "Box MA 236, Ho, Volta Region": {
+    "lat": 6.613862470649906,
+    "lng": 0.46682001256354017,
+    "method": "api_city"
+  },
+  "Paradise Residential Area, Accra": {
+    "lat": 5.556834850166777,
+    "lng": -0.19726475563029683,
+    "method": "api_city"
+  },
+  "Mango street, Accra": {
+    "lat": 5.6254879,
+    "lng": -0.130508,
+    "method": "api_full"
+  },
+  "Box 254yb, Asuyeboah-IPT, off Denkyemuoso Rd, Kumasi": {
+    "lat": 6.699320178176781,
+    "lng": -1.620318687937352,
+    "method": "api_city"
+  },
+  "ON THE ABOR ANYAKU MAIN ROAD, Volta Region": {
+    "lat": 6.537851699315723,
+    "lng": 0.45432465465284116,
+    "method": "api_city"
+  },
+  "Spintex Plaza Building Coca cola roundabout, Accra, Greater Accra": {
+    "lat": 5.559681005909623,
+    "lng": -0.19758472572217617,
+    "method": "api_city"
+  },
+  "AHODWO & ABUAKWA, Kumasi": {
+    "lat": 6.695510980915827,
+    "lng": -1.6260054909815647,
+    "method": "api_city"
+  },
+  "Solace Junction, Adisadel, Cape Coast": {
+    "lat": 5.103859373990359,
+    "lng": -1.2432312294949601,
+    "method": "api_city"
+  },
+  "Dwinyama, Ahafo Ano South-East, Kumasi, Ahafo Ano South-East": {
+    "lat": 6.938497075699444,
+    "lng": -1.901741771617948,
+    "method": "api_city"
+  },
+  "Windy Ridge Extension, Takoradi P.O. Box mc, Takoradi": {
+    "lat": 4.88915733621536,
+    "lng": -1.7481771944903768,
+    "method": "api_city"
+  },
+  "SEFWI AKONTOMBRA, WESTERN NORTH REGION, Sefwi, Ghana": {
+    "lat": 5.094713839807385,
+    "lng": -1.5716908655413866,
+    "method": "api_city"
+  },
+  "Opposite Accra High Court, Prof. John Evans Atta Mills Street, Ministries - Accra, Accra": {
+    "lat": 5.555862582212872,
+    "lng": -0.198997288787572,
+    "method": "api_city"
+  },
+  "Kasei Via Ejura, P.O Box KS 1352, Kumasi, Digital Address AJ-1798-9833, Kumasi, Ashanti Region": {
+    "lat": 6.701373865375347,
+    "lng": -1.6227166964949467,
+    "method": "api_city"
+  },
+  "Mataheko Flamingo, Accra": {
+    "lat": 5.558559421208941,
+    "lng": -0.19767830973816344,
+    "method": "api_city"
+  },
+  "SAKUMONO ESTATE, Tema": {
+    "lat": 5.6419803,
+    "lng": -0.0717904,
+    "method": "api_full"
+  },
+  "Bimbilla rd Salaga, Salaga": {
+    "lat": 8.553773735292822,
+    "lng": -0.5216685530250668,
+    "method": "api_city"
+  },
+  "Opp Kaira Jss School Compound, Western": {
+    "lat": 5.4259442373433275,
+    "lng": -2.1315298859819913,
+    "method": "api_city"
+  },
+  "KULUNGUNGU, Bawku": {
+    "lat": 8.072097884100419,
+    "lng": -1.21385053218432,
+    "method": "unknown"
+  },
+  "Anglogold Iduapriem Mine, Tarkwa, Tarkwa, Western": {
+    "lat": 5.2526101,
+    "lng": -2.0490137,
+    "method": "api_full"
+  },
+  "Haatso Ecomog Road, Accra": {
+    "lat": 5.555940574931557,
+    "lng": -0.20355994566805938,
+    "method": "api_city"
+  },
+  "New Gbawe Rd, Accra": {
+    "lat": 5.5682746,
+    "lng": -0.2867525,
+    "method": "api_full"
+  },
+  "Kotobabi, Accra, Greater Accra": {
+    "lat": 5.5967424,
+    "lng": -0.2057188,
+    "method": "api_full"
+  },
+  "1st Floor Sabonkudi Plaza, opp. VRA, Tamale": {
+    "lat": 9.408560046845285,
+    "lng": -0.8447883748343623,
+    "method": "api_city"
+  },
+  "Western, Mangoase, Western Region": {
+    "lat": 6.6800617064973435,
+    "lng": -2.865810931220922,
+    "method": "api_city"
+  },
+  "Dominase, Central Region, Dominase, Central Region": {
+    "lat": 5.0522051,
+    "lng": -1.4934902,
+    "method": "api_full"
+  },
+  "Pedu Estate, Cape Coast": {
+    "lat": 5.130232,
+    "lng": -1.2649964,
+    "method": "api_full"
+  },
+  "P.o.box 7, Sefwi Wiawso": {
+    "lat": 6.201414388855302,
+    "lng": -2.4850016675030173,
+    "method": "api_city"
+  },
+  "P.O.BOX 108, SEFWI BEKWAI, SEFWI BEKWAI, Western Region": {
+    "lat": 6.1939379,
+    "lng": -2.3236325,
+    "method": "api_full"
+  },
+  "Fadama Road, Accra": {
+    "lat": 5.6037656,
+    "lng": -0.2438536,
+    "method": "api_full"
+  },
+  "P.O Box DD1, Dodowa, Greater Accra, Dodowa, Greater Accra": {
+    "lat": 5.877583038169558,
+    "lng": -0.10611641484833634,
+    "method": "api_city"
+  },
+  "Ay House, suite #5, Comm. 8, Tema - Ghana Community 8, Tema, Tema": {
+    "lat": 5.662764315387963,
+    "lng": -0.010772747332513622,
+    "method": "api_city"
+  },
+  "Klagon, Lashibi": {
+    "lat": 8.07640381886773,
+    "lng": -0.8872277342335386,
+    "method": "unknown"
+  },
+  "300 Meters from Glory Land on the Owusu Kofi Street, Odorkor": {
+    "lat": 5.583527042335163,
+    "lng": -0.26255401961026353,
+    "method": "api_city"
+  },
+  "Owusu Kofi Street, Accra": {
+    "lat": 5.5830103,
+    "lng": -0.2576382,
+    "method": "api_full"
+  },
+  "KINTAMPO-POST OFFICE JUNCTION, Kintampo": {
+    "lat": 8.057120372999634,
+    "lng": -1.7249517259264964,
+    "method": "api_city"
+  },
+  "Hermann Gmeiner street, Tema": {
+    "lat": 5.6480237,
+    "lng": -0.0183225,
+    "method": "api_full"
+  },
+  "Dompoase, Adansi North District, Ashanti Region, Dompoase, Ashanti Region": {
+    "lat": 6.3079512,
+    "lng": -1.5281772,
+    "method": "api_full"
+  },
+  "ON THE SALAGA BIMBILLA CHAMBA STREET NEAR BEAD FM, Bimbila": {
+    "lat": 8.088866626747974,
+    "lng": 0.17969848476718192,
+    "method": "api_city"
+  },
+  "Along Tema-aflao Road": {
+    "lat": 8.088772580339288,
+    "lng": -0.9176824631094194,
+    "method": "unknown"
+  },
+  "Opposite Kpastec secondary School Street, Nkwanta": {
+    "lat": 8.261678103657673,
+    "lng": 0.518587756908135,
+    "method": "api_city"
+  },
+  "Osu Oxford Street, Osu, Osu": {
+    "lat": 5.5600195,
+    "lng": -0.1819633,
+    "method": "api_full"
+  },
+  "Oduom- Awomaso, Kumasi, Ashanti Region": {
+    "lat": 6.7005250035169,
+    "lng": -1.6255833328705795,
+    "method": "api_city"
+  },
+  "Spintex Road, Shell Signboard, opposite PUMA filling station-Spintex, Accra": {
+    "lat": 5.554216962497856,
+    "lng": -0.2026946173093716,
+    "method": "api_city"
+  },
+  "No.12 Opoku Adjie Avenue, Off Friends Garden Junction Kumasi Patasi, Kumasi": {
+    "lat": 6.699273160595009,
+    "lng": -1.6200601252383313,
+    "method": "api_city"
+  },
+  "50 Mensah Wood Street, East Legon-Accra, Accra": {
+    "lat": 5.634415,
+    "lng": -0.1626322,
+    "method": "api_full"
+  },
+  "Weija-Broadcasting Junction, Weija": {
+    "lat": 5.577974106912928,
+    "lng": -0.3329014518935386,
+    "method": "api_city"
+  },
+  "Broadcastle, Weija, Accra": {
+    "lat": 5.560328206354487,
+    "lng": -0.20391523769037034,
+    "method": "api_city"
+  },
+  "Dompoase, Obuasi-Diocese, Dompoase, Ashanti Region": {
+    "lat": 6.634366667865578,
+    "lng": -1.5910471697474422,
+    "method": "api_city"
+  },
+  "Tantra Hill Junction, Accra": {
+    "lat": 5.554397134298675,
+    "lng": -0.20253536187736954,
+    "method": "api_city"
+  },
+  "Subiri, C/o Box 82, Bibiani": {
+    "lat": 6.450122574858507,
+    "lng": -2.3146049071979964,
+    "method": "api_city"
+  },
+  "New Achimota (mile 7), Greater Accra": {
+    "lat": 5.6313817,
+    "lng": -0.2438839,
+    "method": "api_full"
+  },
+  "District capital of the Amansie Central District, Jacobu": {
+    "lat": 6.344963695508936,
+    "lng": -1.6743712493037117,
+    "method": "api_city"
+  },
+  "Obrayentoboase-nope, C/o/ P/o/box 16, Nope, Ghana, Nope": {
+    "lat": 7.8757609358583025,
+    "lng": -0.8972626728115749,
+    "method": "unknown"
+  },
+  "Shai Osudoku District, Kordiabe, Greater Accra": {
+    "lat": 5.600798971022549,
+    "lng": -0.1909575569536438,
+    "method": "fallback"
+  },
+  "On the Kordiabe - Ashaiman road Adjacent the Filling Station, Kordiabe, Shai Osudoku District, Greater Accra Region": {
+    "lat": 5.605729875203508,
+    "lng": -0.18887363535302543,
+    "method": "fallback"
+  },
+  "Comm.1, Community 1, Tema": {
+    "lat": 5.650195,
+    "lng": 0.0024448,
+    "method": "api_full"
+  },
+  "P. O. Box 59 - (ED-0008-3697), Akwatia": {
+    "lat": 6.039193079496779,
+    "lng": -0.7960946238233032,
+    "method": "api_city"
+  },
+  "Nkwanta Danase": {
+    "lat": 7.912983274474504,
+    "lng": -0.9120136727956156,
+    "method": "unknown"
+  },
+  "120 Mankessim - Kumasi Rd, P. O. Box 43, Assin-Foso, Ghana, Assin-Foso, Central Region": {
+    "lat": 5.959606275868345,
+    "lng": -1.7781782493139495,
+    "method": "api_city"
+  },
+  "GA-144-7272 OPPOSITE NEW COURT COMPLEX JOHN EVANS ATTA MILLS STREET, Accra": {
+    "lat": 5.553390504825843,
+    "lng": -0.2003059155830643,
+    "method": "api_city"
+  },
+  "St. John of God Hospital, P.O. Box 9 SEFWI-ASAFO, Via Wiawso, SEFWI-ASAFO, Western North Region": {
+    "lat": 6.3986573436706795,
+    "lng": -2.6585792860641155,
+    "method": "api_city"
+  },
+  "off Sunyani road, Sunyani": {
+    "lat": 7.3396907530612,
+    "lng": -2.3324503852782814,
+    "method": "api_city"
+  },
+  "Stadium Road, Obuasi": {
+    "lat": 6.208705,
+    "lng": -1.6776817,
+    "method": "api_full"
+  },
+  "H Kessels Close, Off Senchi Street, Airport Residential Area, Accra": {
+    "lat": 5.560700480023221,
+    "lng": -0.20244276182975962,
+    "method": "api_city"
+  },
+  "Agoromyesum": {
+    "lat": 7.78117533343173,
+    "lng": -0.8046415626431447,
+    "method": "unknown"
+  },
+  "Dodi \u2013 Papase, Oti": {
+    "lat": 7.7422831,
+    "lng": 0.5101573,
+    "method": "api_full"
+  },
+  "Pramso, Pramso, Ashanti": {
+    "lat": 6.5637337,
+    "lng": -1.5151722,
+    "method": "api_full"
+  },
+  "Mavis Boutique, Takoradi, Takoradi": {
+    "lat": 4.88785797979174,
+    "lng": -1.7555093709688008,
+    "method": "api_city"
+  },
+  "Opposite PWD - Columbia Avenue - Takoradi, Takoradi, Western Region": {
+    "lat": 4.890166149892951,
+    "lng": -1.74852694889846,
+    "method": "api_city"
+  },
+  "DROBONSO, Kumawu": {
+    "lat": 6.912867551212358,
+    "lng": -1.2812254462125643,
+    "method": "api_city"
+  },
+  "nortei ababio street, oppt the Adidas shop,airport., Accra": {
+    "lat": 5.55640502493897,
+    "lng": -0.20365471973175803,
+    "method": "api_city"
+  },
+  "Oseikojokrom, Oseikojokrom, Western Region": {
+    "lat": 5.162851750178927,
+    "lng": -1.7974167961417504,
+    "method": "fallback"
+  },
+  "Hill Top before NAA GAMNI OIL From Yendi Hospital, Yendi": {
+    "lat": 9.44485844589969,
+    "lng": -0.0003809573693403408,
+    "method": "api_city"
+  },
+  "Hno Pt. 23, Kojokrom/sekondi, P.o.box Box Ax 964, Kojokrom/Sekondi": {
+    "lat": 4.965787455085263,
+    "lng": -1.7237668682965495,
+    "method": "api_city"
+  },
+  "Forikrom, Suhum": {
+    "lat": 6.037685493206317,
+    "lng": -0.45262999770242823,
+    "method": "api_city"
+  },
+  "Adjei Kojo Suncity, Tema, Tema West Municipal": {
+    "lat": 5.642810064827765,
+    "lng": -0.08153094323798372,
+    "method": "api_city"
+  },
+  "Kumasi-Bekwai-roundabout, Danyame, Kumasi": {
+    "lat": 6.698126504247304,
+    "lng": -1.625984566715132,
+    "method": "api_city"
+  },
+  "Sunyani - Wenchi Road, Sunyani, Brong Ahafo": {
+    "lat": 7.3323707372191995,
+    "lng": -2.327729043312075,
+    "method": "fallback"
+  },
+  "Parakuo Estates Dome, Greater Accra": {
+    "lat": 5.809353742424619,
+    "lng": 0.0958927072903448,
+    "method": "api_city"
+  },
+  "Hse No. 5 Monsour, Parakuo Estate, Dome, Accra": {
+    "lat": 5.557196078424279,
+    "lng": -0.19983689169961233,
+    "method": "api_city"
+  },
+  "Ritz Junction, Naa Dede Street, Adenta Municipality, Adenta Municipality": {
+    "lat": 7.754201609642292,
+    "lng": -1.0014177276174114,
+    "method": "unknown"
+  },
+  "Osu Ako-Adjei opp. Kingdom Books and Stationery, Accra": {
+    "lat": 5.560307917052611,
+    "lng": -0.2010375372230377,
+    "method": "api_city"
+  },
+  "Ritz Junction, Naa Dede Street, Adenta Municipality": {
+    "lat": 8.13359289043201,
+    "lng": -0.8492879769996013,
+    "method": "unknown"
+  },
+  "PO. Box MD1879, Madina, Accra": {
+    "lat": 5.558684709788584,
+    "lng": -0.20225901081844955,
+    "method": "api_city"
+  },
+  "Agona Swedru, Agona Swedru": {
+    "lat": 5.5314935,
+    "lng": -0.7002641,
+    "method": "api_full"
+  },
+  "P. O. Box 29 Agona Swedru, Agona Swedru": {
+    "lat": 5.534456875898965,
+    "lng": -0.7023542618687356,
+    "method": "api_city"
+  },
+  "FDA Building, Hospital Road, Near the Regional Hospital, Koforidua": {
+    "lat": 6.100413042681511,
+    "lng": -0.26335859217253343,
+    "method": "api_city"
+  },
+  "Prime Plaza Building, Old Bekwai Road, Ahodwo, Kumasi": {
+    "lat": 6.697342054582245,
+    "lng": -1.621936718025751,
+    "method": "api_city"
+  },
+  "Silver Crest Building, Bantama Road, Kumasi": {
+    "lat": 6.695724297330383,
+    "lng": -1.6208339286141729,
+    "method": "api_city"
+  },
+  "Taifa Trotro Station, Accra": {
+    "lat": 5.558476272422125,
+    "lng": -0.20480716093748322,
+    "method": "api_city"
+  },
+  "Anaji 1st Avenue, Takoradi": {
+    "lat": 4.889250128357565,
+    "lng": -1.7479958198827268,
+    "method": "api_city"
+  },
+  "Northern, Zobogu, Tamale, Northern": {
+    "lat": 9.402650190181754,
+    "lng": -0.842521329032329,
+    "method": "api_city"
+  },
+  "1 Dobso Road, Tarkwa, Western": {
+    "lat": 5.309914505288177,
+    "lng": -1.9924879820179562,
+    "method": "api_city"
+  },
+  "Cynide, P.o. Box 10, Tarkwa": {
+    "lat": 5.310990642955949,
+    "lng": -1.995931088396255,
+    "method": "api_city"
+  },
+  "Hospital Rd., Comm 9, Tema": {
+    "lat": 5.6748369,
+    "lng": -0.0212615,
+    "method": "api_full"
+  },
+  "P. O. Box 1632, Verical Center - Hospital Road, Community 11 - Tema, Tema, Ghana": {
+    "lat": 7.102115383255122,
+    "lng": 0.4531505671498432,
+    "method": "api_city"
+  },
+  "TEPA-MANKRASO MAIN RD": {
+    "lat": 7.982912919771139,
+    "lng": -1.0809655249656562,
+    "method": "unknown"
+  },
+  "Block F6, Shippi Road, Cantonments, Accra": {
+    "lat": 5.555422742683896,
+    "lng": -0.19883545005487452,
+    "method": "api_city"
+  },
+  "Block F6, Shippi Road, Cantonments, Accra, Accra": {
+    "lat": 5.554947690405297,
+    "lng": -0.2033413413864638,
+    "method": "api_city"
+  },
+  "Abokobi, Accra": {
+    "lat": 5.7327601,
+    "lng": -0.2059142,
+    "method": "api_full"
+  },
+  "300 Metres down the road, after the first left turn after Abokobi Station., Accra": {
+    "lat": 5.559813430584582,
+    "lng": -0.19844685245089672,
+    "method": "api_city"
+  },
+  "Musuku-ashongman Est Rd": {
+    "lat": 8.0711168570726,
+    "lng": -0.905932881323605,
+    "method": "unknown"
+  },
+  "Musuku-ashongman Est Rd, New Ashongman": {
+    "lat": 5.693427315631074,
+    "lng": -0.20038492624398307,
+    "method": "api_city"
+  },
+  "Ashongman Estate Oyarifa, Oyarifa": {
+    "lat": 5.744430926108607,
+    "lng": -0.17350103379193868,
+    "method": "api_city"
+  },
+  "Atebubu Municipality, Yabraso, Bono East Region": {
+    "lat": 8.069378820388879,
+    "lng": -1.7983181707630187,
+    "method": "api_city"
+  },
+  "Dansoman High Street, Accra, Accra": {
+    "lat": 5.5292866,
+    "lng": -0.2649458,
+    "method": "api_full"
+  },
+  "59 Nii Kojo Armah St Odorkor, Accra": {
+    "lat": 5.5835325,
+    "lng": -0.2596965,
+    "method": "api_full"
+  },
+  "AJUMAKO BAAH, Central": {
+    "lat": 5.722098210814424,
+    "lng": -1.3736286133503366,
+    "method": "api_city"
+  },
+  "26 Mango Tree Avenue, Accra": {
+    "lat": 5.5678695,
+    "lng": -0.2026639,
+    "method": "api_full"
+  },
+  "22 Balden AVE, 2nd St West Legon, Accra": {
+    "lat": 5.556832674086878,
+    "lng": -0.2022876254829065,
+    "method": "api_city"
+  },
+  "112, Lane 10, Onyinase Street, Accra": {
+    "lat": 5.558882125237355,
+    "lng": -0.20435168242562646,
+    "method": "api_city"
+  },
+  "Oxford Street, Accra": {
+    "lat": 5.5548645,
+    "lng": -0.1833557,
+    "method": "api_full"
+  },
+  "Kanda highway, Accra": {
+    "lat": 5.5674588,
+    "lng": -0.201616,
+    "method": "api_full"
+  },
+  "GW-0223-8594 Pokuase, Accra": {
+    "lat": 5.6596038,
+    "lng": -0.2648453,
+    "method": "api_full"
+  },
+  "Tolon District Hospital, Tolon": {
+    "lat": 9.4255318,
+    "lng": -1.0511219,
+    "method": "api_full"
+  },
+  "OFF THE AGBOGBA ROAD, OPPOSITE THE PACIFIC FILING STATION, Accra": {
+    "lat": 5.559185634314483,
+    "lng": -0.19826221096295726,
+    "method": "api_city"
+  },
+  "OFF THE AGBOGBA ROAD, OPPOSITE THE PACIFIC FILING STATION, ACCRA": {
+    "lat": 5.55563379448889,
+    "lng": -0.20123234776070442,
+    "method": "api_city"
+  },
+  "Kronom-Cementmu, Offinso Road, Kumasi": {
+    "lat": 6.700513919429705,
+    "lng": -1.623446049857811,
+    "method": "api_city"
+  },
+  "P O BOX 326, Winneba, Central Region": {
+    "lat": 5.352823418571735,
+    "lng": -0.6196365310910475,
+    "method": "api_city"
+  },
+  "South Suntreso, Kumasi": {
+    "lat": 6.6949332,
+    "lng": -1.6430414,
+    "method": "api_full"
+  },
+  "Santa Maria, near Blue Kiosk, Accra": {
+    "lat": 5.554635233771328,
+    "lng": -0.20025728889008734,
+    "method": "api_city"
+  },
+  "G.K. Ntow Avenue, Chapel Hill, Takoradi, Western Region": {
+    "lat": 4.8882087,
+    "lng": -1.7540463,
+    "method": "api_full"
+  },
+  "Jisonaayili, opposite Discovery Hotel, GPS Address: NS-159-3129, Tamale": {
+    "lat": 9.403991589129008,
+    "lng": -0.84358362286011,
+    "method": "api_city"
+  },
+  "Opposite Teysec Yard, Dabokpa--Tamale, Tamale": {
+    "lat": 9.40917497358223,
+    "lng": -0.8414224607719131,
+    "method": "api_city"
+  },
+  "University of Energy and Natural Resources, Sunyani, Sunyani": {
+    "lat": 7.3484153,
+    "lng": -2.3415036,
+    "method": "api_full"
+  },
+  "Post Office Box LG 25, Accra": {
+    "lat": 5.555384808592945,
+    "lng": -0.204850404526373,
+    "method": "api_city"
+  },
+  "Indian Ocean Street off Akilakpa Sawyerr Rd, Legon, Accra, Greater Accra": {
+    "lat": 5.559641080895014,
+    "lng": -0.2007766609455153,
+    "method": "api_city"
+  },
+  "2nd Floor City Mall Gallaria, Spintex Road, Accra": {
+    "lat": 5.554515258493146,
+    "lng": -0.2011330272633175,
+    "method": "api_city"
+  },
+  "10 Martey Tsuru Street, Behind Papaye, DBS Axis, Spintex Road, Accra": {
+    "lat": 5.555070042519272,
+    "lng": -0.20477671167372463,
+    "method": "api_city"
+  },
+  "SMELTER SITE HEAVY INDUSTRIAL AREA, Greater Accra Region": {
+    "lat": 5.81174052334282,
+    "lng": 0.09884687145889873,
+    "method": "api_city"
+  },
+  "SITE, TECHIMAN SUNYANI ROAD Techiman, Techiman": {
+    "lat": 7.586525139570695,
+    "lng": -1.9350073880702963,
+    "method": "api_city"
+  },
+  "Dansoman High Street, Accra": {
+    "lat": 5.5292866,
+    "lng": -0.2649458,
+    "method": "api_full"
+  },
+  "No. 3006 Forico Mall, Mission Street, Osu, Greater Accra": {
+    "lat": 5.561510590255892,
+    "lng": -0.18559227242200327,
+    "method": "api_city"
+  },
+  "Spintex Road, Accra, Greater Accra": {
+    "lat": 5.6288265,
+    "lng": -0.0901987,
+    "method": "api_full"
+  },
+  "Sahara Junction, Dansoman Estate, Accra": {
+    "lat": 5.559517457497784,
+    "lng": -0.19905016801490963,
+    "method": "api_city"
+  },
+  "Musuku, Kwabenya - Accra, Accra, Accra": {
+    "lat": 5.6811492,
+    "lng": -0.2403516,
+    "method": "api_full"
+  },
+  "Free Town Avenue, Okponglo Junction (Turning towards East Legon), Accra, Greater Accra Region": {
+    "lat": 5.5558558871695745,
+    "lng": -0.20463346411029934,
+    "method": "api_city"
+  },
+  "East Oyarifa, Street H, off Aburi and Dodowa Road, P.O. Box AF939, Adenta, Adenta, Greater Accra Region": {
+    "lat": 5.703820502279953,
+    "lng": -0.16710455962166446,
+    "method": "api_city"
+  },
+  "25 Bathur Street, Accra, Greater Accra": {
+    "lat": 5.6326284,
+    "lng": -0.1676696,
+    "method": "api_full"
+  },
+  "P. O Box LG260, Legon, Accra": {
+    "lat": 5.553770237404924,
+    "lng": -0.2039886524258835,
+    "method": "api_city"
+  },
+  "Hospital Street, Hohoe": {
+    "lat": 7.1575995,
+    "lng": 0.4728299,
+    "method": "api_full"
+  },
+  "Hospital Street, Hohoe, Volta Region": {
+    "lat": 7.1575995,
+    "lng": 0.4728299,
+    "method": "api_full"
+  },
+  "ABOADZE, P.O. BOX, TOKORADI, Aboadze": {
+    "lat": 4.9764997908032464,
+    "lng": -1.6539350981443923,
+    "method": "api_city"
+  },
+  "P. Box 6, Wa": {
+    "lat": 5.711939,
+    "lng": -0.1870062,
+    "method": "api_full"
+  },
+  "C/O BOX 6 WA, Wa, Upper West Region": {
+    "lat": 10.059608792985907,
+    "lng": -2.5043050061484005,
+    "method": "api_city"
+  },
+  "Walewale 233 Walewale, Ghana, Walewale": {
+    "lat": 10.346051565148842,
+    "lng": -0.8045014284582184,
+    "method": "api_city"
+  },
+  "Nogsenia, Ghana, Nogsenia": {
+    "lat": 7.968551738005726,
+    "lng": -0.9584567717296204,
+    "method": "unknown"
+  },
+  "WALLEMBELLE, Upper West Region": {
+    "lat": 10.369541602467194,
+    "lng": -2.092850341684445,
+    "method": "api_city"
+  },
+  "Plot 650 Ecomog Rd, Opposite Benab Oil filling station. Closest station is Haatso Station, Haatso": {
+    "lat": 5.668208514351548,
+    "lng": -0.20230314425332754,
+    "method": "api_city"
+  },
+  "Collins Ave., Sekondi, Takoradi": {
+    "lat": 4.8991771,
+    "lng": -1.7657163,
+    "method": "api_full"
+  },
+  "Edwenase Kwadaso, Kumasi": {
+    "lat": 6.698361007630175,
+    "lng": -1.6239267796650911,
+    "method": "api_city"
+  },
+  "P.O. Box KS 6578, Near Radio Mercury, Bantama, Kumasi": {
+    "lat": 6.701558131823411,
+    "lng": -1.6209714555435835,
+    "method": "api_city"
+  },
+  "Bantama Near Radio Mercury, Kumasi": {
+    "lat": 6.698431106937416,
+    "lng": -1.6195645555080385,
+    "method": "api_city"
+  },
+  "Ankaful Street, Cape Coast": {
+    "lat": 5.109632959883054,
+    "lng": -1.2443476964030045,
+    "method": "api_city"
+  },
+  "Ankaful Junction, Cape Coast": {
+    "lat": 5.104279647305618,
+    "lng": -1.2462919021234349,
+    "method": "api_city"
+  },
+  "Damongo-Sawla Highway, Damongo": {
+    "lat": 9.084562557578913,
+    "lng": -1.8236221520747977,
+    "method": "api_city"
+  },
+  "P.o.box AH 44, Achimota, Accra, Accra": {
+    "lat": 5.560412543069326,
+    "lng": -0.20514830014236277,
+    "method": "api_city"
+  },
+  "House # opposite zenith hotel takoradi, Takoradi": {
+    "lat": 4.890519927206639,
+    "lng": -1.754406702988648,
+    "method": "api_city"
+  },
+  "Atebubu yeji highway, Atebubu": {
+    "lat": 7.75723304044948,
+    "lng": -0.9880770203942566,
+    "method": "api_city"
+  },
+  "Kpando - Dambai Road, Biakoye District, Worawora, Oti Region": {
+    "lat": 7.507626638347413,
+    "lng": 0.3713273864954937,
+    "method": "api_city"
+  },
+  "Kpando - Dambai Road, Worawora": {
+    "lat": 7.513259202325296,
+    "lng": 0.37573123689920207,
+    "method": "api_city"
+  },
+  "12 A Freetown Avenue, Okponglo Junction, Accra": {
+    "lat": 5.560326784616071,
+    "lng": -0.20355828997209907,
+    "method": "api_city"
+  },
+  "osu oxford street, Accra": {
+    "lat": 5.5600195,
+    "lng": -0.1819633,
+    "method": "api_full"
+  },
+  "Zabzugu Tatale, Zabzugu Tatale": {
+    "lat": 9.260507653619392,
+    "lng": 0.4854465491582225,
+    "method": "api_city"
+  },
+  "Asin": {
+    "lat": 7.882053914743489,
+    "lng": -0.8029577194370696,
+    "method": "unknown"
+  },
+  "Asuofia": {
+    "lat": 6.7689172,
+    "lng": -1.6840122,
+    "method": "api_full"
+  },
+  "Cabo Corso": {
+    "lat": 5.6223933,
+    "lng": -0.1735001,
+    "method": "api_full"
+  },
+  "Banda": {
+    "lat": 8.2966595,
+    "lng": -0.0924395,
+    "method": "api_full"
+  },
+  "Nalerigu": {
+    "lat": 10.525509,
+    "lng": -0.370179,
+    "method": "api_full"
+  },
+  "Drobonso": {
+    "lat": 7.0641667,
+    "lng": -1.1243691,
+    "method": "api_full"
+  },
+  "Daffiama": {
+    "lat": 10.367484,
+    "lng": -2.2622267,
+    "method": "api_full"
+  },
+  "Odonkawkrom": {
+    "lat": 7.0464346,
+    "lng": -0.0908867,
+    "method": "api_full"
+  },
+  "Afransi": {
+    "lat": 5.5083624,
+    "lng": -0.748467,
+    "method": "api_full"
+  },
+  "Gwo, Sissala West District": {
+    "lat": 7.879410008580752,
+    "lng": -0.9776511559560083,
+    "method": "unknown"
+  },
+  "Juaben": {
+    "lat": 6.8156479,
+    "lng": -1.4215086,
+    "method": "api_full"
+  },
+  "BUOKROM": {
+    "lat": 6.7275244,
+    "lng": -1.5943295,
+    "method": "api_full"
+  },
+  "Sromani": {
+    "lat": 7.2895134,
+    "lng": -2.9136819,
+    "method": "api_full"
+  },
+  "Yabologu": {
+    "lat": 9.498855,
+    "lng": -1.2422922,
+    "method": "api_full"
+  },
+  "Mankranso": {
+    "lat": 6.8183588,
+    "lng": -1.8626362,
+    "method": "api_full"
+  },
+  "Nadawli": {
+    "lat": 10.3791584,
+    "lng": -2.6672959,
+    "method": "api_full"
+  },
+  "Kawkawti": {
+    "lat": 7.742412604622639,
+    "lng": -0.999608057842033,
+    "method": "unknown"
+  },
+  "Somanya": {
+    "lat": 6.104821,
+    "lng": -0.01483,
+    "method": "api_full"
+  },
+  "Pokoase": {
+    "lat": 7.875538715307028,
+    "lng": -0.9821788772782727,
+    "method": "unknown"
+  },
+  "Damongo, Savannah": {
+    "lat": 9.0850647,
+    "lng": -1.8200755,
+    "method": "api_full"
+  },
+  "Apenkro, Dormaa East": {
+    "lat": 7.2636088,
+    "lng": -2.7285161,
+    "method": "api_full"
+  },
+  "Agona Swfru": {
+    "lat": 7.7773851717420355,
+    "lng": -1.1382308797650578,
+    "method": "unknown"
+  },
+  "Manso Amenfi": {
+    "lat": 5.6337881,
+    "lng": -2.2483906,
+    "method": "api_full"
+  },
+  "Wechiau": {
+    "lat": 9.829572,
+    "lng": -2.6824375,
+    "method": "api_full"
+  },
+  "Lamboya": {
+    "lat": 8.034522210663306,
+    "lng": -0.9558720684623979,
+    "method": "unknown"
+  }
+}

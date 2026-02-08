@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bridging Medical Deserts — Ghana Healthcare Intelligence</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #0a0c14; color: #e0e0e0;
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      overflow: hidden; height: 100vh; width: 100vw;
+    }
+
+    /* ── Map ── */
+    #map {
+      position: absolute; inset: 0; z-index: 1;
+      background: #0a0c14 !important;
+    }
+    .leaflet-container { background: #0a0c14 !important; }
+    .leaflet-tile-pane { background: #0a0c14 !important; }
+    .leaflet-control-zoom { display: none !important; }
+    .leaflet-control-attribution { display: none !important; }
+
+    /* ── Header ── */
+    #header {
+      position: absolute; top: 16px; left: 16px; z-index: 1000;
+      background: rgba(6,8,16,0.88); backdrop-filter: blur(24px);
+      border: 1px solid rgba(255,255,255,0.06); border-radius: 14px;
+      padding: 16px 20px; max-width: 340px;
+    }
+    #header .title {
+      font-size: 18px; font-weight: 800; letter-spacing: -0.3px;
+      background: linear-gradient(135deg, #fff 0%, #4f8fff 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    #header .sub { font-size: 10px; color: rgba(255,255,255,0.3); margin-top: 3px; line-height: 1.4; }
+    #header .stats {
+      display: flex; gap: 14px; margin-top: 10px; font-size: 11px;
+    }
+    .stat-item { display: flex; align-items: center; gap: 5px; }
+    .stat-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .stat-dot.facility { background: #00e676; box-shadow: 0 0 6px rgba(0,230,118,0.4); }
+    .stat-dot.desert { background: #ff3d00; box-shadow: 0 0 6px rgba(255,61,0,0.4); }
+
+    /* ── Controls ── */
+    #controls {
+      position: absolute; top: 16px; right: 16px; z-index: 1000;
+      display: flex; flex-direction: column; gap: 6px; align-items: flex-end;
+    }
+    #controls.shifted { right: 436px; }
+    .ctrl-row { display: flex; gap: 4px; }
+    .ctrl-btn {
+      padding: 7px 12px; border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 8px; background: rgba(8,10,18,0.85); backdrop-filter: blur(12px);
+      color: rgba(255,255,255,0.5); font-size: 10px; font-weight: 500;
+      cursor: pointer; transition: all 0.15s; font-family: inherit; white-space: nowrap;
+    }
+    .ctrl-btn:hover { background: rgba(255,255,255,0.08); color: #fff; }
+    .ctrl-btn.active { background: rgba(79,143,255,0.2); color: #4f8fff; border-color: rgba(79,143,255,0.3); }
+
+    /* ── Search ── */
+    #search-box {
+      position: absolute; top: 130px; left: 16px; z-index: 1000; display: flex;
+    }
+    #search-input {
+      width: 220px; padding: 8px 12px;
+      background: rgba(8,10,18,0.88); backdrop-filter: blur(20px);
+      border: 1px solid rgba(255,255,255,0.08); border-radius: 8px 0 0 8px;
+      color: #e0e0e0; font-size: 11px; font-family: inherit; outline: none;
+    }
+    #search-input:focus { border-color: rgba(79,143,255,0.4); }
+    #search-input::placeholder { color: rgba(255,255,255,0.2); }
+    #search-btn {
+      padding: 8px 12px; border-radius: 0 8px 8px 0;
+      background: #4f8fff; color: #fff; font-size: 11px; font-weight: 600;
+      border: 1px solid #4f8fff; cursor: pointer; font-family: inherit;
+    }
+
+    /* ── Sidebar ── */
+    #sidebar {
+      position: absolute; top: 0; right: 0; width: 420px; height: 100vh;
+      background: rgba(6,8,16,0.96); backdrop-filter: blur(30px);
+      border-left: 1px solid rgba(255,255,255,0.06);
+      z-index: 2000; transform: translateX(100%);
+      transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+      overflow-y: auto; padding: 0;
+    }
+    #sidebar.open { transform: translateX(0); }
+    #sidebar::-webkit-scrollbar { width: 4px; }
+    #sidebar::-webkit-scrollbar-track { background: transparent; }
+    #sidebar::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.08); border-radius: 2px; }
+
+    .sidebar-header {
+      position: sticky; top: 0; z-index: 10;
+      background: rgba(6,8,16,0.98); backdrop-filter: blur(30px);
+      padding: 18px 22px 14px; border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .sidebar-close {
+      position: absolute; top: 14px; right: 14px;
+      width: 28px; height: 28px; border-radius: 6px;
+      background: rgba(255,255,255,0.06); border: none;
+      color: rgba(255,255,255,0.4); font-size: 16px;
+      cursor: pointer; display: flex; align-items: center; justify-content: center;
+    }
+    .sidebar-close:hover { background: rgba(255,255,255,0.12); color: #fff; }
+
+    .sidebar-type {
+      display: inline-flex; align-items: center; gap: 5px;
+      font-size: 9px; text-transform: uppercase; letter-spacing: 1.5px;
+      font-weight: 600; padding: 3px 8px; border-radius: 4px; margin-bottom: 8px;
+    }
+    .sidebar-type.facility { background: rgba(0,230,118,0.1); color: #00e676; }
+    .sidebar-type.desert { background: rgba(255,61,0,0.1); color: #ff3d00; }
+
+    .sidebar-name { font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 3px; }
+    .sidebar-location { font-size: 11px; color: rgba(255,255,255,0.3); }
+
+    .sidebar-body { padding: 18px 22px; }
+
+    .sidebar-section { margin-bottom: 18px; }
+    .sidebar-section-title {
+      font-size: 9px; text-transform: uppercase; letter-spacing: 1.3px;
+      color: rgba(255,255,255,0.2); font-weight: 600; margin-bottom: 8px;
+      display: flex; align-items: center; gap: 6px;
+    }
+    .sidebar-section-title::after {
+      content: ''; flex: 1; height: 1px; background: rgba(255,255,255,0.04);
+    }
+
+    /* Severity */
+    .severity-bar { height: 5px; border-radius: 3px; background: rgba(255,255,255,0.06); margin-bottom: 5px; overflow: hidden; }
+    .severity-fill { height: 100%; border-radius: 3px; transition: width 0.6s; }
+    .severity-label { font-size: 11px; color: rgba(255,255,255,0.4); }
+    .severity-label strong { color: #ff3d00; }
+
+    /* Stats grid */
+    .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 14px; }
+    .stat-card {
+      background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05);
+      border-radius: 8px; padding: 10px;
+    }
+    .stat-card .num { font-size: 20px; font-weight: 700; color: #fff; }
+    .stat-card .label { font-size: 9px; color: rgba(255,255,255,0.3); margin-top: 2px; }
+    .stat-card.alert .num { color: #ff3d00; }
+    .stat-card.good .num { color: #00e676; }
+
+    /* Tags */
+    .tag-list { display: flex; flex-wrap: wrap; gap: 4px; }
+    .tag {
+      font-size: 9px; padding: 2px 7px; border-radius: 3px;
+      background: rgba(79,143,255,0.08); color: rgba(79,143,255,0.7);
+      border: 1px solid rgba(79,143,255,0.12);
+    }
+    .tag.missing { background: rgba(255,61,0,0.06); color: rgba(255,61,0,0.7); border-color: rgba(255,61,0,0.12); }
+    .tag.present { background: rgba(0,230,118,0.06); color: rgba(0,230,118,0.7); border-color: rgba(0,230,118,0.12); }
+
+    /* AI Summary */
+    .ai-box {
+      background: linear-gradient(135deg, rgba(79,143,255,0.06), rgba(138,43,226,0.04));
+      border: 1px solid rgba(79,143,255,0.12); border-radius: 10px;
+      padding: 14px 16px; margin-bottom: 14px;
+    }
+    .ai-box-header {
+      font-size: 9px; text-transform: uppercase; letter-spacing: 1.2px;
+      color: rgba(79,143,255,0.6); font-weight: 600; margin-bottom: 8px;
+      display: flex; align-items: center; gap: 6px;
+    }
+    .ai-box-content { font-size: 12px; line-height: 1.7; color: rgba(255,255,255,0.65); }
+    .ai-box-content p { margin-bottom: 8px; }
+
+    /* Citation */
+    .citation {
+      background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05);
+      border-radius: 6px; padding: 8px 12px; font-size: 10px; color: rgba(255,255,255,0.3);
+    }
+    .citation a { color: rgba(79,143,255,0.6); text-decoration: none; }
+    .citation a:hover { text-decoration: underline; }
+
+    /* ── Legend ── */
+    #legend {
+      position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%);
+      z-index: 1000; display: flex; align-items: center; gap: 16px;
+      background: rgba(8,10,18,0.88); backdrop-filter: blur(16px);
+      border: 1px solid rgba(255,255,255,0.06); border-radius: 10px;
+      padding: 8px 18px; font-size: 10px; color: rgba(255,255,255,0.4);
+    }
+    .legend-item { display: flex; align-items: center; gap: 6px; }
+    .legend-icon { width: 10px; height: 10px; border-radius: 50%; }
+    .legend-icon.facility { background: #00e676; box-shadow: 0 0 6px rgba(0,230,118,0.4); }
+    .legend-icon.desert { background: #ff3d00; box-shadow: 0 0 6px rgba(255,61,0,0.4); animation: pulse 2s ease-in-out infinite; }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.5); opacity: 0.5; }
+    }
+
+    /* ── Leaflet popup override ── */
+    .leaflet-popup-content-wrapper {
+      background: rgba(6,8,16,0.94) !important; color: #fff !important;
+      border-radius: 10px !important; border: 1px solid rgba(255,255,255,0.1) !important;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5) !important;
+      font-family: 'Inter',system-ui,sans-serif !important; font-size: 11px !important;
+    }
+    .leaflet-popup-tip { background: rgba(6,8,16,0.94) !important; }
+    .leaflet-popup-content { margin: 8px 12px !important; }
+    .leaflet-popup-close-button { color: rgba(255,255,255,0.3) !important; }
+
+    /* Marker tooltip */
+    .marker-tooltip {
+      background: rgba(6,8,16,0.92) !important; color: #fff !important;
+      border: 1px solid rgba(255,255,255,0.1) !important; border-radius: 6px !important;
+      font-family: 'Inter',system-ui,sans-serif !important; font-size: 11px !important;
+      font-weight: 600 !important; padding: 4px 10px !important;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.4) !important;
+    }
+    .marker-tooltip::before { border-top-color: rgba(6,8,16,0.92) !important; }
+
+    /* Custom circle marker styles */
+    .desert-ring {
+      border: 2px solid rgba(255,61,0,0.4); border-radius: 50%;
+      animation: ring-expand 2.5s ease-out infinite;
+    }
+    @keyframes ring-expand {
+      0% { transform: scale(1); opacity: 0.6; }
+      100% { transform: scale(2.5); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<!-- Header -->
+<div id="header">
+  <div class="title">Bridging Medical Deserts</div>
+  <div class="sub">Ghana Healthcare Intelligence &middot; Virtue Foundation<br>Click any marker for AI-powered analysis</div>
+  <div class="stats">
+    <div class="stat-item"><div class="stat-dot facility"></div> <span id="stat-facilities">0</span> Facilities</div>
+    <div class="stat-item"><div class="stat-dot desert"></div> <span id="stat-deserts">0</span> Deserts</div>
+  </div>
+</div>
+
+<!-- Search -->
+<div id="search-box">
+  <input id="search-input" type="text" placeholder="Search Ghana..." />
+  <button id="search-btn">Go</button>
+</div>
+
+<!-- Controls -->
+<div id="controls">
+  <div class="ctrl-row">
+    <button class="ctrl-btn active" data-layer="all">All</button>
+    <button class="ctrl-btn" data-layer="facilities">Facilities</button>
+    <button class="ctrl-btn" data-layer="deserts">Deserts Only</button>
+    <button class="ctrl-btn active" id="heatmap-toggle">Heatmap</button>
+  </div>
+  <div class="ctrl-row">
+    <button class="ctrl-btn" data-tile="dark">Dark</button>
+    <button class="ctrl-btn active" data-tile="satellite">Satellite</button>
+    <button class="ctrl-btn" data-tile="streets">Streets</button>
+    <button class="ctrl-btn" data-tile="terrain">Terrain</button>
+  </div>
+</div>
+
+<!-- Legend -->
+<div id="legend">
+  <div class="legend-item"><div class="legend-icon facility"></div> Healthcare Facility</div>
+  <div class="legend-item"><div class="legend-icon desert"></div> Medical Desert</div>
+  <span style="opacity:0.2">|</span>
+  <span>Click markers for analysis</span>
+</div>
+
+<!-- Sidebar -->
+<div id="sidebar">
+  <div class="sidebar-header">
+    <button class="sidebar-close" id="sidebar-close">&times;</button>
+    <div class="sidebar-type" id="sb-type">FACILITY</div>
+    <div class="sidebar-name" id="sb-name">-</div>
+    <div class="sidebar-location" id="sb-location">-</div>
+  </div>
+  <div class="sidebar-body" id="sb-body"></div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+
+<script>
+// ═══════════════════════════
+//  State
+// ═══════════════════════════
+let analysisData = null;
+let allPoints = [];
+let allFacilityCoords = []; // full 980 for heatmap
+let activeLayer = 'all';
+let showHeatmap = true;
+let markersLayer, heatLayer;
+
+// ═══════════════════════════
+//  Map init — centered on Ghana
+// ═══════════════════════════
+const TILES = {
+  satellite: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { maxZoom: 18 }),
+  dark: L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', { maxZoom: 20 }),
+  streets: L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }),
+  terrain: L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', { maxZoom: 17 }),
+};
+let currentTile = 'satellite';
+
+const map = L.map('map', {
+  center: [7.9, -1.0],
+  zoom: 7,
+  zoomControl: false,
+  attributionControl: false,
+  minZoom: 5,
+  maxZoom: 18,
+  layers: [TILES.satellite],
+});
+
+markersLayer = L.layerGroup().addTo(map);
+
+// ═══════════════════════════
+//  Load data
+// ═══════════════════════════
+async function loadData() {
+  // Load analysis (20 curated points)
+  const resp = await fetch('analysis.json');
+  analysisData = await resp.json();
+
+  allPoints = [];
+  analysisData.facilities.forEach(f => allPoints.push({ ...f, pointType: 'facility' }));
+  analysisData.deserts.forEach(d => allPoints.push({ ...d, pointType: 'desert' }));
+
+  // Load full 980 facility coordinates for dense heatmap
+  try {
+    const geoResp = await fetch('geocoded_addresses.json');
+    allFacilityCoords = await geoResp.json();
+    console.log(`Loaded ${allFacilityCoords.length} facility coords for heatmap`);
+  } catch(e) {
+    console.warn('geocoded_addresses.json not found, using curated points only');
+    allFacilityCoords = analysisData.facilities.map(f => ({ lat: f.lat, lng: f.lng }));
+  }
+
+  document.getElementById('stat-facilities').textContent = allFacilityCoords.length || analysisData.facilities.length;
+  document.getElementById('stat-deserts').textContent = analysisData.deserts.length;
+
+  renderMarkers();
+}
+
+// ═══════════════════════════
+//  Render markers on map
+// ═══════════════════════════
+function getFiltered() {
+  if (activeLayer === 'facilities') return allPoints.filter(p => p.pointType === 'facility');
+  if (activeLayer === 'deserts') return allPoints.filter(p => p.pointType === 'desert');
+  return allPoints;
+}
+
+function renderMarkers() {
+  markersLayer.clearLayers();
+  if (heatLayer) { map.removeLayer(heatLayer); heatLayer = null; }
+
+  const pts = getFiltered();
+
+  // ── Curated facility markers (clickable → opens sidebar) ──
+  pts.forEach(d => {
+    if (d.pointType === 'facility') {
+      const size = 7 + (d.specialties ? Math.min(d.specialties.length / 3, 8) : 0);
+      const m = L.circleMarker([d.lat, d.lng], {
+        radius: size,
+        fillColor: '#00e676', fillOpacity: 0.85,
+        color: '#fff', weight: 1.5, opacity: 0.9,
+      });
+      m.on('click', (e) => { L.DomEvent.stopPropagation(e); openSidebar(d); });
+      m.bindTooltip(d.name, { direction: 'top', className: 'marker-tooltip', offset: [0, -size] });
+      markersLayer.addLayer(m);
+    }
+  });
+
+  // ── 3) Desert markers (red, clickable → opens sidebar) ──
+  if (activeLayer !== 'facilities') {
+    pts.filter(d => d.pointType === 'desert').forEach(d => {
+      const sev = d.severityScore || 5;
+      const size = 9 + sev;
+
+      // Outer dashed ring
+      const ring = L.circleMarker([d.lat, d.lng], {
+        radius: size + 12,
+        fillColor: 'transparent', fillOpacity: 0,
+        color: '#ff3d00', weight: 1.5, opacity: 0.2, dashArray: '6,4',
+        interactive: false,
+      });
+      markersLayer.addLayer(ring);
+
+      // Main circle — clickable
+      const m = L.circleMarker([d.lat, d.lng], {
+        radius: size,
+        fillColor: '#ff3d00', fillOpacity: 0.65,
+        color: '#fff', weight: 1.5, opacity: 0.9,
+      });
+      m.on('click', (e) => { L.DomEvent.stopPropagation(e); openSidebar(d); });
+      m.bindTooltip(`${d.name} (${sev}/10)`, { direction: 'top', className: 'marker-tooltip', offset: [0, -size] });
+      markersLayer.addLayer(m);
+    });
+  }
+
+  // ── Heatmap: points + interpolated bridges so blobs connect ──
+  if (showHeatmap) {
+    const heatPts = [];
+
+    // Add main points with spread
+    pts.forEach(d => {
+      if (d.pointType === 'facility') {
+        const strength = 0.5 + (d.specialties ? Math.min(d.specialties.length / 25, 0.4) : 0);
+        heatPts.push([d.lat, d.lng, strength]);
+        // Spread around facility
+        for (let a = 0; a < 8; a++) {
+          const angle = (a / 8) * Math.PI * 2;
+          heatPts.push([d.lat + Math.sin(angle)*0.15, d.lng + Math.cos(angle)*0.15, strength * 0.5]);
+        }
+      } else {
+        const sev = d.severityScore || 5;
+        heatPts.push([d.lat, d.lng, 0.9]);
+        for (let a = 0; a < 8; a++) {
+          const angle = (a / 8) * Math.PI * 2;
+          heatPts.push([d.lat + Math.sin(angle)*0.2, d.lng + Math.cos(angle)*0.2, 0.5 + sev*0.03]);
+        }
+      }
+    });
+
+    // Interpolate points between nearby markers to bridge them
+    for (let i = 0; i < pts.length; i++) {
+      for (let j = i + 1; j < pts.length; j++) {
+        const a = pts[i], b = pts[j];
+        const dist = Math.sqrt((a.lat - b.lat)**2 + (a.lng - b.lng)**2);
+        // Connect points within ~3 degrees of each other
+        if (dist < 3.5) {
+          const steps = Math.ceil(dist / 0.15); // one point every ~0.15 degrees
+          for (let s = 1; s < steps; s++) {
+            const t = s / steps;
+            const lat = a.lat + (b.lat - a.lat) * t;
+            const lng = a.lng + (b.lng - a.lng) * t;
+            // Strength fades toward midpoint, stronger near endpoints
+            const edgeDist = Math.min(t, 1 - t) * 2; // 0 at edges, 1 at middle
+            const baseStrength = 0.15 + (1 - edgeDist) * 0.15;
+            heatPts.push([lat, lng, baseStrength]);
+          }
+        }
+      }
+    }
+
+    heatLayer = L.heatLayer(heatPts, {
+      radius: 40,
+      blur: 28,
+      maxZoom: 12,
+      max: 1.0,
+      minOpacity: 0.15,
+      gradient: {
+        0.0: '#0d47a1',
+        0.2: '#1565c0',
+        0.35: '#00e676',
+        0.5: '#66bb6a',
+        0.65: '#ffeb3b',
+        0.8: '#ff9800',
+        0.9: '#f44336',
+        1.0: '#b71c1c',
+      },
+    }).addTo(map);
+  }
+}
+
+function makePopup(d) {
+  const color = d.pointType === 'facility' ? '#00e676' : '#ff3d00';
+  const type = d.pointType === 'facility' ? (d.facilityType || 'Facility') : `Desert (${d.severityScore}/10)`;
+  const detail = d.pointType === 'facility'
+    ? `${d.specialties ? d.specialties.length : '?'} specialties${d.bedCapacity ? ' · ' + d.bedCapacity + ' beds' : ''}`
+    : `Pop: ~${(d.population||0).toLocaleString()} · ${d.missingSpecialties ? d.missingSpecialties.length : '?'} missing specialties`;
+  return `<div style="min-width:180px;">
+    <div style="font-size:9px;text-transform:uppercase;letter-spacing:1px;color:${color};margin-bottom:4px;">${type}</div>
+    <div style="font-weight:700;font-size:13px;margin-bottom:2px;">${d.name}</div>
+    <div style="color:rgba(255,255,255,0.35);font-size:10px;">${d.region || ''}</div>
+    <div style="color:${color};font-size:10px;margin-top:4px;">${detail}</div>
+    <div style="color:rgba(79,143,255,0.7);font-size:10px;margin-top:6px;cursor:pointer;font-weight:600;" onclick="openSidebarById('${d.id}')">View Full Analysis →</div>
+  </div>`;
+}
+
+// ═══════════════════════════
+//  Sidebar
+// ═══════════════════════════
+function openSidebarById(id) {
+  const pt = allPoints.find(p => p.id === id);
+  if (pt) openSidebar(pt);
+}
+window.openSidebarById = openSidebarById;
+
+const FLAG_STYLES = {
+  alert:   { bg: 'rgba(255,61,0,0.07)', border: 'rgba(255,61,0,0.18)', icon: '🔴', color: '#ff3d00' },
+  warning: { bg: 'rgba(255,145,0,0.07)', border: 'rgba(255,145,0,0.18)', icon: '🟡', color: '#ff9100' },
+  ok:      { bg: 'rgba(0,230,118,0.05)', border: 'rgba(0,230,118,0.12)', icon: '🟢', color: '#00e676' },
+  default: { bg: 'rgba(79,143,255,0.05)', border: 'rgba(79,143,255,0.12)', icon: 'ℹ️', color: '#4f8fff' },
+};
+
+const CATEGORY_LABELS = {
+  basicLookups:          { label: 'Q1: Basic Lookups', icon: '📋' },
+  validation:            { label: 'Q3: Validation & Verification', icon: '✅' },
+  anomalyDetection:      { label: 'Q4: Anomaly Detection', icon: '🔍' },
+  serviceClassification: { label: 'Q5: Service Classification', icon: '🏷️' },
+  workforceDistribution: { label: 'Q6: Workforce', icon: '👩‍⚕️' },
+  resourceGaps:          { label: 'Q7: Resource Gaps', icon: '⚡' },
+  ngoAnalysis:           { label: 'Q8: NGO Analysis', icon: '🌍' },
+  geospatial:            { label: 'Q2: Geospatial Analysis', icon: '📍' },
+  unmetNeeds:            { label: 'Q9: Unmet Needs', icon: '🚨' },
+  ngoGaps:               { label: 'Q8: NGO Coverage Gaps', icon: '🌍' },
+};
+
+function renderFinding(f) {
+  const s = FLAG_STYLES[f.flag] || FLAG_STYLES.default;
+  return `<div style="background:${s.bg};border:1px solid ${s.border};border-radius:7px;padding:9px 11px;margin-bottom:6px;">
+    <div style="font-size:9px;color:${s.color};font-weight:600;margin-bottom:3px;">${s.icon} ${f.question}<span style="font-size:8px;opacity:0.4;margin-left:4px;">conf: ${f.confidence||'—'}</span></div>
+    <div style="font-size:11px;color:rgba(255,255,255,0.65);line-height:1.6;">${f.answer}</div>
+  </div>`;
+}
+
+function renderAnalysis(analysis) {
+  let html = '';
+  for (const [key, findings] of Object.entries(analysis)) {
+    if (!findings || !findings.length) continue;
+    const cat = CATEGORY_LABELS[key] || { label: key, icon: '📌' };
+    const alerts = findings.filter(f => f.flag === 'alert').length;
+    const warns = findings.filter(f => f.flag === 'warning').length;
+    let badge = '';
+    if (alerts) badge += `<span style="background:rgba(255,61,0,0.12);color:#ff3d00;font-size:8px;padding:1px 5px;border-radius:3px;margin-left:4px;">${alerts} alert${alerts>1?'s':''}</span>`;
+    if (warns) badge += `<span style="background:rgba(255,145,0,0.12);color:#ff9100;font-size:8px;padding:1px 5px;border-radius:3px;margin-left:3px;">${warns}</span>`;
+    html += `<div class="sidebar-section">
+      <div class="sidebar-section-title">${cat.icon} ${cat.label}${badge}</div>
+      ${findings.map(renderFinding).join('')}
+    </div>`;
+  }
+  return html;
+}
+
+function openSidebar(d) {
+  const sidebar = document.getElementById('sidebar');
+  document.getElementById('sb-type').className = 'sidebar-type ' + d.pointType;
+  document.getElementById('sb-type').innerHTML = d.pointType === 'facility'
+    ? '🏥 ' + (d.facilityType || 'FACILITY').toUpperCase()
+    : '⚠️ MEDICAL DESERT';
+  document.getElementById('sb-name').textContent = d.name;
+  document.getElementById('sb-location').textContent = `${d.region || d.city || 'Ghana'} · ${d.lat.toFixed(4)}°N, ${Math.abs(d.lng).toFixed(4)}°${d.lng>=0?'E':'W'}`;
+
+  let html = '';
+
+  if (d.pointType === 'facility') {
+    // Alert summary
+    if (d.alertCount || d.warningCount) {
+      html += `<div style="display:flex;gap:6px;margin-bottom:14px;">`;
+      if (d.alertCount) html += `<div style="flex:1;background:rgba(255,61,0,0.08);border:1px solid rgba(255,61,0,0.15);border-radius:7px;padding:7px 10px;text-align:center;"><div style="font-size:18px;font-weight:700;color:#ff3d00;">${d.alertCount}</div><div style="font-size:8px;color:rgba(255,61,0,0.6);text-transform:uppercase;letter-spacing:0.8px;">Alerts</div></div>`;
+      if (d.warningCount) html += `<div style="flex:1;background:rgba(255,145,0,0.08);border:1px solid rgba(255,145,0,0.15);border-radius:7px;padding:7px 10px;text-align:center;"><div style="font-size:18px;font-weight:700;color:#ff9100;">${d.warningCount}</div><div style="font-size:8px;color:rgba(255,145,0,0.6);text-transform:uppercase;letter-spacing:0.8px;">Warnings</div></div>`;
+      html += `<div style="flex:1;background:rgba(0,230,118,0.06);border:1px solid rgba(0,230,118,0.1);border-radius:7px;padding:7px 10px;text-align:center;"><div style="font-size:18px;font-weight:700;color:#00e676;">${d.specialties?d.specialties.length:'?'}</div><div style="font-size:8px;color:rgba(0,230,118,0.6);text-transform:uppercase;letter-spacing:0.8px;">Specialties</div></div>`;
+      html += `</div>`;
+    }
+
+    // Stats
+    html += '<div class="stats-grid">';
+    html += `<div class="stat-card good"><div class="num">${d.specialties?d.specialties.length:'?'}</div><div class="label">Specialties</div></div>`;
+    html += `<div class="stat-card"><div class="num">${d.bedCapacity||'?'}</div><div class="label">Bed Capacity</div></div>`;
+    html += `<div class="stat-card"><div class="num">${d.numDoctors||'?'}</div><div class="label">Doctors</div></div>`;
+    html += `<div class="stat-card"><div class="num">${d.capabilities?d.capabilities.length:'?'}</div><div class="label">Capabilities</div></div>`;
+    html += '</div>';
+
+    // Specialties
+    if (d.specialties && d.specialties.length) {
+      html += `<div class="sidebar-section"><div class="sidebar-section-title">Specialties Claimed</div><div class="tag-list">`;
+      d.specialties.slice(0,14).forEach(s => {
+        html += `<span class="tag present">${s.replace(/([A-Z])/g,' $1').replace(/And /g,'& ').trim()}</span>`;
+      });
+      if (d.specialties.length > 14) html += `<span class="tag">+${d.specialties.length-14}</span>`;
+      html += '</div></div>';
+    }
+
+    // Capabilities
+    if (d.capabilities && d.capabilities.length) {
+      html += `<div class="sidebar-section"><div class="sidebar-section-title">Extracted Capabilities (IDP)</div><ul style="font-size:11px;color:rgba(255,255,255,0.55);padding-left:14px;line-height:1.7;">`;
+      d.capabilities.forEach(c => html += `<li>${c}</li>`);
+      html += '</ul></div>';
+    }
+
+  } else {
+    // Desert
+    const sev = d.severityScore || 5;
+    const sevColor = sev >= 8 ? '#ff3d00' : sev >= 5 ? '#ff9100' : '#ffcc00';
+    html += `<div class="sidebar-section">
+      <div class="severity-bar"><div class="severity-fill" style="width:${sev*10}%;background:${sevColor};"></div></div>
+      <div class="severity-label">Desert Severity: <strong style="color:${sevColor}">${sev}/10</strong></div>
+    </div>`;
+
+    html += '<div class="stats-grid">';
+    html += `<div class="stat-card alert"><div class="num">~${((d.population||0)/1000).toFixed(0)}k</div><div class="label">Population</div></div>`;
+    html += `<div class="stat-card alert"><div class="num">${d.nearestDistance_km!=null?d.nearestDistance_km+'km':'?'}</div><div class="label">Nearest Hospital</div></div>`;
+    html += `<div class="stat-card alert"><div class="num">${d.missingSpecialties?d.missingSpecialties.length:'?'}</div><div class="label">Missing Specialties</div></div>`;
+    html += `<div class="stat-card"><div class="num">${d.alertCount||0}</div><div class="label">Alerts</div></div>`;
+    html += '</div>';
+
+    if (d.missingSpecialties && d.missingSpecialties.length) {
+      html += `<div class="sidebar-section"><div class="sidebar-section-title">Missing Specialties</div><div class="tag-list">`;
+      d.missingSpecialties.forEach(s => html += `<span class="tag missing">${s.replace(/([A-Z])/g,' $1').replace(/And /g,'& ').trim()}</span>`);
+      html += '</div></div>';
+    }
+
+    if (d.context) {
+      html += `<div class="sidebar-section"><div class="sidebar-section-title">Situation</div>
+        <div style="font-size:11px;color:rgba(255,255,255,0.55);line-height:1.7;">${d.context}</div>
+      </div>`;
+    }
+  }
+
+  // AI Summary (if available)
+  if (d.aiSummary) {
+    const formatted = d.aiSummary.replace(/\n\n/g,'</p><p>').replace(/\n/g,'<br>');
+    html += `<div class="ai-box">
+      <div class="ai-box-header">🤖 AI Analysis (GPT-4o-mini)</div>
+      <div class="ai-box-content"><p>${formatted}</p></div>
+    </div>`;
+  }
+
+  // Question-category analysis
+  if (d.analysis) {
+    html += renderAnalysis(d.analysis);
+  }
+
+  // Recommendations (deserts)
+  if (d.recommendations && d.recommendations.length) {
+    html += `<div class="sidebar-section"><div class="sidebar-section-title">💡 Interventions</div>
+      <ul style="font-size:11px;color:rgba(255,255,255,0.55);padding-left:14px;line-height:1.7;">
+      ${d.recommendations.map(r => `<li>${r}</li>`).join('')}
+      </ul></div>`;
+  }
+
+  // Citation
+  if (d.citation) {
+    html += `<div class="sidebar-section"><div class="sidebar-section-title">📎 Citation</div>
+      <div class="citation">
+        <div><strong>CSV Row:</strong> ${d.citation.csvRow}</div>
+        <div><strong>Fields:</strong> ${d.citation.fields_used.join(', ')}</div>
+        ${d.citation.source ? `<div><strong>Source:</strong> <a href="${d.citation.source}" target="_blank">${d.citation.source.slice(0,55)}...</a></div>` : ''}
+      </div>
+    </div>`;
+  }
+
+  document.getElementById('sb-body').innerHTML = html;
+  sidebar.classList.add('open');
+  document.getElementById('controls').classList.add('shifted');
+
+  map.flyTo([d.lat, d.lng], 9, { duration: 0.8 });
+}
+
+document.getElementById('sidebar-close').addEventListener('click', () => {
+  document.getElementById('sidebar').classList.remove('open');
+  document.getElementById('controls').classList.remove('shifted');
+});
+
+// ═══════════════════════════
+//  Controls
+// ═══════════════════════════
+document.querySelectorAll('[data-layer]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    activeLayer = btn.dataset.layer;
+    document.querySelectorAll('[data-layer]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    renderMarkers();
+  });
+});
+
+document.getElementById('heatmap-toggle').addEventListener('click', function() {
+  showHeatmap = !showHeatmap;
+  this.classList.toggle('active', showHeatmap);
+  renderMarkers();
+});
+
+document.querySelectorAll('[data-tile]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const k = btn.dataset.tile; if (k === currentTile) return;
+    map.removeLayer(TILES[currentTile]); map.addLayer(TILES[k]); currentTile = k;
+    document.querySelectorAll('[data-tile]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+  });
+});
+
+// Search
+async function searchLocation(q) {
+  if (!q.trim()) return;
+  try {
+    const r = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q + ', Ghana')}&limit=1`);
+    const d = await r.json();
+    if (d.length) map.flyTo([parseFloat(d[0].lat), parseFloat(d[0].lon)], 11, { duration: 1 });
+  } catch(e) { console.error(e); }
+}
+document.getElementById('search-btn').addEventListener('click', () => searchLocation(document.getElementById('search-input').value));
+document.getElementById('search-input').addEventListener('keydown', e => { if (e.key === 'Enter') searchLocation(e.target.value); });
+
+// ═══════════════════════════
+//  Init
+// ═══════════════════════════
+loadData().catch(err => {
+  console.error('Failed to load:', err);
+  document.getElementById('stat-facilities').textContent = 'Err';
+});
+</script>
+</body>
+</html>
