@@ -196,9 +196,21 @@
       font-size: 11px; text-transform: uppercase; letter-spacing: 1.2px;
       color: rgba(79,143,255,0.6); font-weight: 600; margin-bottom: 8px;
       display: flex; align-items: center; gap: 6px;
+      transition: all 0.15s ease;
+      padding: 4px 0;
+      border-radius: 4px;
+    }
+    .ai-box-header:hover {
+      color: rgba(79,143,255,0.9);
+      background: rgba(79,143,255,0.05);
+      padding: 4px 8px;
+      margin: 0 -8px 8px -8px;
     }
     .ai-box-content { font-size: 15px; line-height: 1.75; color: rgba(255,255,255,0.75); }
     .ai-box-content p { margin-bottom: 10px; }
+    .ai-box-content.collapsed {
+      margin-bottom: 0 !important;
+    }
 
     /* Citation */
     .citation {
@@ -255,6 +267,29 @@
     @keyframes ring-expand {
       0% { transform: scale(1); opacity: 0.6; }
       100% { transform: scale(2.5); opacity: 0; }
+    }
+
+    /* Expand button for long answers */
+    .expand-btn {
+      transition: all 0.15s ease;
+    }
+    .expand-btn:hover {
+      background: rgba(79,143,255,0.15) !important;
+      border-color: rgba(79,143,255,0.25) !important;
+      color: rgba(79,143,255,0.9) !important;
+      transform: scale(1.05);
+    }
+    .expand-icon {
+      display: inline-block;
+      transition: transform 0.2s ease;
+    }
+    .answer-content.collapsed {
+      max-height: 0 !important;
+      overflow: hidden;
+      margin-top: 0 !important;
+    }
+    .answer-content:not(.collapsed) {
+      margin-top: 6px;
     }
   </style>
 </head>
@@ -551,9 +586,17 @@ const CATEGORY_LABELS = {
 
 function renderFinding(f) {
   const s = FLAG_STYLES[f.flag] || FLAG_STYLES.default;
+  const answerId = `answer-${Math.random().toString(36).substr(2, 9)}`;
+  const isLongAnswer = f.answer && f.answer.length > 150;
+  
   return `<div style="background:${s.bg};border:1px solid ${s.border};border-radius:7px;padding:10px 12px;margin-bottom:8px;">
-    <div style="font-size:11px;color:${s.color};font-weight:600;margin-bottom:4px;">${s.icon} ${f.question}<span style="font-size:9px;opacity:0.4;margin-left:4px;">conf: ${f.confidence||'—'}</span></div>
-    <div style="font-size:14px;color:rgba(255,255,255,0.7);line-height:1.7;">${f.answer}</div>
+    <div style="font-size:11px;color:${s.color};font-weight:600;margin-bottom:6px;display:flex;justify-content:space-between;align-items:center;">
+      <span>${s.icon} ${f.question}<span style="font-size:9px;opacity:0.4;margin-left:4px;">conf: ${f.confidence||'—'}</span></span>
+      ${isLongAnswer ? `<button class="expand-btn" onclick="toggleAnswer('${answerId}')" style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:4px;padding:2px 8px;font-size:9px;color:rgba(255,255,255,0.5);cursor:pointer;font-family:inherit;transition:all 0.15s;">
+        <span class="expand-icon">▼</span>
+      </button>` : ''}
+    </div>
+    <div id="${answerId}" class="answer-content ${isLongAnswer ? 'collapsed' : ''}" style="font-size:14px;color:rgba(255,255,255,0.7);line-height:1.7;${isLongAnswer ? 'max-height:0;overflow:hidden;transition:max-height 0.3s ease;' : ''}">${f.answer}</div>
   </div>`;
 }
 
@@ -652,10 +695,16 @@ function openSidebar(d) {
 
   // AI Summary (if available)
   if (d.aiSummary) {
+    const aiId = `ai-${Math.random().toString(36).substr(2, 9)}`;
     const formatted = d.aiSummary.replace(/\n\n/g,'</p><p>').replace(/\n/g,'<br>');
     html += `<div class="ai-box">
-      <div class="ai-box-header">🤖 AI Analysis (GPT-4o-mini)</div>
-      <div class="ai-box-content"><p>${formatted}</p></div>
+      <div class="ai-box-header" onclick="toggleAIAnalysis('${aiId}')" style="cursor:pointer;display:flex;justify-content:space-between;align-items:center;">
+        <span>🤖 AI Analysis (GPT-4o-mini)</span>
+        <button class="expand-btn ai-expand" style="background:rgba(79,143,255,0.15);border:1px solid rgba(79,143,255,0.25);border-radius:4px;padding:2px 8px;font-size:9px;color:rgba(79,143,255,0.9);cursor:pointer;font-family:inherit;transition:all 0.15s;">
+          <span class="expand-icon">▼</span>
+        </button>
+      </div>
+      <div id="${aiId}" class="ai-box-content collapsed" style="max-height:0;overflow:hidden;transition:max-height 0.3s ease;"><p>${formatted}</p></div>
     </div>`;
   }
 
@@ -734,6 +783,52 @@ async function searchLocation(q) {
 }
 document.getElementById('search-btn').addEventListener('click', () => searchLocation(document.getElementById('search-input').value));
 document.getElementById('search-input').addEventListener('keydown', e => { if (e.key === 'Enter') searchLocation(e.target.value); });
+
+// Toggle answer visibility for long text
+function toggleAnswer(answerId) {
+  const answerEl = document.getElementById(answerId);
+  const btn = event.target.closest('.expand-btn');
+  const icon = btn.querySelector('.expand-icon');
+  
+  if (answerEl.classList.contains('collapsed')) {
+    // Expand
+    answerEl.style.maxHeight = answerEl.scrollHeight + 'px';
+    answerEl.classList.remove('collapsed');
+    icon.textContent = '▲';
+    btn.style.background = 'rgba(79,143,255,0.15)';
+    btn.style.borderColor = 'rgba(79,143,255,0.25)';
+    btn.style.color = 'rgba(79,143,255,0.9)';
+  } else {
+    // Collapse
+    answerEl.style.maxHeight = '0';
+    answerEl.classList.add('collapsed');
+    icon.textContent = '▼';
+    btn.style.background = 'rgba(255,255,255,0.05)';
+    btn.style.borderColor = 'rgba(255,255,255,0.08)';
+    btn.style.color = 'rgba(255,255,255,0.5)';
+  }
+}
+window.toggleAnswer = toggleAnswer;
+
+// Toggle AI Analysis visibility
+function toggleAIAnalysis(aiId) {
+  const aiEl = document.getElementById(aiId);
+  const btn = event.target.closest('.ai-box-header').querySelector('.expand-btn');
+  const icon = btn.querySelector('.expand-icon');
+  
+  if (aiEl.classList.contains('collapsed')) {
+    // Expand
+    aiEl.style.maxHeight = aiEl.scrollHeight + 'px';
+    aiEl.classList.remove('collapsed');
+    icon.textContent = '▲';
+  } else {
+    // Collapse
+    aiEl.style.maxHeight = '0';
+    aiEl.classList.add('collapsed');
+    icon.textContent = '▼';
+  }
+}
+window.toggleAIAnalysis = toggleAIAnalysis;
 
 // ═══════════════════════════
 //  Init
